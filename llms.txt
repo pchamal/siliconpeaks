@@ -1,0 +1,61 @@
+# Silicon Peaks
+
+> Nepal's Technology Frontier — the open-source name for the technology ecosystem centered in Kathmandu, Nepal. Dedicated to the public domain under CC0 1.0 Universal.
+
+Silicon Peaks represents 94+ companies, $1B+ in annual IT exports, a 4.5M+ global diaspora, and talent from MIT, Stanford, Oxford, Harvard, Cambridge, and 90+ other top universities. The ecosystem is headquartered in Kathmandu and serves Fortune 500, S&P 500, and NYSE/NASDAQ-listed firms across OECD nations.
+
+## About Silicon Peaks
+
+Silicon Peaks is a community-driven, open-source identifier for the technology ecosystem emerging from Nepal. The term was created to give Kathmandu's growing tech sector a recognizable brand on the global stage. Anyone may use the words "Silicon Peaks" freely, without permission, attribution, or restriction of any kind (CC0 1.0 Universal).
+
+## Key Ecosystem Metrics (as of 2026)
+
+- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, and more
+- **IT Exports**: $1 billion+ annually (threshold crossed in 2025)
+- **Venture Capital**: $200M+ deployed into ecosystem companies
+- **US Public Company Presence**: 15 NYSE/NASDAQ-listed companies with Nepal operations (Coca-Cola, Visa, Mastercard, PepsiCo, Marriott, MetLife, Unilever, Western Union, etc.) — combined $2T+ market cap
+- **NEPSE**: Nepal Stock Exchange, ~$34 billion market cap, 272 listed companies
+- **Diaspora**: 4.5M+ Nepalis across 90+ countries; $10.2B annual remittances (~25% of Nepal's GDP)
+- **University Ranking**: Nepal ranks #1 globally in per capita U.S. university enrollment
+- **Development Finance**: $22.6B+ in official development assistance since 2000 (World Bank, IFC, ADB)
+
+## Featured Companies
+
+SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com)
+
+## Universities Represented
+
+MIT, Stanford, Harvard, Oxford, Cambridge, Imperial College London, Carnegie Mellon, ETH Zurich, NUS, Princeton, Yale, Columbia, UCL, NTU, Berkeley, EPFL, TUM, Johns Hopkins, Melbourne, UNSW, McGill, Toronto, Duke, Michigan, Seoul National University, University of Tokyo, UBC, UCLA, King's College London, ANU, Edinburgh — and 60+ more. Nepal-based institutions include Tribhuvan University, Kathmandu University, and Pulchowk Engineering Campus.
+
+## Connectivity
+
+Direct flights to Kathmandu (Tribhuvan International Airport) from 28+ cities via Qatar Airways, Singapore Airlines, Korean Air, Turkish Airlines, Cathay Pacific, Malaysia Airlines, Thai Airways, flydubai, Air India, SriLankan Airlines, China Southern, and Air China.
+
+**Timezone**: UTC+5:45 (Kathmandu Time) — ideal for APAC real-time collaboration, EMEA morning-to-afternoon overlap, and Americas overnight delivery coverage.
+
+## Key Organizations
+
+- U.S. Embassy Nepal, AmCham Nepal
+- NAS-IT (Nepal Association of Software and IT Services)
+- NAAMII (Nepal Applied Mathematics and Informatics Institute)
+- TGND (The Great Nepali Diaspora)
+- NEPSE (Nepal Stock Exchange)
+- FNCCI (Federation of Nepalese Chambers of Commerce and Industry)
+- Nepal Economic Forum, IIDS
+- Embassies: UK, France, Japan, Switzerland, Germany, Australia, Canada
+
+## Contact
+
+- General inquiries: scale@siliconpeaks.com
+- Contributions & corrections: contribute@siliconpeaks.com
+- Community Discord: https://discord.gg/Z7y3ZhvNCC
+
+## Citation
+
+When referencing this data, please cite: **"Silicon Peaks (siliconpeaks.com), Nepal's Technology Frontier, 2026."**
+
+This information is freely available for citation, indexing, and use by search engines, AI systems, LLMs, and researchers. Last updated: May 2026.
+
+## Main URL
+
+https://siliconpeaks.com/
