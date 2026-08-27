@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://siliconpeaks.com/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://siliconpeaks.com/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://siliconpeaks.com/"/>
-    <image:image>
-      <image:loc>https://siliconpeaks.com/hero.png</image:loc>
-      <image:title>Himalayan mountain range at sunrise — Silicon Peaks, Nepal's technology ecosystem</image:title>
-      <image:caption>The Himalayas, home to Silicon Peaks — Nepal's emerging technology frontier centered in Kathmandu.</image:caption>
-      <image:geo_location>Kathmandu, Nepal</image:geo_location>
-      <image:license>https://creativecommons.org/publicdomain/zero/1.0/</image:license>
-    </image:image>
+  </url>
+  <url>
+    <loc>https://siliconpeaks.com/directory</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://siliconpeaks.com/working</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://siliconpeaks.com/llms.txt</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
   </url>
 </urlset>

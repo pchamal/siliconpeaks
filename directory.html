@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Directory — Silicon Peaks</title>
+<meta name="description" content="The Silicon Peaks record: companies, universities, investors, and organizations connected to Kathmandu’s technology ecosystem.">
+<link rel="canonical" href="https://siliconpeaks.com/directory">
+<meta name="theme-color" content="#FAF6F0">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css">
+</head>
+<body>
+<nav id="nav" aria-label="Main">
+  <a class="brand" href="/">Silicon Peaks</a>
+  <div class="nav-links">
+    <a class="nav-a" href="/">Argument</a>
+    <a class="nav-a" href="/directory" aria-current="page">Directory</a>
+  </div>
+  <div class="nav-actions">
+    <button type="button" class="mode-toggle" id="mode-toggle" title="Daybreak or Blue Hour" aria-label="Switch Daybreak and Blue Hour">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="4" fill="currentColor"/>
+        <g fill="currentColor">
+          <polygon points="12,1 13.1,5.2 10.9,5.2"/>
+          <polygon points="12,23 13.1,18.8 10.9,18.8"/>
+          <polygon points="1,12 5.2,13.1 5.2,10.9"/>
+          <polygon points="23,12 18.8,13.1 18.8,10.9"/>
+          <polygon points="4.05,4.05 7.4,6.7 5.7,4.9"/>
+          <polygon points="19.95,19.95 16.6,17.3 18.3,19.1"/>
+          <polygon points="19.95,4.05 16.6,6.7 18.3,4.9"/>
+          <polygon points="4.05,19.95 7.4,17.3 5.7,19.1"/>
+          <polygon points="7.1,1.9 9.4,5.6 7.6,4.5"/>
+          <polygon points="16.9,22.1 14.6,18.4 16.4,19.5"/>
+          <polygon points="22.1,7.1 18.4,9.4 19.5,7.6"/>
+          <polygon points="1.9,16.9 5.6,14.6 4.5,16.4"/>
+        </g>
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M15.2 4.4c-3.9.6-6.8 4-6.8 8 0 4.5 3.6 8.1 8.1 8.1 1.6 0 3.1-.5 4.4-1.3C19.2 21.4 16.3 23 13 23 7.5 23 3 18.5 3 13S7.5 3 13 3c.8 0 1.5.1 2.2.2z"/>
+        <g fill="currentColor">
+          <polygon points="12,2.2 12.7,5.1 11.3,5.1"/>
+          <polygon points="6.2,4.2 8.4,6.6 7.1,5.2"/>
+          <polygon points="3.4,9 6.4,9.8 6.4,8.2"/>
+          <polygon points="20.4,6.2 17.8,8.2 19.2,6.9"/>
+          <polygon points="21.6,11.2 18.7,11.8 18.7,10.6"/>
+          <polygon points="8.2,2.8 9.8,5.4 8.6,4.4"/>
+          <polygon points="4.4,13.6 7.2,13.2 7.2,12"/>
+          <polygon points="16.8,3.4 15.4,6 17,4.8"/>
+        </g>
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<main>
+  <header class="dir-head">
+    <span class="tick">The record</span>
+    <h1>Directory</h1>
+    <p>Every company, university, investor, and organization previously listed on this site, kept. Search and filter. Text names, not tiles. To add or correct an entry, write <a href="mailto:contribute@siliconpeaks.com">contribute@siliconpeaks.com</a>.</p>
+  </header>
+
+  <div class="dir-controls">
+    <label class="tick" for="q" style="position:absolute;left:-9999px">Search</label>
+    <input id="q" type="search" placeholder="Search the record" autocomplete="off">
+    <div class="filters" role="group" aria-label="Filter">
+      <button type="button" class="filter-btn" data-kind="all" aria-pressed="true">All</button>
+      <button type="button" class="filter-btn" data-kind="companies" id="companies">Companies</button>
+      <button type="button" class="filter-btn" data-kind="universities" id="universities">Universities</button>
+      <button type="button" class="filter-btn" data-kind="investors" id="investors">Investors</button>
+      <button type="button" class="filter-btn" data-kind="organizations" id="organizations">Organizations</button>
+    </div>
+    <div class="dir-count tick" id="count"></div>
+  </div>
+
+  <ul class="dir-list" id="list">
+<li class="dir-row" data-kind="companies" data-q="coca-cola $ko · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/KO/" rel="noopener">Coca-Cola</a></span><span class="dir-note">$KO · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="fusemachines $fuse · nasdaq companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/FUSE/" rel="noopener">Fusemachines</a></span><span class="dir-note">$FUSE · NASDAQ</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="hyatt $h · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/H/" rel="noopener">Hyatt</a></span><span class="dir-note">$H · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="iqvia $iqv · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/IQV/" rel="noopener">IQVIA</a></span><span class="dir-note">$IQV · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="marriott $mar · nasdaq companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/MAR/" rel="noopener">Marriott</a></span><span class="dir-note">$MAR · NASDAQ</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="mastercard $ma · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/MA/" rel="noopener">Mastercard</a></span><span class="dir-note">$MA · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="metlife $met · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/MET/" rel="noopener">MetLife</a></span><span class="dir-note">$MET · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="omnicom $omc · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/OMC/" rel="noopener">Omnicom</a></span><span class="dir-note">$OMC · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="pepsico $pep · nasdaq companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/PEP/" rel="noopener">PepsiCo</a></span><span class="dir-note">$PEP · NASDAQ</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="realpha $aire · nasdaq companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/AIRE/" rel="noopener">reAlpha</a></span><span class="dir-note">$AIRE · NASDAQ</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="unilever $ul · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/UL/" rel="noopener">Unilever</a></span><span class="dir-note">$UL · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="visa $v · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/V/" rel="noopener">Visa</a></span><span class="dir-note">$V · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="western union $wu · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/WU/" rel="noopener">Western Union</a></span><span class="dir-note">$WU · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="wyndham $wh · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/WH/" rel="noopener">Wyndham</a></span><span class="dir-note">$WH · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="yum! brands $yum · nyse companies listed (nyse / nasdaq)"><span class="dir-name"><a href="https://finance.yahoo.com/quote/YUM/" rel="noopener">Yum! Brands</a></span><span class="dir-note">$YUM · NYSE</span><span class="dir-kind tick">Listed (NYSE / NASDAQ)</span></li>
+<li class="dir-row" data-kind="companies" data-q="addressgraph addressgraph.com.np companies operating companies"><span class="dir-name"><a href="https://www.addressgraph.com.np" rel="noopener">Addressgraph</a></span><span class="dir-note">addressgraph.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="adex adex.ltd companies operating companies"><span class="dir-name"><a href="https://www.adex.ltd" rel="noopener">Adex</a></span><span class="dir-note">adex.ltd</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="aitc intl aitcint.com companies operating companies"><span class="dir-name"><a href="https://www.aitcint.com" rel="noopener">AITC Intl</a></span><span class="dir-note">aitcint.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="alaya alaya.co companies operating companies"><span class="dir-name"><a href="https://www.alaya.co" rel="noopener">Alaya</a></span><span class="dir-note">alaya.co</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="alpas tech alpastechnology.com companies operating companies"><span class="dir-name"><a href="https://www.alpastechnology.com" rel="noopener">Alpas Tech</a></span><span class="dir-note">alpastechnology.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="alpen labs alpenlabs.io companies operating companies"><span class="dir-name"><a href="https://www.alpenlabs.io" rel="noopener">Alpen Labs</a></span><span class="dir-note">alpenlabs.io</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="amnil tech amnil.com companies operating companies"><span class="dir-name"><a href="https://www.amnil.com" rel="noopener">Amnil Tech</a></span><span class="dir-note">amnil.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="aqore aqore.com.np companies operating companies"><span class="dir-name"><a href="https://www.aqore.com.np" rel="noopener">Aqore</a></span><span class="dir-note">aqore.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="arkbo tech arkbo.com.np companies operating companies"><span class="dir-name"><a href="https://www.arkbo.com.np" rel="noopener">ARKBO Tech</a></span><span class="dir-note">arkbo.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="architect labs architectlabs.com companies operating companies"><span class="dir-name"><a href="https://architectlabs.com" rel="noopener">Architect Labs</a></span><span class="dir-note">architectlabs.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="baato baato.io companies operating companies"><span class="dir-name"><a href="https://baato.io" rel="noopener">Baato</a></span><span class="dir-note">baato.io</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="assabet tech assabettech.com companies operating companies"><span class="dir-name"><a href="https://www.assabettech.com" rel="noopener">Assabet Tech</a></span><span class="dir-note">assabettech.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="biz serve it bizserveit.com companies operating companies"><span class="dir-name"><a href="https://www.bizserveit.com" rel="noopener">Biz Serve IT</a></span><span class="dir-note">bizserveit.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="cedar gate cedargate.com companies operating companies"><span class="dir-name"><a href="https://www.cedargate.com" rel="noopener">Cedar Gate</a></span><span class="dir-note">cedargate.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="clock b clockb.com companies operating companies"><span class="dir-name"><a href="https://www.clockb.com" rel="noopener">Clock b</a></span><span class="dir-note">clockb.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="cloudfactory cloudfactory.com companies operating companies"><span class="dir-name"><a href="https://www.cloudfactory.com" rel="noopener">CloudFactory</a></span><span class="dir-note">cloudfactory.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="code himalaya codehimalaya.com companies operating companies"><span class="dir-name"><a href="https://www.codehimalaya.com" rel="noopener">Code Himalaya</a></span><span class="dir-note">codehimalaya.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="code pixelz codepixelzmedia.com companies operating companies"><span class="dir-name"><a href="https://www.codepixelzmedia.com" rel="noopener">Code Pixelz</a></span><span class="dir-note">codepixelzmedia.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="codewing codewing.com companies operating companies"><span class="dir-name"><a href="https://www.codewing.com" rel="noopener">Codewing</a></span><span class="dir-note">codewing.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="compliancequest compliancequest.com companies operating companies"><span class="dir-name"><a href="https://www.compliancequest.com" rel="noopener">ComplianceQuest</a></span><span class="dir-note">compliancequest.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="curves n colors curvesncolors.com companies operating companies"><span class="dir-name"><a href="https://www.curvesncolors.com" rel="noopener">Curves n Colors</a></span><span class="dir-note">curvesncolors.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="deerhold deerhold.com companies operating companies"><span class="dir-name"><a href="https://www.deerhold.com" rel="noopener">Deerhold</a></span><span class="dir-note">deerhold.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="devdash labs devdashlabs.com companies operating companies"><span class="dir-name"><a href="https://devdashlabs.com" rel="noopener">DevDash Labs</a></span><span class="dir-note">devdashlabs.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="digital karmakanda digitalkarmakanda.com companies operating companies"><span class="dir-name"><a href="https://digitalkarmakanda.com" rel="noopener">Digital Karmakanda</a></span><span class="dir-note">digitalkarmakanda.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="dolma advisors dolmaadvisors.com companies operating companies"><span class="dir-name"><a href="https://www.dolmaadvisors.com" rel="noopener">Dolma Advisors</a></span><span class="dir-note">dolmaadvisors.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="dots n dashes dndts.com.np companies operating companies"><span class="dir-name"><a href="https://www.dndts.com.np" rel="noopener">Dots n Dashes</a></span><span class="dir-note">dndts.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="echowin echowin.com companies operating companies"><span class="dir-name"><a href="https://www.echowin.com" rel="noopener">Echowin</a></span><span class="dir-note">echowin.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="ekbana ekbana.com companies operating companies"><span class="dir-name"><a href="https://www.ekbana.com" rel="noopener">EKbana</a></span><span class="dir-note">ekbana.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="eminence ways eminenceways.com companies operating companies"><span class="dir-name"><a href="https://www.eminenceways.com" rel="noopener">Eminence Ways</a></span><span class="dir-note">eminenceways.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="f1soft f1soft.com companies operating companies"><span class="dir-name"><a href="https://www.f1soft.com" rel="noopener">F1Soft</a></span><span class="dir-note">f1soft.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="facet tech facet.com.np companies operating companies"><span class="dir-name"><a href="https://www.facet.com.np" rel="noopener">Facet Tech</a></span><span class="dir-note">facet.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="fawesome apps fawesomeapps.com companies operating companies"><span class="dir-name"><a href="https://www.fawesomeapps.com" rel="noopener">Fawesome Apps</a></span><span class="dir-note">fawesomeapps.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="flextecs flextecs.com.np companies operating companies"><span class="dir-name"><a href="https://www.flextecs.com.np" rel="noopener">Flextecs</a></span><span class="dir-note">flextecs.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="four symmetrons foursymmetrons.com companies operating companies"><span class="dir-name"><a href="https://www.foursymmetrons.com" rel="noopener">Four Symmetrons</a></span><span class="dir-note">foursymmetrons.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="fusemachines fusemachines.com companies operating companies"><span class="dir-name"><a href="https://www.fusemachines.com" rel="noopener">Fusemachines</a></span><span class="dir-note">fusemachines.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="g-force systems gforcesystems.com companies operating companies"><span class="dir-name"><a href="https://www.gforcesystems.com" rel="noopener">G-Force Systems</a></span><span class="dir-note">gforcesystems.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="genese solution genesesolution.com companies operating companies"><span class="dir-name"><a href="https://www.genesesolution.com" rel="noopener">Genese Solution</a></span><span class="dir-note">genesesolution.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="gham power ghampower.com companies operating companies"><span class="dir-name"><a href="https://www.ghampower.com" rel="noopener">Gham Power</a></span><span class="dir-note">ghampower.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="grepsr grepsr.com companies operating companies"><span class="dir-name"><a href="https://www.grepsr.com" rel="noopener">Grepsr</a></span><span class="dir-note">grepsr.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="growbydata growbydata.com companies operating companies"><span class="dir-name"><a href="https://www.growbydata.com" rel="noopener">GrowByData</a></span><span class="dir-note">growbydata.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="gurzu gurzu.com companies operating companies"><span class="dir-name"><a href="https://www.gurzu.com" rel="noopener">Gurzu</a></span><span class="dir-note">gurzu.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="hamro patro hamropatro.com companies operating companies"><span class="dir-name"><a href="https://www.hamropatro.com" rel="noopener">Hamro Patro</a></span><span class="dir-note">hamropatro.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="ictc ictc.com.np companies operating companies"><span class="dir-name"><a href="https://www.ictc.com.np" rel="noopener">ICTC</a></span><span class="dir-note">ictc.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="ime group imegroup.com.np companies operating companies"><span class="dir-name"><a href="https://www.imegroup.com.np" rel="noopener">IME Group</a></span><span class="dir-note">imegroup.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="incessant rain incessantrain.com companies operating companies"><span class="dir-name"><a href="https://www.incessantrain.com" rel="noopener">Incessant Rain</a></span><span class="dir-note">incessantrain.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="jasper it jasperit.com.np companies operating companies"><span class="dir-name"><a href="https://www.jasperit.com.np" rel="noopener">Jasper IT</a></span><span class="dir-note">jasperit.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="ka power kapower.us companies operating companies"><span class="dir-name"><a href="https://www.kapower.us" rel="noopener">KA Power</a></span><span class="dir-note">kapower.us</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="karkhana karkhana.io companies operating companies"><span class="dir-name"><a href="https://www.karkhana.io" rel="noopener">Karkhana</a></span><span class="dir-note">karkhana.io</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="lamina labs laminalabs.ai companies operating companies"><span class="dir-name"><a href="https://laminalabs.ai" rel="noopener">Lamina Labs</a></span><span class="dir-note">laminalabs.ai</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="lf technology lftechnology.com companies operating companies"><span class="dir-name"><a href="https://www.lftechnology.com" rel="noopener">LF Technology</a></span><span class="dir-note">lftechnology.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="machnet machnetinc.com companies operating companies"><span class="dir-name"><a href="https://www.machnetinc.com" rel="noopener">Machnet</a></span><span class="dir-note">machnetinc.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="maitri holdings maitriholdingsservices.com companies operating companies"><span class="dir-name"><a href="https://www.maitriholdingsservices.com" rel="noopener">Maitri Holdings</a></span><span class="dir-note">maitriholdingsservices.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="mantra ideas mantraideas.com companies operating companies"><span class="dir-name"><a href="https://www.mantraideas.com" rel="noopener">Mantra Ideas</a></span><span class="dir-note">mantraideas.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="mavorion mavorion.com companies operating companies"><span class="dir-name"><a href="https://www.mavorion.com" rel="noopener">Mavorion</a></span><span class="dir-note">mavorion.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="maya remit mayaremit.com companies operating companies"><span class="dir-name"><a href="https://www.mayaremit.com" rel="noopener">Maya Remit</a></span><span class="dir-note">mayaremit.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="miyamoto intl miyamotointernational.com companies operating companies"><span class="dir-name"><a href="https://www.miyamotointernational.com" rel="noopener">Miyamoto Intl</a></span><span class="dir-note">miyamotointernational.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="naamche naamche.com companies operating companies"><span class="dir-name"><a href="https://www.naamche.com" rel="noopener">Naamche</a></span><span class="dir-note">naamche.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="nepal tea collective nepalteacollective.com companies operating companies"><span class="dir-name"><a href="https://www.nepalteacollective.com" rel="noopener">Nepal Tea Collective</a></span><span class="dir-note">nepalteacollective.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="naamii naamii.org companies operating companies"><span class="dir-name"><a href="https://www.naamii.org" rel="noopener">NAAMII</a></span><span class="dir-note">naamii.org</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="neo software neosoftware.com.np companies operating companies"><span class="dir-name"><a href="https://www.neosoftware.com.np" rel="noopener">Neo Software</a></span><span class="dir-note">neosoftware.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="neosys tech neosys.com.np companies operating companies"><span class="dir-name"><a href="https://www.neosys.com.np" rel="noopener">Neosys Tech</a></span><span class="dir-note">neosys.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="neoteric neoteric.com.np companies operating companies"><span class="dir-name"><a href="https://www.neoteric.com.np" rel="noopener">Neoteric</a></span><span class="dir-note">neoteric.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="niural niural.com companies operating companies"><span class="dir-name"><a href="https://www.niural.com" rel="noopener">Niural</a></span><span class="dir-note">niural.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="one point onepoint.com.np companies operating companies"><span class="dir-name"><a href="https://www.onepoint.com.np" rel="noopener">One Point</a></span><span class="dir-note">onepoint.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="onepoint financial myonepoint.com companies operating companies"><span class="dir-name"><a href="https://www.myonepoint.com" rel="noopener">OnePoint Financial</a></span><span class="dir-note">myonepoint.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="outside studio outside.com.np companies operating companies"><span class="dir-name"><a href="https://www.outside.com.np" rel="noopener">Outside Studio</a></span><span class="dir-note">outside.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="paracosma paracosma.com companies operating companies"><span class="dir-name"><a href="https://www.paracosma.com" rel="noopener">Paracosma</a></span><span class="dir-note">paracosma.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="parewa labs programiz.com companies operating companies"><span class="dir-name"><a href="https://www.programiz.com" rel="noopener">Parewa Labs</a></span><span class="dir-note">programiz.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="pathao pathao.com companies operating companies"><span class="dir-name"><a href="https://www.pathao.com" rel="noopener">Pathao</a></span><span class="dir-note">pathao.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="peace nepal peacenepal.com.np companies operating companies"><span class="dir-name"><a href="https://www.peacenepal.com.np" rel="noopener">Peace Nepal</a></span><span class="dir-note">peacenepal.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="pm square pmsquare.com companies operating companies"><span class="dir-name"><a href="https://www.pmsquare.com" rel="noopener">PM Square</a></span><span class="dir-note">pmsquare.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="quickfox quickfox.io companies operating companies"><span class="dir-name"><a href="https://www.quickfox.io" rel="noopener">Quickfox</a></span><span class="dir-note">quickfox.io</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="raindrop raindrop.io companies operating companies"><span class="dir-name"><a href="https://www.raindrop.io" rel="noopener">Raindrop</a></span><span class="dir-note">raindrop.io</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="rara labs raralabs.com companies operating companies"><span class="dir-name"><a href="https://www.raralabs.com" rel="noopener">Rara Labs</a></span><span class="dir-note">raralabs.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="reduct.video reduct.video companies operating companies"><span class="dir-name"><a href="https://www.reduct.video" rel="noopener">Reduct.video</a></span><span class="dir-note">reduct.video</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="renegade insurance renegadeinsurance.com companies operating companies"><span class="dir-name"><a href="https://www.renegadeinsurance.com" rel="noopener">Renegade Insurance</a></span><span class="dir-note">renegadeinsurance.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="ripplebytes ripplebytes.com companies operating companies"><span class="dir-name"><a href="https://www.ripplebytes.com" rel="noopener">Ripplebytes</a></span><span class="dir-note">ripplebytes.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="rite teams riteteams.com companies operating companies"><span class="dir-name"><a href="https://www.riteteams.com" rel="noopener">Rite Teams</a></span><span class="dir-note">riteteams.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="sds software sdata.us companies operating companies"><span class="dir-name"><a href="https://www.sdata.us" rel="noopener">SDS Software</a></span><span class="dir-note">sdata.us</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="securitypal securitypalhq.com companies operating companies"><span class="dir-name"><a href="https://www.securitypalhq.com" rel="noopener">SecurityPal</a></span><span class="dir-note">securitypalhq.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="smarten tech smartentechnologies.com companies operating companies"><span class="dir-name"><a href="https://www.smartentechnologies.com" rel="noopener">Smarten Tech</a></span><span class="dir-note">smartentechnologies.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="sunnydata sunnydata.ai companies operating companies"><span class="dir-name"><a href="https://www.sunnydata.ai" rel="noopener">SunnyData</a></span><span class="dir-note">sunnydata.ai</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="swift technology swifttech.com.np companies operating companies"><span class="dir-name"><a href="https://www.swifttech.com.np" rel="noopener">Swift Technology</a></span><span class="dir-note">swifttech.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="swiftfin global swiftfinglobal.com companies operating companies"><span class="dir-name"><a href="https://www.swiftfinglobal.com" rel="noopener">SwiftFin Global</a></span><span class="dir-note">swiftfinglobal.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="tai inc tai.com.np companies operating companies"><span class="dir-name"><a href="https://www.tai.com.np" rel="noopener">TAI Inc</a></span><span class="dir-note">tai.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="techkraft techkraft.co companies operating companies"><span class="dir-name"><a href="https://www.techkraft.co" rel="noopener">Techkraft</a></span><span class="dir-note">techkraft.co</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="tekkon tech tekkon.com.au companies operating companies"><span class="dir-name"><a href="https://www.tekkon.com.au" rel="noopener">Tekkon Tech</a></span><span class="dir-note">tekkon.com.au</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="thamel remit thamelremit.com companies operating companies"><span class="dir-name"><a href="https://www.thamelremit.com" rel="noopener">Thamel Remit</a></span><span class="dir-note">thamelremit.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="the drive ai thedrive.ai companies operating companies"><span class="dir-name"><a href="https://thedrive.ai" rel="noopener">The Drive AI</a></span><span class="dir-note">thedrive.ai</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="togglecorp togglecorp.com companies operating companies"><span class="dir-name"><a href="https://www.togglecorp.com" rel="noopener">Togglecorp</a></span><span class="dir-note">togglecorp.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="trilokya tech trilokyatechnology.com companies operating companies"><span class="dir-name"><a href="https://www.trilokyatechnology.com" rel="noopener">Trilokya Tech</a></span><span class="dir-note">trilokyatechnology.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="vecminds vecminds.com companies operating companies"><span class="dir-name"><a href="https://www.vecminds.com" rel="noopener">Vecminds</a></span><span class="dir-note">vecminds.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="veda app vedaapp.com companies operating companies"><span class="dir-name"><a href="https://www.vedaapp.com" rel="noopener">Veda App</a></span><span class="dir-note">vedaapp.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="veel veel.app companies operating companies"><span class="dir-name"><a href="https://www.veel.app" rel="noopener">Veel</a></span><span class="dir-note">veel.app</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="web experts webexpertsnepal.com companies operating companies"><span class="dir-name"><a href="https://www.webexpertsnepal.com" rel="noopener">Web Experts</a></span><span class="dir-note">webexpertsnepal.com</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="worldlink worldlink.com.np companies operating companies"><span class="dir-name"><a href="https://www.worldlink.com.np" rel="noopener">WorldLink</a></span><span class="dir-note">worldlink.com.np</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="xuno nepal xuno.co companies operating companies"><span class="dir-name"><a href="https://www.xuno.co" rel="noopener">Xuno Nepal</a></span><span class="dir-note">xuno.co</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="companies" data-q="zerotb zerotb.ai companies operating companies"><span class="dir-name"><a href="https://zerotb.ai" rel="noopener">ZeroTB</a></span><span class="dir-note">zerotb.ai</span><span class="dir-kind tick">Operating companies</span></li>
+<li class="dir-row" data-kind="universities" data-q="mit global universities universities"><span class="dir-name">MIT</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="stanford global universities universities"><span class="dir-name">Stanford</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="imperial college london global universities universities"><span class="dir-name">Imperial College London</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="oxford global universities universities"><span class="dir-name">Oxford</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="harvard global universities universities"><span class="dir-name">Harvard</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="cambridge global universities universities"><span class="dir-name">Cambridge</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="columbia global universities universities"><span class="dir-name">Columbia</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="princeton global universities universities"><span class="dir-name">Princeton</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="uc berkeley global universities universities"><span class="dir-name">UC Berkeley</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="eth zurich global universities universities"><span class="dir-name">ETH Zurich</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="nus global universities universities"><span class="dir-name">NUS</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ucl global universities universities"><span class="dir-name">UCL</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ntu singapore global universities universities"><span class="dir-name">NTU Singapore</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="yale global universities universities"><span class="dir-name">Yale</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="upenn global universities universities"><span class="dir-name">UPenn</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="u of chicago global universities universities"><span class="dir-name">U of Chicago</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="cornell global universities universities"><span class="dir-name">Cornell</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="tsinghua global universities universities"><span class="dir-name">Tsinghua</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="peking university global universities universities"><span class="dir-name">Peking University</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="melbourne global universities universities"><span class="dir-name">Melbourne</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="unsw global universities universities"><span class="dir-name">UNSW</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="epfl global universities universities"><span class="dir-name">EPFL</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="tu munich global universities universities"><span class="dir-name">TU Munich</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="johns hopkins global universities universities"><span class="dir-name">Johns Hopkins</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="sydney global universities universities"><span class="dir-name">Sydney</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="mcgill global universities universities"><span class="dir-name">McGill</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="u of toronto global universities universities"><span class="dir-name">U of Toronto</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="duke global universities universities"><span class="dir-name">Duke</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="michigan global universities universities"><span class="dir-name">Michigan</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="manchester global universities universities"><span class="dir-name">Manchester</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="seoul national global universities universities"><span class="dir-name">Seoul National</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="u of tokyo global universities universities"><span class="dir-name">U of Tokyo</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ubc global universities universities"><span class="dir-name">UBC</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ucla global universities universities"><span class="dir-name">UCLA</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="king&#x27;s college london global universities universities"><span class="dir-name">King&#x27;s College London</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="anu global universities universities"><span class="dir-name">ANU</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="edinburgh global universities universities"><span class="dir-name">Edinburgh</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="monash global universities universities"><span class="dir-name">Monash</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="carnegie mellon global universities universities"><span class="dir-name">Carnegie Mellon</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="nyu global universities universities"><span class="dir-name">NYU</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="lse global universities universities"><span class="dir-name">LSE</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="kyoto global universities universities"><span class="dir-name">Kyoto</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="boston university global universities universities"><span class="dir-name">Boston University</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="georgia tech global universities universities"><span class="dir-name">Georgia Tech</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="georgetown global universities universities"><span class="dir-name">Georgetown</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="usc global universities universities"><span class="dir-name">USC</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="illinois urbana global universities universities"><span class="dir-name">Illinois Urbana</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="maryland global universities universities"><span class="dir-name">Maryland</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ut austin global universities universities"><span class="dir-name">UT Austin</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="warwick global universities universities"><span class="dir-name">Warwick</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="penn state global universities universities"><span class="dir-name">Penn State</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="tufts global universities universities"><span class="dir-name">Tufts</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="purdue global universities universities"><span class="dir-name">Purdue</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="brown global universities universities"><span class="dir-name">Brown</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="uc san diego global universities universities"><span class="dir-name">UC San Diego</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="ohio state global universities universities"><span class="dir-name">Ohio State</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="rutgers global universities universities"><span class="dir-name">Rutgers</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="texas a&amp;m global universities universities"><span class="dir-name">Texas A&amp;M</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="sheffield global universities universities"><span class="dir-name">Sheffield</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="auckland global universities universities"><span class="dir-name">Auckland</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="indiana global universities universities"><span class="dir-name">Indiana</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="colorado boulder global universities universities"><span class="dir-name">Colorado Boulder</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="unc chapel hill global universities universities"><span class="dir-name">UNC Chapel Hill</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="virginia global universities universities"><span class="dir-name">Virginia</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="florida global universities universities"><span class="dir-name">Florida</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="georgia global universities universities"><span class="dir-name">Georgia</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="michigan state global universities universities"><span class="dir-name">Michigan State</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="minnesota global universities universities"><span class="dir-name">Minnesota</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="oregon global universities universities"><span class="dir-name">Oregon</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="alabama global universities universities"><span class="dir-name">Alabama</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="oklahoma global universities universities"><span class="dir-name">Oklahoma</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="tennessee global universities universities"><span class="dir-name">Tennessee</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="lsu global universities universities"><span class="dir-name">LSU</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="iowa global universities universities"><span class="dir-name">Iowa</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="arizona state global universities universities"><span class="dir-name">Arizona State</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="nc state global universities universities"><span class="dir-name">NC State</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="virginia tech global universities universities"><span class="dir-name">Virginia Tech</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="auburn global universities universities"><span class="dir-name">Auburn</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="nebraska global universities universities"><span class="dir-name">Nebraska</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="clemson global universities universities"><span class="dir-name">Clemson</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="dartmouth global universities universities"><span class="dir-name">Dartmouth</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="rice global universities universities"><span class="dir-name">Rice</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="vanderbilt global universities universities"><span class="dir-name">Vanderbilt</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="notre dame global universities universities"><span class="dir-name">Notre Dame</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="washington u global universities universities"><span class="dir-name">Washington U</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="heidelberg global universities universities"><span class="dir-name">Heidelberg</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="sorbonne global universities universities"><span class="dir-name">Sorbonne</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="sciences po global universities universities"><span class="dir-name">Sciences Po</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="hku global universities universities"><span class="dir-name">HKU</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="hkust global universities universities"><span class="dir-name">HKUST</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="iit bombay global universities universities"><span class="dir-name">IIT Bombay</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="iit delhi global universities universities"><span class="dir-name">IIT Delhi</span><span class="dir-note">Global</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="tribhuvan university nepal universities universities"><span class="dir-name">Tribhuvan University</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="kathmandu university nepal universities universities"><span class="dir-name">Kathmandu University</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="pokhara university nepal universities universities"><span class="dir-name">Pokhara University</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="pulchowk engineering campus nepal universities universities"><span class="dir-name">Pulchowk Engineering Campus</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="nepal academy of science nepal universities universities"><span class="dir-name">Nepal Academy of Science</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="universities" data-q="lumbini buddhist university nepal universities universities"><span class="dir-name">Lumbini Buddhist University</span><span class="dir-note">Nepal</span><span class="dir-kind tick">Universities</span></li>
+<li class="dir-row" data-kind="investors" data-q="a16z venture &amp; private capital investors investors"><span class="dir-name">a16z</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="aadhyanta fund venture &amp; private capital investors investors"><span class="dir-name">Aadhyanta Fund</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="alibaba group venture &amp; private capital investors investors"><span class="dir-name">Alibaba Group</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="craft ventures venture &amp; private capital investors investors"><span class="dir-name">Craft Ventures</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="cyber·fund venture &amp; private capital investors investors"><span class="dir-name">cyber·Fund</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="dba venture &amp; private capital investors investors"><span class="dir-name">DBA</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="dolma fund venture &amp; private capital investors investors"><span class="dir-name">Dolma Fund</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="fog ventures venture &amp; private capital investors investors"><span class="dir-name">FOG Ventures</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="foundation capital venture &amp; private capital investors investors"><span class="dir-name">Foundation Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="ftv capital venture &amp; private capital investors investors"><span class="dir-name">FTV Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="go-jek venture &amp; private capital investors investors"><span class="dir-name">Go-Jek</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="greylock partners venture &amp; private capital investors investors"><span class="dir-name">Greylock Partners</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="hustle fund venture &amp; private capital investors investors"><span class="dir-name">Hustle Fund</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="inspired capital venture &amp; private capital investors investors"><span class="dir-name">Inspired Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="insight partners venture &amp; private capital investors investors"><span class="dir-name">Insight Partners</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="kindred ventures venture &amp; private capital investors investors"><span class="dir-name">Kindred Ventures</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="link ventures venture &amp; private capital investors investors"><span class="dir-name">Link Ventures</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="m13 venture &amp; private capital investors investors"><span class="dir-name">M13</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="marathon venture &amp; private capital investors investors"><span class="dir-name">Marathon</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="momo vc venture &amp; private capital investors investors"><span class="dir-name">Momo VC</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="new form capital venture &amp; private capital investors investors"><span class="dir-name">New Form Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="newview capital venture &amp; private capital investors investors"><span class="dir-name">NewView Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="nfx venture &amp; private capital investors investors"><span class="dir-name">NFX</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="race capital venture &amp; private capital investors investors"><span class="dir-name">Race Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="ribbit capital venture &amp; private capital investors investors"><span class="dir-name">Ribbit Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="rocket internet venture &amp; private capital investors investors"><span class="dir-name">Rocket Internet</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="sequoia capital venture &amp; private capital investors investors"><span class="dir-name">Sequoia Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="south park commons venture &amp; private capital investors investors"><span class="dir-name">South Park Commons</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="tectonic capital venture &amp; private capital investors investors"><span class="dir-name">Tectonic Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="together fund venture &amp; private capital investors investors"><span class="dir-name">Together Fund</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="tq ventures venture &amp; private capital investors investors"><span class="dir-name">TQ Ventures</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="uncorrelated capital venture &amp; private capital investors investors"><span class="dir-name">Uncorrelated Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="uncommon capital venture &amp; private capital investors investors"><span class="dir-name">Uncommon Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="weatherford capital venture &amp; private capital investors investors"><span class="dir-name">Weatherford Capital</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="y combinator venture &amp; private capital investors investors"><span class="dir-name">Y Combinator</span><span class="dir-note">Venture &amp; private capital</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="aadyanta advisory development finance investors investors"><span class="dir-name">Aadyanta Advisory</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="dai development finance investors investors"><span class="dir-name">DAI</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="dfc (usa) development finance investors investors"><span class="dir-name">DFC (USA)</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="fcdo / dfid (uk) development finance investors investors"><span class="dir-name">FCDO / DFID (UK)</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="giz (germany) development finance investors investors"><span class="dir-name">GIZ (Germany)</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="ifc development finance investors investors"><span class="dir-name">IFC</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="jica (japan) development finance investors investors"><span class="dir-name">JICA (Japan)</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="koica (south korea) development finance investors investors"><span class="dir-name">KOICA (South Korea)</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="norway development finance investors investors"><span class="dir-name">Norway</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="switzerland development finance investors investors"><span class="dir-name">Switzerland</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="united nations development finance investors investors"><span class="dir-name">United Nations</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="investors" data-q="world bank development finance investors investors"><span class="dir-name">World Bank</span><span class="dir-note">Development finance</span><span class="dir-kind tick">Investors</span></li>
+<li class="dir-row" data-kind="organizations" data-q="u.s. embassy nepal diplomatic engagement with nepal’s tech sector organizations organizations"><span class="dir-name"><a href="https://np.usembassy.gov" rel="noopener">U.S. Embassy Nepal</a></span><span class="dir-note">Diplomatic engagement with Nepal’s tech sector</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="amcham nepal american chamber of commerce in nepal organizations organizations"><span class="dir-name"><a href="https://www.amchamnepal.com" rel="noopener">AmCham Nepal</a></span><span class="dir-note">American Chamber of Commerce in Nepal</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="nas-it nepal association of software and it services organizations organizations"><span class="dir-name"><a href="https://nasit.org.np" rel="noopener">NAS-IT</a></span><span class="dir-note">Nepal Association of Software and IT Services</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="tgnd the great nepali diaspora organizations organizations"><span class="dir-name"><a href="https://www.thegreatnepalidiaspora.org" rel="noopener">TGND</a></span><span class="dir-note">The Great Nepali Diaspora</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="nepal stock exchange (nepse) nepal’s stock exchange organizations organizations"><span class="dir-name"><a href="https://nepalstock.com" rel="noopener">Nepal Stock Exchange (NEPSE)</a></span><span class="dir-note">Nepal’s stock exchange</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="naamii nepal applied mathematics and informatics institute organizations organizations"><span class="dir-name"><a href="https://www.naamii.org.np/publications" rel="noopener">NAAMII</a></span><span class="dir-note">Nepal Applied Mathematics and Informatics Institute</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="consulate general of nepal, new york consulate general, new york organizations organizations"><span class="dir-name"><a href="https://nyc.nepalconsulate.gov.np/our-team-detail/7/" rel="noopener">Consulate General of Nepal, New York</a></span><span class="dir-note">Consulate General, New York</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="consulate general of nepal, san francisco consulate general, san francisco organizations organizations"><span class="dir-name"><a href="https://www.nepalcgsf.org" rel="noopener">Consulate General of Nepal, San Francisco</a></span><span class="dir-note">Consulate General, San Francisco</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="nepali leaders network nepali leaders across industries organizations organizations"><span class="dir-name"><a href="https://www.nepalileadersnetwork.com" rel="noopener">Nepali Leaders Network</a></span><span class="dir-note">Nepali leaders across industries</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="fncci federation of nepalese chambers of commerce and industry organizations organizations"><span class="dir-name"><a href="https://www.fncci.org" rel="noopener">FNCCI</a></span><span class="dir-note">Federation of Nepalese Chambers of Commerce and Industry</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="nepal economic forum economic policy think tank organizations organizations"><span class="dir-name"><a href="https://nepaleconomicforum.org" rel="noopener">Nepal Economic Forum</a></span><span class="dir-note">Economic policy think tank</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="iids institute for integrated development studies organizations organizations"><span class="dir-name"><a href="https://iids.org.np" rel="noopener">IIDS</a></span><span class="dir-note">Institute for Integrated Development Studies</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="british embassy nepal uk diplomatic mission organizations organizations"><span class="dir-name"><a href="https://www.gov.uk/world/organisations/british-embassy-kathmandu" rel="noopener">British Embassy Nepal</a></span><span class="dir-note">UK diplomatic mission</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="french embassy nepal embassy of france organizations organizations"><span class="dir-name"><a href="https://np.ambafrance.org" rel="noopener">French Embassy Nepal</a></span><span class="dir-note">Embassy of France</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="japanese embassy nepal embassy of japan organizations organizations"><span class="dir-name"><a href="https://www.np.emb-japan.go.jp" rel="noopener">Japanese Embassy Nepal</a></span><span class="dir-note">Embassy of Japan</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="swiss embassy nepal embassy of switzerland organizations organizations"><span class="dir-name"><a href="https://www.eda.admin.ch/kathmandu" rel="noopener">Swiss Embassy Nepal</a></span><span class="dir-note">Embassy of Switzerland</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="german embassy nepal embassy of germany organizations organizations"><span class="dir-name"><a href="https://np.diplo.de" rel="noopener">German Embassy Nepal</a></span><span class="dir-note">Embassy of Germany</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="australian embassy nepal embassy of australia organizations organizations"><span class="dir-name"><a href="https://nepal.embassy.gov.au" rel="noopener">Australian Embassy Nepal</a></span><span class="dir-note">Embassy of Australia</span><span class="dir-kind tick">Organizations</span></li>
+<li class="dir-row" data-kind="organizations" data-q="canadian embassy nepal embassy of canada organizations organizations"><span class="dir-name"><a href="https://www.canadainternational.gc.ca/nepal" rel="noopener">Canadian Embassy Nepal</a></span><span class="dir-note">Embassy of Canada</span><span class="dir-kind tick">Organizations</span></li>
+  </ul>
+  <p class="dir-empty" id="empty" hidden>Nothing in the record matches.</p>
+</main>
+
+<footer>
+  <div class="foot-top">
+    <div>
+      <div class="opening-mark">Silicon Peaks</div>
+      <div class="tick">Kathmandu, Nepal · 2026</div>
+    </div>
+    <img class="emblem" src="/nepal-emblem.png" width="36" height="36" alt="Emblem of Nepal">
+  </div>
+  <p class="foot-cc0">“Silicon Peaks” is dedicated to the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>. Listings move here from the argument page; they are not deleted.</p>
+  <nav class="footer-nav" aria-label="Footer">
+    <a class="tick" href="/">Argument</a>
+    <a class="tick" href="/directory">Directory</a>
+    <a class="tick" href="/working">Working hours</a>
+    <a class="tick" href="/llms.txt">llms.txt</a>
+    <a class="tick" href="mailto:contribute@siliconpeaks.com">contribute@</a>
+  </nav>
+</footer>
+<script src="/site.js"></script>
+<script>
+(function () {
+  var q = document.getElementById("q");
+  var list = document.getElementById("list");
+  var empty = document.getElementById("empty");
+  var count = document.getElementById("count");
+  var buttons = document.querySelectorAll(".filter-btn");
+  var kind = "all";
+  function apply() {
+    var term = (q.value || "").trim().toLowerCase();
+    var rows = list.querySelectorAll(".dir-row");
+    var shown = 0;
+    for (var i = 0; i < rows.length; i++) {
+      var row = rows[i];
+      var okKind = kind === "all" || row.getAttribute("data-kind") === kind;
+      var okQ = !term || (row.getAttribute("data-q") || "").indexOf(term) !== -1;
+      var on = okKind && okQ;
+      row.hidden = !on;
+      if (on) shown++;
+    }
+    count.textContent = shown + " of " + rows.length;
+    empty.hidden = shown !== 0;
+  }
+  q.addEventListener("input", apply);
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      kind = btn.getAttribute("data-kind");
+      buttons.forEach(function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
+      apply();
+    });
+  });
+  var hash = (location.hash || "").replace("#", "");
+  if (hash && document.getElementById(hash)) {
+    kind = hash;
+    buttons.forEach(function (b) {
+      b.setAttribute("aria-pressed", b.getAttribute("data-kind") === hash ? "true" : "false");
+    });
+  }
+  apply();
+})();
+</script>
+</body>
+</html>
