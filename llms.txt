@@ -1,40 +1,78 @@
 # Silicon Peaks
 
-> The open-source name for the technology ecosystem centered in Kathmandu, Nepal. Dedicated to the public domain under CC0 1.0 Universal.
+> Nepal's Technology Frontier — the open-source name for the technology ecosystem centered in Kathmandu, Nepal. Dedicated to the public domain under CC0 1.0 Universal.
 
-Silicon Peaks is a record, not a campaign. The argument is at https://siliconpeaks.com/. The directory of companies, universities, investors, and organizations is at https://siliconpeaks.com/directory.
+Silicon Peaks represents 94+ companies, $1B+ in annual IT exports, a 4.5M+ global diaspora, and talent from MIT, Stanford, Oxford, Harvard, Cambridge, and 90+ other top universities. The ecosystem is headquartered in Kathmandu and serves Fortune 500, S&P 500, and NYSE/NASDAQ-listed firms across OECD nations.
 
-## Key figures (August 2026)
+## About Silicon Peaks
 
-- **IT exports**: about $1 billion in 2025, more than double the $515 million in the 2022 IIDS study (NAS-IT estimate; Kathmandu Post, 25 Feb 2026: https://kathmandupost.com/national/2026/02/25/nepal-s-it-exports-near-1-billion-can-the-momentum-be-sustained).
-- **Venture and growth capital**: more than $200 million disclosed into companies on this record (compiled from public rounds; not a single filing).
-- **Remittances**: $12.64 billion in FY 2024/25, on the order of 28% of GDP (Nepal Rastra Bank annual data: https://www.nrb.org.np/contents/uploads/2025/08/Current-Macroeconomic-and-Financial-Situation-English-Based-on-Annual-data-of-2024.25.pdf).
-- **Diaspora**: 4.5 million+ people of Nepali origin; NRNA councils in 90 countries; about 800,000 permanent expatriates in developed economies.
-- **Directory**: 94+ operating companies plus 15 NYSE/NASDAQ names previously listed on this site, 98 universities, 47 investors, 19 organizations. Search at /directory.
+Silicon Peaks is a community-driven, open-source identifier for the technology ecosystem emerging from Nepal. The term was created to give Kathmandu's growing tech sector a recognizable brand on the global stage. Anyone may use the words "Silicon Peaks" freely, without permission, attribution, or restriction of any kind (CC0 1.0 Universal).
 
-## Four company stories (public-primary sources)
+## Key Ecosystem Metrics (as of August 2026)
 
-- **Daraz**: Founded 2012 by Rocket Internet; Alibaba acquired 100% on 8 May 2018. Nepal was one of five markets. https://techcrunch.com/2018/05/08/alibaba-buys-rocket-internets-daraz/
-- **Fusemachines**: Nasdaq:FUSE from 23 Oct 2025; majority of staff in Nepal. https://ir.fusemachines.com/news-and-events/press-release/fusemachines-begins-trading-on-nasdaq-marking-the-start-of-a-new-chapter
-- **CloudFactory**: $7.3M Series B (24 May 2017); $65M growth equity led by FTV Capital (20 Nov 2019). https://ftvcapital.com/2019/cloudfactory-secures-65-million-in-growth-equity-funding-led-by-ftv-capital/
-- **SecurityPal**: $21M Series A (Craft Ventures / a16z, Sep 2022); SOCC Kathmandu inaugurated 21 Feb 2023 with US Ambassador Dean R. Thompson; 210+ staff (Nepali Times, 24 Aug 2026). https://www.prnewswire.com/news-releases/securitypal-inaugurates-247-security-operations-command-center-with-united-states-ambassador-301751436.html
+- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, Niural, Lamina Labs, Architect Labs, The Drive AI, Digital Karmakanda, and more
+- **IT Exports**: $1 billion+ annually (threshold crossed in 2025; NAS-IT / Kathmandu Post)
+- **Venture Capital**: $200M+ deployed into ecosystem companies
+- **US Public Company Presence**: 15 NYSE/NASDAQ-listed companies with Nepal operations (Coca-Cola, Visa, Mastercard, PepsiCo, Marriott, MetLife, Unilever, Western Union, etc.) — combined $2T+ market cap
+- **NEPSE**: Nepal Stock Exchange, ~$34 billion market cap, 294 listed companies (Nepal Rastra Bank, mid-May 2026)
+- **Diaspora**: 4.5M+ Nepalis across 90+ countries; $12.6B remittances in FY 2024/25 (~28% of Nepal's GDP; Nepal Rastra Bank / World Bank)
+- **University Ranking**: Nepal ranks #1 globally in per capita U.S. university enrollment
+- **Development Finance**: $22.6B+ in official development assistance since 2000 (World Bank, IFC, ADB)
 
-## Selected press (article URLs only)
+## Featured Companies
 
-- Reason (10 Jun 2026): Nepal might be the next AI success story — https://reason.com/2026/06/10/the-next-ai-success-story-might-be-nepal/
+SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com), Niural (https://www.niural.com), Lamina Labs (https://laminalabs.ai), Architect Labs (https://architectlabs.com), The Drive AI (https://thedrive.ai), Digital Karmakanda (https://digitalkarmakanda.com)
+
+## Recent Funding (2026)
+
+- **Lamina Labs** (product: Simi): $4.8M; first all-Nepali Y Combinator founding team (Spring 2026). Foundation Capital led; Link Ventures and Y Combinator participated. Founders Sudip Rokaya and Kartikesh Mishra (MIT).
+- **Niural**: Series A grown to $52M (June 23, 2026) after $21M in strategic capital from customers and partners including FOG Ventures and NewView Capital; launch of Niural AI Labs. Prior $31M Series A in June 2025.
+- **Architect Labs**: $24M seed (June 18, 2026), emerged from stealth. Nepali co-founder Aaditya Subedi with Ebrahim Hussain. Kindred Ventures led; TQ Ventures, Race Capital, and Together Fund participated. Palo Alto; architectlabs.com.
+
+## Selected Press (2026)
+
 - Nepali Times (24 Aug 2026): Bringing 'Silicon Peaks' to Nepal — https://nepalitimes.com/bringing-silicon-peaks-to-nepal
+- TechSathi (23 Aug 2026): Lamina Labs raises $4.8 million — https://techsathi.com/lamina-labs-nepali-ai-startup-raises-4-8-million/
+- Kathmandu Post (20 Aug 2026): It takes a global village — https://kathmandupost.com/columns/2026/08/20/it-takes-a-global-village
+- HimalPress (6 Aug 2026): From services to products — https://en.himalpress.com/from-services-to-products-the-next-chapter-for-nepals-tech-industry/
 - PR Newswire (23 Jun 2026): Niural grows Series A to $52 million — https://www.prnewswire.com/news-releases/niural-launches-niural-ai-labs-and-grows-its-series-a-to-52-million-302806440.html
 - Business Wire (18 Jun 2026): Architect Labs raises $24M seed — https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design
-- TechSathi (23 Aug 2026): Lamina Labs raises $4.8 million — https://techsathi.com/lamina-labs-nepali-ai-startup-raises-4-8-million/
+- Reason (10 Jun 2026): Nepal might be the next AI success story — https://reason.com/2026/06/10/the-next-ai-success-story-might-be-nepal/
+- Nepali Times (6 Apr 2026): Creating a firm future for Nepal — https://nepalitimes.com/creating-a-firm-future-for-nepal
+
+## Universities Represented
+
+MIT, Stanford, Harvard, Oxford, Cambridge, Imperial College London, Carnegie Mellon, ETH Zurich, NUS, Princeton, Yale, Columbia, UCL, NTU, Berkeley, EPFL, TUM, Johns Hopkins, Melbourne, UNSW, McGill, Toronto, Duke, Michigan, Seoul National University, University of Tokyo, UBC, UCLA, King's College London, ANU, Edinburgh — and 60+ more. Nepal-based institutions include Tribhuvan University, Kathmandu University, and Pulchowk Engineering Campus.
+
+## Connectivity
+
+Direct flights to Kathmandu (Tribhuvan International Airport) from 28+ cities via Qatar Airways, Singapore Airlines, Korean Air, Turkish Airlines, Cathay Pacific, Malaysia Airlines, Thai Airways, flydubai, Air India, SriLankan Airlines, China Southern, and Air China.
+
+**Timezone**: UTC+5:45 (Kathmandu Time) — ideal for APAC real-time collaboration, EMEA morning-to-afternoon overlap, and Americas overnight delivery coverage.
+
+## Key Organizations
+
+- U.S. Embassy Nepal, AmCham Nepal
+- NAS-IT (Nepal Association of Software and IT Services)
+- NAAMII (Nepal Applied Mathematics and Informatics Institute)
+- TGND (The Great Nepali Diaspora)
+- NEPSE (Nepal Stock Exchange)
+- FNCCI (Federation of Nepalese Chambers of Commerce and Industry)
+- Nepal Economic Forum, IIDS
+- Embassies: UK, France, Japan, Switzerland, Germany, Australia, Canada
 
 ## Contact
 
-- Diligence introductions and memos: scale@siliconpeaks.com
-- Corrections and listings: contribute@siliconpeaks.com
-- Community (secondary): https://discord.gg/Z7y3ZhvNCC
+- General inquiries: scale@siliconpeaks.com
+- Contributions & corrections: contribute@siliconpeaks.com
+- Community Discord: https://discord.gg/Z7y3ZhvNCC
 
 ## Citation
 
-Silicon Peaks (siliconpeaks.com), Kathmandu, 2026. CC0 1.0 Universal.
+When referencing this data, please cite: **"Silicon Peaks (siliconpeaks.com), Nepal's Technology Frontier, 2026."**
 
-Last updated: August 2026.
+This information is freely available for citation, indexing, and use by search engines, AI systems, LLMs, and researchers. Last updated: August 2026.
+
+## Main URL
+
+https://siliconpeaks.com/
