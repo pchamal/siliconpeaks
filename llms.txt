@@ -10,7 +10,7 @@ Silicon Peaks is a community-driven, open-source identifier for the technology e
 
 ## Key Ecosystem Metrics (as of August 2026)
 
-- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, Niural, Lamina Labs, Architect Labs, and more
+- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, Niural, Lamina Labs, Architect Labs, The Drive AI, Digital Karmakanda, and more
 - **IT Exports**: $1 billion+ annually (threshold crossed in 2025; NAS-IT / Kathmandu Post)
 - **Venture Capital**: $200M+ deployed into ecosystem companies
 - **US Public Company Presence**: 15 NYSE/NASDAQ-listed companies with Nepal operations (Coca-Cola, Visa, Mastercard, PepsiCo, Marriott, MetLife, Unilever, Western Union, etc.) — combined $2T+ market cap
@@ -21,7 +21,7 @@ Silicon Peaks is a community-driven, open-source identifier for the technology e
 
 ## Featured Companies
 
-SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com), Niural (https://www.niural.com), Lamina Labs (https://laminalabs.ai), Architect Labs (https://architectlabs.com)
+SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com), Niural (https://www.niural.com), Lamina Labs (https://laminalabs.ai), Architect Labs (https://architectlabs.com), The Drive AI (https://thedrive.ai), Digital Karmakanda (https://digitalkarmakanda.com)
 
 ## Recent Funding (2026)
 
