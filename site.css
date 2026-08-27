@@ -111,10 +111,10 @@ main { padding-top: 61px; }
 /* 1. Opening — quote first, no mountain subject */
 #opening {
   min-height: calc(100vh - 61px);
-  padding: clamp(36px, 8vh, 88px) clamp(20px, 8vw, 120px) clamp(48px, 8vh, 96px);
+  padding: clamp(28px, 4vh, 48px) clamp(20px, 8vw, 120px) clamp(48px, 8vh, 96px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .pull {
   margin: 0 0 36px;
@@ -131,7 +131,8 @@ main { padding-top: 61px; }
 .manifesto p { margin: 0 0 1.1em; }
 .manifesto p:last-child { margin-bottom: 0; }
 .opening-end {
-  margin-top: clamp(48px, 8vh, 96px);
+  margin-top: auto;
+  padding-top: clamp(36px, 6vh, 72px);
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
