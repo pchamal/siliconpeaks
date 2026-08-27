@@ -85,7 +85,7 @@
 <link rel="preload" href="hero.png" as="image" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
 
 <!-- Schema.org JSON-LD Structured Data -->
 <script type="application/ld+json">
@@ -285,9 +285,9 @@
   /* Nepal tribute: subtle red-white-blue accents */
   --nepal-red: #dc143c;
   --nepal-blue: #003893;
-  --dp: 'Playfair Display', Georgia, serif;
-  --bd: 'Instrument Sans', system-ui, sans-serif;
-  --mn: 'JetBrains Mono', monospace;
+  --dp: "Newsreader", "Times New Roman", Times, serif;
+  --bd: "Newsreader", "Times New Roman", Times, serif;
+  --mn: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   --ease: cubic-bezier(.22,.68,0,1.2);
 }
 
@@ -949,6 +949,428 @@ footer::before{content:'';position:absolute;top:0;left:20%;right:20%;height:1px;
 .footer-nav{position:static;inset:auto;height:auto;z-index:auto;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 20px;padding:24px 32px 0;margin-top:32px;background:none;backdrop-filter:none;-webkit-backdrop-filter:none;border:none;border-top:1px solid var(--line);box-shadow:none}
 .footer-nav-a{font-family:var(--mn);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);text-decoration:none;opacity:.6;transition:opacity .2s}
 .footer-nav-a:hover{opacity:1}
+
+/* ------------------------------------------------------------------
+   Journal restyle — type, space, measure only.
+   Night-sky palette and current IA stay. Newsreader + Plex only.
+   ------------------------------------------------------------------ */
+html{scroll-padding-top:72px}
+body{
+  font-family:var(--dp);
+  font-size:20px;
+  line-height:1.6;
+  font-weight:400;
+  font-optical-sizing:auto;
+  -webkit-font-smoothing:antialiased;
+}
+body.light{
+  --night:#f7f3ee;
+  --sky:#faf6f0;
+  --sky-2:#efe7dc;
+  --sky-3:#e8dfd2;
+  --snow:#0c1b30;
+  --mist:#3d4a5c;
+  --mist-lo:#5a6878;
+}
+
+#nav{
+  height:auto;
+  min-height:61px;
+  padding:18px clamp(20px,5vw,56px) 16px;
+  background:rgba(9,12,18,0.82);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line);
+  box-shadow:none;
+}
+body.light #nav{
+  background:rgba(250,246,240,0.96);
+  box-shadow:none;
+  border-bottom-color:rgba(12,27,48,0.1);
+}
+.nav-brand{
+  font-family:var(--dp);
+  font-size:20px;
+  font-weight:400;
+  font-style:italic;
+  letter-spacing:0;
+}
+.nav-links{gap:8px}
+.nav-a,.nav-cta,.nav-discord,.hero-kicker,.hero-sub,.hero-scroll,.hero-btn-contact,.hero-btn-discord,.oss-badge,.eyebrow,.globe-kicker,.globe-stat-l,.featured-label,.stat-l,.cta-left small,.btn,.co-sub-label,.co-sub-note,.co-sub-stat span,.uni-section-label,.inv-cat,.airlines-label,.tz-calc-btn,.tz-city-name,.tz-chip,.press-src,.press-date,.events-soon,.d-stat-l,.peaks-label,.co-more,.uni-more,.champ-more,.contribute-link a,.contrib-copy,.contrib-mailto,.foot-sub,.flag-label,.footer-c,.footer-nav-a{
+  font-family:var(--mn);
+  font-size:11px;
+  line-height:1.4;
+  font-weight:400;
+  letter-spacing:0.11em;
+  text-transform:uppercase;
+}
+.nav-a{padding:6px 10px}
+.nav-cta,.nav-discord{padding:8px 16px;letter-spacing:0.11em}
+.nav-discord{background:var(--coral);box-shadow:none}
+.nav-discord:hover{box-shadow:none;transform:none;opacity:.9}
+.nav-cta:hover{box-shadow:none;transform:none}
+
+/* Hero: mountain stays; type gets the redesign's opening air */
+.hero-body{padding:0 clamp(20px,8vw,120px) clamp(56px,10vh,120px)}
+.hero-kicker{margin-bottom:28px;letter-spacing:0.11em}
+.hero-kicker::before{width:22px;opacity:.5}
+h1{
+  font-family:var(--dp);
+  font-size:clamp(56px,8.2vw,108px);
+  font-weight:400;
+  line-height:1.02;
+  letter-spacing:-0.02em;
+}
+h1 em{
+  font-style:italic;
+  background:none;
+  -webkit-background-clip:unset;
+  background-clip:unset;
+  -webkit-text-fill-color:var(--coral-hi);
+  color:var(--coral-hi);
+}
+body.light h1 em{-webkit-text-fill-color:var(--horizon);color:var(--horizon)}
+.hero-sub{
+  font-family:var(--mn);
+  font-size:11px;
+  font-weight:400;
+  letter-spacing:0.11em;
+  margin-top:28px;
+  opacity:.72;
+}
+.hero-sub-country{
+  font-family:var(--dp);
+  font-size:clamp(16px,1.8vw,20px);
+  letter-spacing:-0.01em;
+  margin-top:10px;
+}
+.hero-ctas{margin-top:48px;gap:16px}
+.hero-btn-contact,.hero-btn-discord{padding:12px 22px;letter-spacing:0.11em}
+.hero-btn-discord{background:var(--coral);box-shadow:none}
+.hero-btn-discord:hover,.hero-btn-contact:hover{transform:none;box-shadow:none}
+.oss-badge{margin-top:28px;border-radius:0;letter-spacing:0.11em;padding:6px 0;border:0;border-bottom:1px solid rgba(176,196,216,.12)}
+.hero-glow{opacity:.55}
+
+/* Measure + section air */
+.w-text{
+  max-width:68ch;
+  margin:0 auto;
+  padding:clamp(56px,10vh,120px) clamp(20px,8vw,120px);
+}
+.w-full{
+  max-width:1240px;
+  margin:0 auto;
+  padding:clamp(56px,9vh,120px) clamp(20px,6vw,80px);
+}
+#manifesto,#manifesto-2{
+  min-height:unset;
+  padding-top:0;
+  padding-bottom:0;
+}
+body.light #manifesto{
+  min-height:unset;
+  padding-top:0;
+  padding-bottom:0;
+}
+.eyebrow-rule{margin-bottom:36px;gap:16px}
+.eyebrow-rule::after{height:1px;background:var(--line)}
+.opener{
+  font-family:var(--dp);
+  font-size:clamp(32px,4.4vw,52px);
+  font-weight:400;
+  line-height:1.15;
+  letter-spacing:-0.02em;
+  text-align:left;
+  max-width:22ch;
+  margin:0;
+}
+.opener-line{
+  width:100%;
+  max-width:22ch;
+  height:1px;
+  margin:36px 0 40px;
+  background:var(--line);
+  opacity:1;
+}
+.body-text{
+  font-family:var(--dp);
+  font-size:20px;
+  line-height:1.6;
+  max-width:66ch;
+  opacity:1;
+}
+.body-text p{margin-bottom:1.35em}
+.sec-head{margin-bottom:64px}
+.sec-head h2,.inv-head h2,.final-cta-text h2{
+  font-family:var(--dp);
+  font-size:clamp(32px,4vw,52px);
+  font-weight:400;
+  line-height:1.12;
+  letter-spacing:-0.02em;
+  margin-bottom:16px;
+}
+.sec-head p,.inv-head p{
+  font-family:var(--dp);
+  font-size:20px;
+  line-height:1.6;
+  max-width:66ch;
+  opacity:1;
+}
+.inv-head{margin-bottom:72px}
+.inv-head p{font-size:20px;max-width:66ch}
+.final-cta-text p{font-family:var(--dp);font-size:20px;line-height:1.6;max-width:40ch}
+
+/* Stats: larger, quieter — nod to the $1B figure, still a band */
+.stat-band{
+  background:transparent;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.stat-band::before,.stat-band::after{display:none}
+.stat-inner{padding:clamp(56px,9vh,112px) clamp(20px,5vw,72px);gap:0}
+.stat{padding:clamp(20px,3vw,40px) clamp(12px,2vw,28px)}
+.stat-n{
+  font-family:var(--dp);
+  font-size:clamp(40px,5.4vw,76px);
+  font-weight:400;
+  letter-spacing:-0.035em;
+  margin-bottom:16px;
+  background:none;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+.stat:nth-child(1) .stat-n{
+  font-size:clamp(52px,7vw,96px);
+  color:var(--coral-hi);
+}
+.stat:nth-child(2) .stat-n,
+.stat:nth-child(3) .stat-n,
+.stat:nth-child(4) .stat-n,
+.stat:nth-child(5) .stat-n,
+.stat:nth-child(6) .stat-n{
+  background:none;
+  -webkit-background-clip:unset;
+  background-clip:unset;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+body.light .stat-n,
+body.light .stat:nth-child(1) .stat-n,
+body.light .stat:nth-child(2) .stat-n,
+body.light .stat:nth-child(3) .stat-n,
+body.light .stat:nth-child(4) .stat-n,
+body.light .stat:nth-child(5) .stat-n,
+body.light .stat:nth-child(6) .stat-n{
+  background:none;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+body.light .stat:nth-child(1) .stat-n{color:var(--horizon)}
+.stat-l{letter-spacing:0.11em}
+.globe-stat-n{
+  font-size:clamp(48px,7vw,88px);
+  letter-spacing:-0.035em;
+  background:none;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+.globe-stat:nth-child(1) .globe-stat-n,
+.globe-stat:nth-child(2) .globe-stat-n,
+.globe-stat:nth-child(3) .globe-stat-n{
+  background:none;
+  -webkit-background-clip:unset;
+  background-clip:unset;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+.globe-stat:nth-child(1) .globe-stat-n{color:var(--coral-hi)}
+body.light .globe-stat-n,
+body.light .globe-stat:nth-child(2) .globe-stat-n{
+  background:none;
+  -webkit-text-fill-color:unset;
+  color:var(--snow);
+}
+.d-stat-n{font-size:clamp(36px,4.4vw,56px);letter-spacing:-0.03em;margin-bottom:14px}
+.diaspora-stats{border-radius:0;background:transparent;gap:0}
+.d-stat{padding:clamp(32px,5vh,56px) clamp(16px,2vw,28px)}
+
+/* Pull quote + hairlines, less glass */
+.pq{
+  margin:clamp(48px,8vh,88px) 0;
+  padding:36px 0;
+  background:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  border:0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  border-radius:0;
+}
+.pq::before{display:none}
+.pq p{
+  font-size:clamp(26px,3.2vw,40px);
+  line-height:1.2;
+  letter-spacing:-0.02em;
+  max-width:22ch;
+}
+.divider{width:100%;max-width:66ch;height:1px;margin:64px 0;background:var(--line)}
+.cta-row{margin-top:64px;padding-top:40px}
+.cta-left p{font-size:22px;line-height:1.45;max-width:28ch}
+.btn{padding:14px 28px;letter-spacing:0.11em;border-radius:0;box-shadow:none}
+.btn:hover{box-shadow:none}
+.btn-discord-alt{background:var(--coral)}
+.btn-contact-primary{backdrop-filter:none;-webkit-backdrop-filter:none}
+
+/* Grids breathe — keep the grids, give cells air */
+.co-subsection{margin-bottom:32px}
+.co-subsection+.co-grid{margin-bottom:clamp(64px,9vh,104px)}
+.co-sub-label{letter-spacing:0.11em;padding:0 0 10px;border-bottom-color:var(--line)}
+.co-sub-stat{font-size:clamp(28px,3.6vw,44px);margin-top:16px;letter-spacing:-0.02em}
+.co-grid{
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:16px;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  overflow:visible;
+  box-shadow:none;
+  max-width:none;
+}
+.co-card{
+  background:transparent;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  padding:22px 18px;
+  border:1px solid var(--line);
+  gap:14px;
+}
+.co-card:hover{background:rgba(232,112,74,.04)}
+.co-name{font-family:var(--dp);font-size:16px;font-weight:400;letter-spacing:-0.01em}
+.co-url{letter-spacing:0.04em;text-transform:none}
+.co-mark{border-radius:0}
+body.light .co-grid{background:transparent;border:0}
+body.light .co-card{background:transparent}
+
+.uni-section-label{letter-spacing:0.11em;margin:40px 0 22px}
+.uni-grid{gap:12px 14px}
+.uni-pill{
+  font-family:var(--dp);
+  font-size:16px;
+  letter-spacing:0;
+  text-transform:none;
+  border-radius:0;
+  padding:10px 16px 10px 12px;
+  background:transparent;
+  border-color:var(--line);
+}
+.uni-top{padding:12px 18px 12px 14px;font-size:17px}
+body.light .uni-pill{background:transparent}
+
+.inv-block{margin-bottom:64px}
+.inv-cat{letter-spacing:0.11em;padding-bottom:14px;margin-bottom:28px}
+.inv-names{gap:14px 12px}
+.inv-name{
+  font-size:clamp(18px,1.8vw,22px);
+  padding:10px 18px;
+  border-radius:0;
+  background:transparent;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  border-color:var(--line);
+}
+.inv-name.dev{background:transparent}
+.inv-more{padding:10px 16px}
+
+.press-grid{gap:20px 24px}
+.press-card{
+  background:transparent;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  border-radius:0;
+  border-color:var(--line);
+  padding:28px 24px;
+  box-shadow:none;
+}
+.press-desc{font-family:var(--dp);font-size:20px;line-height:1.45}
+body.light .press-card{background:transparent}
+
+.champ-grid{gap:16px 20px}
+.champ-card{
+  background:transparent;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  border-radius:0;
+  border-color:var(--line);
+  padding:32px 26px;
+  box-shadow:none;
+}
+.champ-card:hover{transform:none;box-shadow:none}
+.champ-name{font-size:22px;letter-spacing:-0.015em}
+.champ-desc{font-family:var(--dp);font-size:17px;line-height:1.5}
+.champ-icon{border-radius:0}
+
+#companies,#universities,#investors,#press,#champions,#events,#diaspora,#final-cta,#us-public,#globe-section{
+  padding-top:0;
+  padding-bottom:0;
+}
+#globe-section{
+  background:var(--sky);
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+  padding-bottom:clamp(40px,6vh,72px);
+}
+.globe-container{padding:clamp(48px,8vh,88px) clamp(20px,5vw,72px) clamp(28px,4vh,48px)}
+.globe-canvas-wrap{
+  border-radius:0;
+  box-shadow:none;
+  backdrop-filter:none;
+  -webkit-backdrop-filter:none;
+}
+#us-public::after,footer::before,.foot-hero::before,.featured-bar::after,#manifesto-2::before{display:none}
+#us-public{border-top:1px solid var(--line)}
+.featured-bar{border-bottom:1px solid var(--line)}
+.featured-inner{padding:clamp(36px,6vh,56px) clamp(20px,5vw,72px)}
+.featured-logo,.fl-fc,.fl-bi,.fl-pr,.fl-bw,.fl-block{
+  font-family:var(--dp);
+  font-size:clamp(16px,1.6vw,20px);
+  font-weight:400;
+  letter-spacing:0;
+  text-transform:none;
+}
+.fl-fc{font-family:var(--mn);font-size:11px;letter-spacing:0.11em;text-transform:uppercase}
+.tz-chip{border-radius:0;background:transparent;letter-spacing:0.11em}
+.tz-ktm .tz-city-time{font-size:28px;letter-spacing:-0.02em;font-family:var(--dp);text-transform:none}
+.tz-city-time{font-family:var(--mn);letter-spacing:0.04em;text-transform:none}
+.airlines-strip{margin-top:clamp(32px,5vh,56px);margin-bottom:clamp(20px,3vh,36px)}
+.airline-tag{border-radius:0;background:transparent;padding:8px 14px 8px 10px;font-family:var(--mn);font-size:11px;letter-spacing:0.08em}
+.events-soon{border-radius:0;letter-spacing:0.11em;margin-top:40px;padding:14px 0;border:0;border-top:1px solid var(--line);background:transparent}
+.peaks-section{padding:48px clamp(20px,5vw,72px) 36px}
+#final-cta{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent}
+.foot-title{letter-spacing:-0.03em;font-size:clamp(64px,12vw,180px)}
+.foot-sub{letter-spacing:0.11em}
+.footer-nav{gap:10px 28px;padding:28px 32px 8px;margin-top:40px}
+.footer-nav-a{font-size:11px;letter-spacing:0.11em}
+.cc0-wrap{max-width:66ch}
+.cc0-text{font-family:var(--dp);font-size:16px;line-height:1.6;letter-spacing:0;text-transform:none}
+
+.tz-modal,.contrib-modal{border-radius:0;box-shadow:none}
+.tz-modal-title,.contrib-title{font-family:var(--dp);font-weight:400;letter-spacing:-0.02em}
+.tz-modal-sub,.contrib-desc{font-family:var(--dp);font-size:17px;line-height:1.55}
+
+@media(max-width:800px){
+  body{font-size:19px}
+  .body-text,.sec-head p,.inv-head p{font-size:19px}
+  .w-text,.w-full{padding-left:20px;padding-right:20px}
+  .hero-body{padding:0 20px 48px}
+  .opener{max-width:14ch}
+  .stat:nth-child(1) .stat-n{font-size:clamp(44px,12vw,72px)}
+  .co-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+}
+@media(max-width:560px){
+  #nav{min-height:56px;padding:12px 16px}
+}
 </style>
 <noscript>
   <style>
@@ -2827,7 +3249,7 @@ footer::before{content:'';position:absolute;top:0;left:20%;right:20%;height:1px;
       <div class="d-stat-l">Permanent expats<br><span class="d-stat-note">in developed economies</span></div>
     </div>
   </div>
-  <div class="body-text rev rev-d2" style="max-width:780px;margin:clamp(32px,4vh,48px) auto 0;text-align:center">
+  <div class="body-text rev rev-d2" style="margin:clamp(40px,6vh,72px) auto 0;text-align:center">
     <p style="font-size:16px;color:var(--mist);line-height:1.8;opacity:.85">Nepal's diaspora spans the Gulf states, North America, Europe, East Asia, and Oceania. From engineers at top Silicon Valley firms to entrepreneurs founding companies in London, Doha, and Sydney, the Nepali global network is one of the fastest-growing migrant communities in the world. They send home over $12 billion annually, ranking Nepal first in South Asia for remittances as a share of GDP.</p>
   </div>
 </div>
@@ -2975,7 +3397,7 @@ const FS=11;let C,D,W,H;
 function rsz(){W=cv.width=cv.offsetWidth;H=cv.height=cv.offsetHeight;C=Math.floor(W/FS);D=Array.from({length:C},()=>Math.random()*52)}
 function tick(){
   cx.fillStyle='rgba(13,17,23,0.07)';cx.fillRect(0,0,W,H);
-  cx.font=FS+'px "JetBrains Mono",monospace';
+  cx.font=FS+'px "IBM Plex Mono",monospace';
   for(let i=0;i<C;i++){
     const ch=Math.random()>.5?'1':'0',x=i*FS,y=D[i]*FS,p=Math.min(1,(y/H)*2);
     cx.fillStyle=Math.random()>.93
@@ -3165,7 +3587,7 @@ function draw(t){
       // Only label tier:1 cities to avoid clutter
       if(f.tier===1){
         const fs=Math.round(9*dpr);
-        gx.font='500 '+fs+'px "JetBrains Mono",monospace';
+        gx.font='500 '+fs+'px "IBM Plex Mono",monospace';
         gx.fillStyle=`rgba(242,232,224,${0.85*a2})`;
         const lbl=f.city;
         const lyOff=(f.ly||0)*dpr;
@@ -3199,7 +3621,7 @@ function draw(t){
   gx.strokeStyle=`rgba(255,255,255,${0.3*anim})`;gx.lineWidth=0.5*dpr;gx.stroke();
   if(anim>0.12){
     const la2=Math.min(1,(anim-0.12)*3);
-    gx.font='700 '+Math.round(11*dpr)+'px "JetBrains Mono",monospace';
+    gx.font='500 '+Math.round(11*dpr)+'px "IBM Plex Mono",monospace';
     gx.fillStyle=`rgba(255,215,80,${la2})`;
     gx.fillText('KATHMANDU',kp[0]+10*dpr,kp[1]+2*dpr);
   }
