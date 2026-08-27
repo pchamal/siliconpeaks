@@ -4,6 +4,7 @@
   "compatibility_date": "2026-08-27",
   "assets": {
     "directory": ".",
+    // auto-trailing-slash serves directory.html at /directory and /directory.html.
     "html_handling": "auto-trailing-slash"
   },
   // Zone routes (not custom_domain) so the live apex custom domain and DNS stay put.
