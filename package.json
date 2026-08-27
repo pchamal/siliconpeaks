@@ -1,0 +1,12 @@
+{
+  "name": "siliconpeaks",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site; assets served from the repo root.'",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "4.126.0"
+  }
+}

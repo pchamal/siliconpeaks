@@ -1,0 +1,14 @@
+{
+  // Deploy to the existing siliconpeaks.com Worker. Do not rename.
+  "name": "lively-moon-c53b",
+  "compatibility_date": "2026-08-27",
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash"
+  },
+  // Zone routes (not custom_domain) so the live apex custom domain and DNS stay put.
+  // *host/* matches apex + www + all paths, same convention as siliconpeaks.ai.
+  "routes": [
+    { "pattern": "*siliconpeaks.com/*", "zone_name": "siliconpeaks.com" }
+  ]
+}

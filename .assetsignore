@@ -1,0 +1,11 @@
+node_modules
+.wrangler
+.git
+.gitignore
+.assetsignore
+.DS_Store
+package.json
+package-lock.json
+wrangler.jsonc
+LICENSE
+README.md
