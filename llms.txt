@@ -8,20 +8,37 @@ Silicon Peaks represents 94+ companies, $1B+ in annual IT exports, a 4.5M+ globa
 
 Silicon Peaks is a community-driven, open-source identifier for the technology ecosystem emerging from Nepal. The term was created to give Kathmandu's growing tech sector a recognizable brand on the global stage. Anyone may use the words "Silicon Peaks" freely, without permission, attribution, or restriction of any kind (CC0 1.0 Universal).
 
-## Key Ecosystem Metrics (as of 2026)
+## Key Ecosystem Metrics (as of August 2026)
 
-- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, and more
-- **IT Exports**: $1 billion+ annually (threshold crossed in 2025)
+- **Companies**: 94+ tech companies including SecurityPal, Fusemachines, CloudFactory, Baato, Echowin, ZeroTB, SunnyData, Hamro Patro, Pathao, F1Soft, Niural, Lamina Labs, Architect Labs, The Drive AI, Digital Karmakanda, and more
+- **IT Exports**: $1 billion+ annually (threshold crossed in 2025; NAS-IT / Kathmandu Post)
 - **Venture Capital**: $200M+ deployed into ecosystem companies
 - **US Public Company Presence**: 15 NYSE/NASDAQ-listed companies with Nepal operations (Coca-Cola, Visa, Mastercard, PepsiCo, Marriott, MetLife, Unilever, Western Union, etc.) — combined $2T+ market cap
-- **NEPSE**: Nepal Stock Exchange, ~$34 billion market cap, 272 listed companies
-- **Diaspora**: 4.5M+ Nepalis across 90+ countries; $10.2B annual remittances (~25% of Nepal's GDP)
+- **NEPSE**: Nepal Stock Exchange, ~$34 billion market cap, 294 listed companies (Nepal Rastra Bank, mid-May 2026)
+- **Diaspora**: 4.5M+ Nepalis across 90+ countries; $12.6B remittances in FY 2024/25 (~28% of Nepal's GDP; Nepal Rastra Bank / World Bank)
 - **University Ranking**: Nepal ranks #1 globally in per capita U.S. university enrollment
 - **Development Finance**: $22.6B+ in official development assistance since 2000 (World Bank, IFC, ADB)
 
 ## Featured Companies
 
-SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com)
+SecurityPal (https://www.securitypalhq.com), Fusemachines (https://www.fusemachines.com), CloudFactory (https://www.cloudfactory.com), F1Soft (https://www.f1soft.com), Baato (https://baato.io), Echowin (https://www.echowin.com), ZeroTB (https://zerotb.ai), SunnyData (https://www.sunnydata.ai), Hamro Patro (https://www.hamropatro.com), Pathao (https://www.pathao.com), Niural (https://www.niural.com), Lamina Labs (https://laminalabs.ai), Architect Labs (https://architectlabs.com), The Drive AI (https://thedrive.ai), Digital Karmakanda (https://digitalkarmakanda.com)
+
+## Recent Funding (2026)
+
+- **Lamina Labs** (product: Simi): $4.8M; first all-Nepali Y Combinator founding team (Spring 2026). Foundation Capital led; Link Ventures and Y Combinator participated. Founders Sudip Rokaya and Kartikesh Mishra (MIT).
+- **Niural**: Series A grown to $52M (June 23, 2026) after $21M in strategic capital from customers and partners including FOG Ventures and NewView Capital; launch of Niural AI Labs. Prior $31M Series A in June 2025.
+- **Architect Labs**: $24M seed (June 18, 2026), emerged from stealth. Nepali co-founder Aaditya Subedi with Ebrahim Hussain. Kindred Ventures led; TQ Ventures, Race Capital, and Together Fund participated. Palo Alto; architectlabs.com.
+
+## Selected Press (2026)
+
+- Nepali Times (24 Aug 2026): Bringing 'Silicon Peaks' to Nepal — https://nepalitimes.com/bringing-silicon-peaks-to-nepal
+- TechSathi (23 Aug 2026): Lamina Labs raises $4.8 million — https://techsathi.com/lamina-labs-nepali-ai-startup-raises-4-8-million/
+- Kathmandu Post (20 Aug 2026): It takes a global village — https://kathmandupost.com/columns/2026/08/20/it-takes-a-global-village
+- HimalPress (6 Aug 2026): From services to products — https://en.himalpress.com/from-services-to-products-the-next-chapter-for-nepals-tech-industry/
+- PR Newswire (23 Jun 2026): Niural grows Series A to $52 million — https://www.prnewswire.com/news-releases/niural-launches-niural-ai-labs-and-grows-its-series-a-to-52-million-302806440.html
+- Business Wire (18 Jun 2026): Architect Labs raises $24M seed — https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design
+- Reason (10 Jun 2026): Nepal might be the next AI success story — https://reason.com/2026/06/10/the-next-ai-success-story-might-be-nepal/
+- Nepali Times (6 Apr 2026): Creating a firm future for Nepal — https://nepalitimes.com/creating-a-firm-future-for-nepal
 
 ## Universities Represented
 
@@ -54,7 +71,7 @@ Direct flights to Kathmandu (Tribhuvan International Airport) from 28+ cities vi
 
 When referencing this data, please cite: **"Silicon Peaks (siliconpeaks.com), Nepal's Technology Frontier, 2026."**
 
-This information is freely available for citation, indexing, and use by search engines, AI systems, LLMs, and researchers. Last updated: May 2026.
+This information is freely available for citation, indexing, and use by search engines, AI systems, LLMs, and researchers. Last updated: August 2026.
 
 ## Main URL
 
