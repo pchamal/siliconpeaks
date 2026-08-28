@@ -1555,13 +1555,13 @@ body{overflow-x:visible;max-width:100%}
   align-items:center;
   gap:.55em;
 }
-.nav-discord .icon-discord{width:18px;height:14px}
-.hero-btn-discord .icon-discord{width:20px;height:15px}
-.btn-discord-alt .icon-discord{width:18px;height:14px}
+.nav-discord .icon-discord{width:20px;height:15px}
+.hero-btn-discord .icon-discord{width:22px;height:17px}
+.btn-discord-alt .icon-discord{width:20px;height:15px}
 .nav-discord svg,.hero-btn-discord svg,.btn-discord-alt svg{
-  width:18px;height:14px;flex-shrink:0;fill:currentColor
+  width:20px;height:15px;flex-shrink:0;fill:currentColor
 }
-.hero-btn-discord svg{width:20px;height:15px}
+.hero-btn-discord svg{width:22px;height:17px}
 
 /* ---- Reusable large-number pattern ---- */
 .num-band,
@@ -1636,6 +1636,8 @@ body{overflow-x:visible;max-width:100%}
 }
 @media(min-width:1600px){
   .stat-inner{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .stat-n{font-size:clamp(2.75rem,2.35vw,4.25rem)}
+  .stat:first-child .stat-n{font-size:clamp(3.1rem,2.8vw,5rem)}
 }
 @media(max-width:639px){
   .globe-stats{grid-template-columns:1fr;gap:28px 0}
@@ -1934,7 +1936,7 @@ body.light img.champ-fav[src$=".svg"]{filter:none}
 .hero-sub-country{opacity:.85}
 .hero-body{min-width:0}
 .hero-left{min-width:0;max-width:100%}
-h1{overflow-wrap:anywhere}
+h1{overflow-wrap:normal}
 .foot-title{
   font-size:clamp(2.6rem,11vw,11rem);
   letter-spacing:-.03em;
