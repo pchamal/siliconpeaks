@@ -49,7 +49,7 @@
 <meta name="article:tag" content="Pukar Hamal, Nepali entrepreneur, Silicon Valley, SecurityPal, Silicon Peaks, Nepal, Technology, Startups, Kathmandu, IT Exports, Nepali Diaspora">
 <meta name="article:author" content="Pukar Hamal">
 <meta property="article:published_time" content="2024-01-01T00:00:00Z">
-<meta property="article:modified_time" content="2026-08-27T00:00:00Z">
+<meta property="article:modified_time" content="2026-08-28T00:00:00Z">
 
 <!-- GEO: Generative Engine Optimization for AI search -->
 <meta name="coverage" content="Worldwide">
@@ -164,7 +164,7 @@
       "dateModified": "2026-08-27",
       "speakable": {
         "@type": "SpeakableSpecification",
-        "cssSelector": [".sec-head h2", ".sec-head p", ".body-text p", ".d-stat-n", ".d-stat-l", ".press-quote p", ".press-cite", ".press-blurb"]
+        "cssSelector": [".sec-head h2", ".sec-head p", ".body-text p", ".d-stat-n", ".d-stat-l", ".press-quote p", ".press-cite", ".press-blurb", "#relief .opener", "#relief .body-text"]
       }
     },
     {
@@ -410,12 +410,12 @@
   --ease: cubic-bezier(.22,.68,0,1.2);
 }
 
-html{scroll-behavior:smooth;scroll-padding-top:68px}
+html{scroll-behavior:smooth;scroll-padding-top:var(--chrome-h,108px)}
 body{background:var(--sky);color:var(--snow);font-family:var(--bd);font-size:17px;line-height:1.78;overflow-x:hidden}
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:0.032;mix-blend-mode:overlay}
 
 /* NAV */
-#nav{position:fixed;top:0;left:0;right:0;z-index:500;height:68px;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;padding:0 clamp(20px,5vw,72px);background:rgba(9,12,18,0.7);backdrop-filter:blur(28px) saturate(1.3);-webkit-backdrop-filter:blur(28px) saturate(1.3);border-bottom:1px solid rgba(192,72,112,0.1);box-shadow:0 4px 32px rgba(0,0,0,.35),0 1px 0 rgba(242,232,224,.03)}
+#nav{position:fixed;top:var(--relief-banner-h,36px);left:0;right:0;z-index:500;height:68px;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;padding:0 clamp(20px,5vw,72px);background:rgba(9,12,18,0.7);backdrop-filter:blur(28px) saturate(1.3);-webkit-backdrop-filter:blur(28px) saturate(1.3);border-bottom:1px solid rgba(192,72,112,0.1);box-shadow:0 4px 32px rgba(0,0,0,.35),0 1px 0 rgba(242,232,224,.03)}
 .nav-brand{font-family:var(--dp);font-size:17px;font-weight:500;letter-spacing:0.03em;color:var(--snow);opacity:0;animation:up .7s .2s forwards;white-space:nowrap}
 .nav-links{display:flex;gap:2px;opacity:0;animation:up .7s .35s forwards}
 .nav-a{font-family:var(--mn);font-size:12px;font-weight:300;letter-spacing:.28em;text-transform:uppercase;color:var(--mist-lo);text-decoration:none;padding:8px 14px;border-radius:2px;transition:color .2s,background .2s}
@@ -1080,7 +1080,7 @@ footer::before{content:'';position:absolute;top:0;left:20%;right:20%;height:1px;
    Journal restyle — type, space, measure only.
    Night-sky palette and current IA stay. Newsreader + Plex only.
    ------------------------------------------------------------------ */
-html{scroll-padding-top:72px}
+html{scroll-padding-top:var(--chrome-h,108px)}
 body{
   font-family:var(--dp);
   font-size:20px;
@@ -1100,6 +1100,7 @@ body.light{
 }
 
 #nav{
+  top:var(--relief-banner-h,36px);
   height:auto;
   min-height:61px;
   padding:18px clamp(20px,5vw,56px) 16px;
@@ -1501,6 +1502,28 @@ body.light .press-card{background:transparent}
 @media(max-width:560px){
   #nav{min-height:56px;padding:12px 16px}
 }
+
+/* Flood relief — site-top banner above #nav. Footer SEO nav stays static. */
+:root{--relief-banner-h:36px;--chrome-h:108px}
+#relief-banner{position:fixed;top:0;left:0;right:0;z-index:510;background:var(--night);color:var(--mist);border-bottom:1px solid var(--line);padding:8px clamp(16px,4vw,56px)}
+.relief-banner-inner{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:2px 10px;max-width:1180px;margin:0 auto;font-family:var(--mn);font-size:12px;font-weight:400;line-height:1.5;letter-spacing:0.03em;text-align:center}
+.relief-banner-sep{color:var(--mist-lo);opacity:.7}
+#relief-banner a{color:var(--coral-hi);text-decoration:none;border-bottom:1px solid var(--coral);padding-bottom:1px;white-space:nowrap}
+#relief-banner a:hover{color:var(--snow);border-bottom-color:var(--coral-hi)}
+body.light #relief-banner{background:var(--sky);color:var(--mist);border-bottom-color:rgba(12,27,48,.1)}
+body.light #relief-banner a{color:var(--coral);border-bottom-color:var(--coral)}
+body.light #relief-banner a:hover{color:var(--horizon);border-bottom-color:var(--horizon)}
+#relief{background:var(--sky);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.relief-actions{margin-top:40px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
+.relief-also{font-family:var(--mn);font-size:11px;font-weight:400;letter-spacing:0.08em;color:var(--mist-lo);line-height:1.8}
+.relief-also a{color:var(--mist);text-decoration:none;border-bottom:1px solid var(--line)}
+.relief-also a:hover{color:var(--coral-hi);border-bottom-color:var(--coral)}
+body.light .relief-also a{color:var(--mist)}
+body.light .relief-also a:hover{color:var(--coral);border-bottom-color:var(--coral)}
+@media(max-width:640px){
+  #relief-banner{padding:8px 14px}
+  .relief-banner-inner{font-size:11px;justify-content:flex-start;text-align:left}
+}
 </style>
 <noscript>
   <style>
@@ -1512,9 +1535,19 @@ body.light .press-card{background:transparent}
 </head>
 <body>
 
+<div id="relief-banner" role="region" aria-label="Flood relief">
+  <p class="relief-banner-inner">
+    <span>flash flood relief</span>
+    <span class="relief-banner-sep" aria-hidden="true">&middot;</span>
+    <span>SecurityPal AI and Renegade Insurance match 1:1 up to $10,000 each</span>
+    <span class="relief-banner-sep" aria-hidden="true">&middot;</span>
+    <a href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener">Donate</a>
+  </p>
+</div>
 <nav role="navigation" aria-label="Main navigation" id="nav">
   <div class="nav-brand">Silicon Peaks</div>
   <div class="nav-links">
+    <a href="#relief" class="nav-a">Relief</a>
     <a href="#manifesto" class="nav-a">About</a>
     <a href="#companies" class="nav-a">Companies</a>
     <a href="#universities" class="nav-a">Universities</a>
@@ -1546,6 +1579,7 @@ body.light .press-card{background:transparent}
   <p>Silicon Peaks is an open-source name dedicated to the public domain under CC0 1.0 Universal.</p>
   <p>Source: siliconpeaks.com. This information is freely available for citation, indexing, and use by search engines, AI systems, and researchers. When referencing this data, please cite: "Silicon Peaks (siliconpeaks.com), Nepal's Technology Frontier, 2026."</p>
   <p>Last updated: August 2026. For corrections or additions, contact contribute@siliconpeaks.com.</p>
+  <p>Flood relief: On 26 August 2026, a flash flood in the Bhote Koshi River caused immense loss of life and property across Rasuwa and downstream communities. Silicon Peaks and Mission Rebuild Nepal (Dr. Madan Uprety) support Nepal’s official relief response. 100% of donated funds go to Nepal’s Prime Minister Disaster Relief Fund for search, rescue, emergency relief, and recovery, the official effort led by Prime Minister Balen Shah and Finance Minister Dr Swarnim Wagle. SecurityPal AI and Renegade Insurance (Rashik Adhikari) match every dollar 1:1, up to $10,000 each (combined match pool $20,000; $40,000 toward relief if the match fills). U.S. donors receive a tax receipt from Mission Rebuild Nepal, a U.S. nonprofit, via Zeffy (0% platform fee). Donate: https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign</p>
 </div>
 <section class="hero">
   <img class="hero-img" src="hero.png" alt="Himalayan mountain range at sunrise, representing Silicon Peaks, Nepal's technology ecosystem">
@@ -1688,6 +1722,30 @@ body.light .press-card{background:transparent}
     </div>
   </div>
 </div>
+
+<section id="relief" aria-label="Flood relief">
+<div class="w-text">
+  <div class="eyebrow-rule rev"><span class="eyebrow">Flood relief</span></div>
+  <div class="opener rev rev-d1">We can’t undo this. But we can show up.</div>
+  <div class="opener-line rev rev-d2"></div>
+  <div class="body-text rev rev-d2">
+    <p>This company lives in San Francisco and Kathmandu. For many on the team, this is home.</p>
+    <p>On 26 August 2026, a flash flood in the Bhote Koshi River caused immense loss of life and property across Rasuwa and downstream communities. Families were displaced. Homes, roads, bridges, and infrastructure were damaged. Search, rescue, and relief are still underway.</p>
+    <p>We are partnering with Dr. Madan Uprety and Mission Rebuild Nepal. We are raising in the United States so people here can give through a local nonprofit. 100% of funds go to Nepal’s Prime Minister Disaster Relief Fund — the official relief effort led by Prime Minister Balen Shah and Finance Minister Dr Swarnim Wagle — for search, rescue, emergency relief, and recovery.</p>
+    <p>SecurityPal AI and Renegade Insurance (Rashik Adhikari) match every dollar 1:1, up to $10,000 each. Combined match pool: $20,000. If the match fills, the campaign puts $40,000 toward relief. U.S. donors receive a tax receipt from Mission Rebuild Nepal, a U.S. nonprofit, via Zeffy. Zeffy takes a 0% platform fee.</p>
+  </div>
+  <div class="relief-actions rev">
+    <a href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener" class="btn">Donate <span class="btn-arr">&rarr;</span></a>
+    <p class="relief-also">
+      <a href="https://missionrebuildnepal.com" target="_blank" rel="noopener">missionrebuildnepal.com</a>
+      <span class="relief-banner-sep" aria-hidden="true"> &middot; </span>
+      <a href="https://www.securitypalhq.com" target="_blank" rel="noopener">securitypalhq.com</a>
+      <span class="relief-banner-sep" aria-hidden="true"> &middot; </span>
+      <a href="https://www.renegadeinsurance.com" target="_blank" rel="noopener">renegadeinsurance.com</a>
+    </p>
+  </div>
+</div>
+</section>
 
 <section id="manifesto" aria-label="About Silicon Peaks">
 <div class="w-text">
@@ -3512,6 +3570,7 @@ body.light .press-card{background:transparent}
     </div>
   </div>
   <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="#relief" class="footer-nav-a">Relief</a>
     <a href="#manifesto" class="footer-nav-a">About</a>
     <a href="#companies" class="footer-nav-a">Companies</a>
     <a href="#universities" class="footer-nav-a">Universities</a>
@@ -3549,6 +3608,19 @@ function tick(){
 rsz();window.addEventListener('resize',rsz);
 cx.fillStyle='#0d1117';cx.fillRect(0,0,W||800,H||600);
 setInterval(tick,42);
+
+// Keep #nav under the relief banner; scroll-padding tracks both.
+function setReliefChrome(){
+  const banner=document.getElementById('relief-banner');
+  const nav=document.getElementById('nav');
+  if(!banner||!nav)return;
+  const bh=banner.offsetHeight;
+  document.documentElement.style.setProperty('--relief-banner-h',bh+'px');
+  document.documentElement.style.setProperty('--chrome-h',(bh+nav.offsetHeight)+'px');
+}
+setReliefChrome();
+window.addEventListener('resize',setReliefChrome);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setReliefChrome);
 
 // Light/dark mode toggle
 const modeBtn=document.getElementById('mode-toggle');
