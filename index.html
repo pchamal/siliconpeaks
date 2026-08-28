@@ -755,7 +755,7 @@ body.light .marquee-card .co-name{color:#1a1a2e}
 .press-date{font-family:var(--mn);font-size:11px;font-weight:200;letter-spacing:.08em;color:var(--mist-lo)}
 .press-desc{font-family:var(--bd);font-size:16px;color:var(--mist-lo);line-height:1.6}
 .press-blurb{font-family:var(--bd);font-size:14px;color:var(--mist-lo);line-height:1.55;margin-top:8px;opacity:.85}
-.press-cite{font-family:var(--mn);font-size:13px;letter-spacing:.06em;color:var(--mist-lo);margin-top:16px}
+.press-cite{font-family:var(--mn);font-size:13px;font-style:normal;font-weight:400;letter-spacing:.06em;color:var(--mist-lo);margin-top:16px;max-width:none}
 .press-cite a{color:var(--coral);text-decoration:none}
 .press-cite a:hover{text-decoration:underline}
 .press-quote{margin:0 0 clamp(40px,6vh,64px);max-width:40ch}
@@ -1423,6 +1423,7 @@ body.light .uni-pill{background:transparent}
 .press-blurb{font-family:var(--dp);font-size:16px;line-height:1.5;letter-spacing:0;opacity:1;margin-top:10px}
 .press-quote{margin:0 0 clamp(40px,6vh,64px);padding:28px 0}
 .press-quote p{max-width:28ch;font-size:clamp(22px,2.6vw,34px)}
+.press-quote p.press-cite{max-width:none;font-family:var(--mn);font-size:13px;line-height:1.5;letter-spacing:.06em;font-style:normal}
 body.light .press-card{background:transparent}
 
 .champ-grid{gap:16px 20px}
@@ -3151,7 +3152,7 @@ body.light .press-card{background:transparent}
   </div>
   <blockquote class="pq press-quote rev" cite="https://nepalitimes.com/bringing-silicon-peaks-to-nepal">
     <p>Silicon Valley is the capital of some of the world’s most influential technology companies. We are trying to bring a little of that soil to Nepal’s Silicon Peaks.</p>
-    <footer class="press-cite">— Pukar Hamal, <a href="https://nepalitimes.com/bringing-silicon-peaks-to-nepal" target="_blank" rel="noopener">Nepali Times, 24 Aug 2026</a></footer>
+    <p class="press-cite">— Pukar Hamal, <a href="https://nepalitimes.com/bringing-silicon-peaks-to-nepal" target="_blank" rel="noopener">Nepali Times, 24 Aug 2026</a></p>
   </blockquote>
   <div class="press-grid">
     <a href="https://nepalitimes.com/bringing-silicon-peaks-to-nepal" target="_blank" rel="noopener" class="press-card rev">
