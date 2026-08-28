@@ -410,12 +410,12 @@
   --ease: cubic-bezier(.22,.68,0,1.2);
 }
 
-html{scroll-behavior:smooth;scroll-padding-top:var(--chrome-h,108px)}
+html{scroll-behavior:smooth;scroll-padding-top:var(--chrome-h,132px)}
 body{background:var(--sky);color:var(--snow);font-family:var(--bd);font-size:17px;line-height:1.78;overflow-x:hidden}
 body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:0.032;mix-blend-mode:overlay}
 
 /* NAV */
-#nav{position:fixed;top:var(--relief-banner-h,36px);left:0;right:0;z-index:500;height:68px;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;padding:0 clamp(20px,5vw,72px);background:rgba(9,12,18,0.7);backdrop-filter:blur(28px) saturate(1.3);-webkit-backdrop-filter:blur(28px) saturate(1.3);border-bottom:1px solid rgba(192,72,112,0.1);box-shadow:0 4px 32px rgba(0,0,0,.35),0 1px 0 rgba(242,232,224,.03)}
+#nav{position:fixed;top:var(--relief-banner-h,64px);left:0;right:0;z-index:500;height:68px;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;padding:0 clamp(20px,5vw,72px);background:rgba(9,12,18,0.7);backdrop-filter:blur(28px) saturate(1.3);-webkit-backdrop-filter:blur(28px) saturate(1.3);border-bottom:1px solid rgba(192,72,112,0.1);box-shadow:0 4px 32px rgba(0,0,0,.35),0 1px 0 rgba(242,232,224,.03)}
 .nav-brand{font-family:var(--dp);font-size:17px;font-weight:500;letter-spacing:0.03em;color:var(--snow);opacity:0;animation:up .7s .2s forwards;white-space:nowrap}
 .nav-links{display:flex;gap:2px;opacity:0;animation:up .7s .35s forwards}
 .nav-a{font-family:var(--mn);font-size:12px;font-weight:300;letter-spacing:.28em;text-transform:uppercase;color:var(--mist-lo);text-decoration:none;padding:8px 14px;border-radius:2px;transition:color .2s,background .2s}
@@ -1080,7 +1080,7 @@ footer::before{content:'';position:absolute;top:0;left:20%;right:20%;height:1px;
    Journal restyle — type, space, measure only.
    Night-sky palette and current IA stay. Newsreader + Plex only.
    ------------------------------------------------------------------ */
-html{scroll-padding-top:var(--chrome-h,108px)}
+html{scroll-padding-top:var(--chrome-h,132px)}
 body{
   font-family:var(--dp);
   font-size:20px;
@@ -1100,7 +1100,7 @@ body.light{
 }
 
 #nav{
-  top:var(--relief-banner-h,36px);
+  top:var(--relief-banner-h,64px);
   height:auto;
   min-height:61px;
   padding:18px clamp(20px,5vw,56px) 16px;
@@ -1503,16 +1503,19 @@ body.light .press-card{background:transparent}
   #nav{min-height:56px;padding:12px 16px}
 }
 
-/* Flood relief — site-top banner above #nav. Footer SEO nav stays static. */
-:root{--relief-banner-h:36px;--chrome-h:108px}
-#relief-banner{position:fixed;top:0;left:0;right:0;z-index:510;background:var(--night);color:var(--mist);border-bottom:1px solid var(--line);padding:8px clamp(16px,4vw,56px)}
-.relief-banner-inner{display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline;gap:2px 10px;max-width:1180px;margin:0 auto;font-family:var(--mn);font-size:12px;font-weight:400;line-height:1.5;letter-spacing:0.03em;text-align:center}
+/* Flood relief — site-top campaign strip above #nav. Footer SEO nav stays static. */
+:root{--relief-banner-h:64px;--chrome-h:132px}
+#relief-banner{position:fixed;top:0;left:0;right:0;z-index:510;background:var(--coral);color:#0c1b30;border-bottom:2px solid #0c1b30;min-height:56px;padding:10px clamp(16px,4vw,56px)}
+.relief-banner-inner{display:flex;align-items:center;justify-content:space-between;gap:16px 32px;max-width:1180px;margin:0 auto}
+.relief-banner-copy{min-width:0;flex:1}
+.relief-banner-hed{font-family:var(--dp);font-size:clamp(20px,2.1vw,26px);font-weight:500;line-height:1.12;letter-spacing:-0.018em;color:#0c1b30}
+.relief-banner-sub{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 12px;margin-top:3px}
+.relief-banner-dek{font-family:var(--dp);font-size:15px;font-weight:400;line-height:1.3;color:#0c1b30}
+.relief-banner-match{font-family:var(--mn);font-size:10px;font-weight:400;letter-spacing:0.04em;line-height:1.4;color:#0c1b30;opacity:.62}
+.relief-banner-donate{flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mn);font-size:12px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;color:#f2e8e0;background:#0c1b30;border:0;padding:12px 22px;white-space:nowrap}
+.relief-banner-donate:hover{background:#090c12;color:#fff}
+.relief-banner-donate:focus-visible{outline:2px solid #0c1b30;outline-offset:3px}
 .relief-banner-sep{color:var(--mist-lo);opacity:.7}
-#relief-banner a{color:var(--coral-hi);text-decoration:none;border-bottom:1px solid var(--coral);padding-bottom:1px;white-space:nowrap}
-#relief-banner a:hover{color:var(--snow);border-bottom-color:var(--coral-hi)}
-body.light #relief-banner{background:var(--sky);color:var(--mist);border-bottom-color:rgba(12,27,48,.1)}
-body.light #relief-banner a{color:var(--coral);border-bottom-color:var(--coral)}
-body.light #relief-banner a:hover{color:var(--horizon);border-bottom-color:var(--horizon)}
 #relief{background:var(--sky);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .relief-actions{margin-top:40px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
 .relief-also{font-family:var(--mn);font-size:11px;font-weight:400;letter-spacing:0.08em;color:var(--mist-lo);line-height:1.8}
@@ -1520,9 +1523,13 @@ body.light #relief-banner a:hover{color:var(--horizon);border-bottom-color:var(-
 .relief-also a:hover{color:var(--coral-hi);border-bottom-color:var(--coral)}
 body.light .relief-also a{color:var(--mist)}
 body.light .relief-also a:hover{color:var(--coral);border-bottom-color:var(--coral)}
-@media(max-width:640px){
-  #relief-banner{padding:8px 14px}
-  .relief-banner-inner{font-size:11px;justify-content:flex-start;text-align:left}
+@media(max-width:720px){
+  :root{--relief-banner-h:160px;--chrome-h:216px}
+  #relief-banner{padding:14px 16px;min-height:0}
+  .relief-banner-inner{flex-direction:column;align-items:stretch;gap:12px}
+  .relief-banner-hed{font-size:24px}
+  .relief-banner-sub{flex-direction:column;gap:4px}
+  .relief-banner-donate{width:100%;padding:14px 20px}
 }
 </style>
 <noscript>
@@ -1535,14 +1542,17 @@ body.light .relief-also a:hover{color:var(--coral);border-bottom-color:var(--cor
 </head>
 <body>
 
-<div id="relief-banner" role="region" aria-label="Flood relief">
-  <p class="relief-banner-inner">
-    <span>flash flood relief</span>
-    <span class="relief-banner-sep" aria-hidden="true">&middot;</span>
-    <span>SecurityPal AI and Renegade Insurance match 1:1 up to $10,000 each</span>
-    <span class="relief-banner-sep" aria-hidden="true">&middot;</span>
-    <a href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener">Donate</a>
-  </p>
+<div id="relief-banner" role="region" aria-label="Stand with Nepal">
+  <div class="relief-banner-inner">
+    <div class="relief-banner-copy">
+      <p class="relief-banner-hed">Stand with Nepal</p>
+      <div class="relief-banner-sub">
+        <p class="relief-banner-dek">Support those affected by the floods.</p>
+        <p class="relief-banner-match">SecurityPal AI and Renegade Insurance match 1:1 up to $10,000 each.</p>
+      </div>
+    </div>
+    <a class="relief-banner-donate" href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener">Donate</a>
+  </div>
 </div>
 <nav role="navigation" aria-label="Main navigation" id="nav">
   <div class="nav-brand">Silicon Peaks</div>
@@ -3621,6 +3631,10 @@ function setReliefChrome(){
 setReliefChrome();
 window.addEventListener('resize',setReliefChrome);
 if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setReliefChrome);
+if(window.ResizeObserver){
+  const banner=document.getElementById('relief-banner');
+  if(banner)new ResizeObserver(setReliefChrome).observe(banner);
+}
 
 // Light/dark mode toggle
 const modeBtn=document.getElementById('mode-toggle');
