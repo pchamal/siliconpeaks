@@ -1520,9 +1520,14 @@ body.light .press-card{background:transparent}
 .relief-banner-sub{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 12px;margin-top:3px}
 .relief-banner-dek{font-family:var(--dp);font-size:15px;font-weight:400;line-height:1.3;color:#0c1b30}
 .relief-banner-match{font-family:var(--mn);font-size:10px;font-weight:400;letter-spacing:0.04em;line-height:1.4;color:#0c1b30;opacity:.62}
-.relief-banner-donate{flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mn);font-size:12px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;color:#f2e8e0;background:#0c1b30;border:0;padding:12px 22px;white-space:nowrap}
-.relief-banner-donate:hover{background:#090c12;color:#fff}
+.relief-banner-actions{display:flex;align-items:center;flex-shrink:0;flex-wrap:nowrap;gap:10px}
+.relief-banner-btn{flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mn);font-size:12px;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;text-decoration:none;padding:12px 22px;white-space:nowrap;border:1.5px solid #0c1b30}
+.relief-banner-donate{color:#f2e8e0;background:#0c1b30}
+.relief-banner-donate:hover{background:#090c12;border-color:#090c12;color:#fff}
 .relief-banner-donate:focus-visible{outline:2px solid #0c1b30;outline-offset:3px}
+.relief-banner-link{color:#0c1b30;background:transparent}
+.relief-banner-link:hover{background:#0c1b30;color:#f2e8e0}
+.relief-banner-link:focus-visible{outline:2px solid #0c1b30;outline-offset:3px}
 .relief-banner-sep{color:var(--mist-lo);opacity:.7}
 #relief{background:var(--sky);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .relief-actions{margin-top:40px;display:flex;flex-direction:column;align-items:flex-start;gap:22px}
@@ -1532,12 +1537,13 @@ body.light .press-card{background:transparent}
 body.light .relief-also a{color:var(--mist)}
 body.light .relief-also a:hover{color:var(--coral);border-bottom-color:var(--coral)}
 @media(max-width:720px){
-  :root{--relief-banner-h:160px;--chrome-h:216px}
+  :root{--relief-banner-h:210px;--chrome-h:266px}
   #relief-banner{padding:14px 16px;min-height:0}
   .relief-banner-inner{flex-direction:column;align-items:stretch;gap:12px}
   .relief-banner-hed{font-size:24px}
   .relief-banner-sub{flex-direction:column;gap:4px}
-  .relief-banner-donate{width:100%;padding:14px 20px}
+  .relief-banner-actions{flex-direction:column;align-items:stretch;width:100%;gap:8px}
+  .relief-banner-btn{width:100%;padding:14px 20px}
 }
 /* ------------------------------------------------------------------
    Visual QA polish — same editorial system, no redesign.
@@ -1974,11 +1980,12 @@ h1{overflow-wrap:normal}
 }
 
 /* Focus / hover remain editorial, not squeezed */
-.nav-discord:hover,.relief-banner-donate:hover{opacity:.92}
+.nav-discord:hover,.relief-banner-donate:hover,.relief-banner-link:hover{opacity:.92}
 .nav-a:focus-visible,
 .nav-cta:focus-visible,
 .nav-discord:focus-visible,
-.relief-banner-donate:focus-visible{
+.relief-banner-donate:focus-visible,
+.relief-banner-link:focus-visible{
   outline:2px solid var(--coral);
   outline-offset:3px;
 }
@@ -2003,7 +2010,10 @@ h1{overflow-wrap:normal}
         <p class="relief-banner-match">SecurityPal AI and Renegade Insurance match up to $20k.</p>
       </div>
     </div>
-    <a class="relief-banner-donate" href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener">Donate</a>
+    <div class="relief-banner-actions">
+      <a class="relief-banner-btn relief-banner-donate" href="https://www.zeffy.com/en-US/donation-form/stand-with-nepal-flood-victims-silicon-peaks-mission-rebuild-nepal-donation-campaign" target="_blank" rel="noopener">Donate</a>
+      <a class="relief-banner-btn relief-banner-link" href="https://nepalrelief.fund/" target="_blank" rel="noopener">Nepal Relief</a>
+    </div>
   </div>
 </div>
 <nav role="navigation" aria-label="Main navigation" id="nav">
