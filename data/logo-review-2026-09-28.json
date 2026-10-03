@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Coca-Cola",
+    "group": "companies",
+    "source": "https://www.coca-colacompany.com/content/dam/corporate/us/en/header-footer/Header%20Icon.svg",
+    "url": null,
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Codewing",
+    "group": "companies",
+    "source": "https://codewing.co/wp-content/uploads/2021/03/codewing.png",
+    "url": "https://codewing.co/",
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Echowin",
+    "group": "companies",
+    "source": "https://echo.win/apple-touch-icon.png",
+    "url": "https://echo.win/",
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "NAAMII",
+    "group": "companies",
+    "source": "https://naamii.org/logo.svg",
+    "url": "https://naamii.org/",
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Techkraft",
+    "group": "companies",
+    "source": "https://techkraftinc.com/wp-content/uploads/2024/05/techkraft-fav.png",
+    "url": "https://techkraftinc.com/",
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Kathmandu University",
+    "group": "universities",
+    "source": "https://cdn.ku.edu.np/xh1551345964.cat/2/100/100",
+    "url": null,
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "DBA:",
+    "group": "investors",
+    "source": null,
+    "url": null,
+    "result": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+  },
+  {
+    "name": "FOG Ventures",
+    "group": "investors",
+    "source": "https://cdn.prod.website-files.com/692da68beb11b6bf9958234d/693d16a53dbc3aa00df6b2a8_256.png",
+    "url": null,
+    "result": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Tectonic Capital",
+    "group": "investors",
+    "source": null,
+    "url": null,
+    "result": "Removed GoDaddy parked-domain favicon; official mark unresolved"
+  },
+  {
+    "name": "NAAMII",
+    "group": "organizations",
+    "source": "https://naamii.org/logo.svg",
+    "url": "https://naamii.org/",
+    "result": "Verified official website asset, 2026-09-28"
+  }
+]

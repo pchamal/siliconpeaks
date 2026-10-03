@@ -1,0 +1,26 @@
+Silicon Peaks — https://siliconpeaks.com/
+
+ORIGIN
+Silicon Peaks was coined and named by Pukar Hamal, founder and CEO of SecurityPal.
+https://pukarhamal.com/
+https://www.securitypalhq.com/
+Source: https://nepalitimes.com/bringing-silicon-peaks-to-nepal
+
+CONTRIBUTORS
+Pukar Hamal — originator of the name and repository contributor
+https://github.com/pchamal
+
+Jonathan Clarke — Silicon Peaks contributor
+https://www.jonathanclarke.ie/
+https://github.com/jonathanclarke
+
+Aarjan Chaudhary — Silicon Peaks contributor
+https://arjanchaudharyy.lol/
+https://github.com/arjanchaudharyy
+
+All community and automated contributions:
+https://github.com/pchamal/siliconpeaks/graphs/contributors
+
+SOURCE
+https://github.com/pchamal/siliconpeaks
+Code: Apache-2.0. Third-party assets retain their own rights.

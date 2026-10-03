@@ -1,0 +1,2719 @@
+{
+  "companies": [
+    {
+      "name": "Coca-Cola",
+      "url": "https://finance.yahoo.com/quote/KO/",
+      "domain": "coca-cola.com",
+      "category": "Public companies",
+      "logoSource": "https://www.coca-colacompany.com/content/dam/corporate/us/en/header-footer/Header%20Icon.svg",
+      "initials": "CC",
+      "detail": "$KO NYSE",
+      "logo": "/assets/logos/coca-cola.svg",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "Fusemachines",
+      "url": "https://www.fusemachines.com",
+      "domain": "fusemachines.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=fusemachines.com&sz=128",
+      "initials": "F",
+      "detail": "$FUSE NASDAQ",
+      "logo": "/assets/logos/fusemachines-com.png"
+    },
+    {
+      "name": "Hyatt",
+      "url": "https://finance.yahoo.com/quote/H/",
+      "domain": "hyatt.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=hyatt.com&sz=128",
+      "initials": "H",
+      "detail": "$H NYSE",
+      "logo": "/assets/logos/hyatt-com.png"
+    },
+    {
+      "name": "IQVIA",
+      "url": "https://finance.yahoo.com/quote/IQV/",
+      "domain": "iqvia.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=iqvia.com&sz=128",
+      "initials": "IQ",
+      "detail": "$IQV NYSE",
+      "logo": "/assets/logos/iqvia-com.png"
+    },
+    {
+      "name": "Marriott",
+      "url": "https://finance.yahoo.com/quote/MAR/",
+      "domain": "finance.yahoo.com",
+      "category": "Public companies",
+      "logoSource": "logos/marks/marriott.svg",
+      "initials": "M",
+      "detail": "$MAR NASDAQ",
+      "logo": "/logos/marks/marriott.svg"
+    },
+    {
+      "name": "Mastercard",
+      "url": "https://finance.yahoo.com/quote/MA/",
+      "domain": "finance.yahoo.com",
+      "category": "Public companies",
+      "logoSource": "logos/marks/mastercard.svg",
+      "initials": "M",
+      "detail": "$MA NYSE",
+      "logo": "/logos/marks/mastercard.svg"
+    },
+    {
+      "name": "MetLife",
+      "url": "https://finance.yahoo.com/quote/MET/",
+      "domain": "metlife.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=metlife.com&sz=128",
+      "initials": "ML",
+      "detail": "$MET NYSE",
+      "logo": "/assets/logos/metlife-com.png"
+    },
+    {
+      "name": "Omnicom",
+      "url": "https://finance.yahoo.com/quote/OMC/",
+      "domain": "omnicom.com",
+      "category": "Public companies",
+      "logoSource": "https://en.wikipedia.org/wiki/Omnicom_Group",
+      "initials": "O",
+      "detail": "$OMC NYSE",
+      "logo": "/assets/logos/omnicom.svg"
+    },
+    {
+      "name": "PepsiCo",
+      "url": "https://finance.yahoo.com/quote/PEP/",
+      "domain": "pepsico.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=pepsico.com&sz=128",
+      "initials": "PC",
+      "detail": "$PEP NASDAQ",
+      "logo": "/assets/logos/pepsico-com.png"
+    },
+    {
+      "name": "reAlpha",
+      "url": "https://finance.yahoo.com/quote/AIRE/",
+      "domain": "realpha.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=realpha.com&sz=128",
+      "initials": "rA",
+      "detail": "$AIRE NASDAQ",
+      "logo": "/assets/logos/realpha-com.png"
+    },
+    {
+      "name": "Unilever",
+      "url": "https://finance.yahoo.com/quote/UL/",
+      "domain": "finance.yahoo.com",
+      "category": "Public companies",
+      "logoSource": "logos/marks/unilever.svg",
+      "initials": "U",
+      "detail": "$UL NYSE",
+      "logo": "/logos/marks/unilever.svg"
+    },
+    {
+      "name": "Visa",
+      "url": "https://finance.yahoo.com/quote/V/",
+      "domain": "finance.yahoo.com",
+      "category": "Public companies",
+      "logoSource": "logos/marks/visacard.svg",
+      "initials": "V",
+      "detail": "$V NYSE",
+      "logo": "/logos/marks/visacard.svg"
+    },
+    {
+      "name": "Western Union",
+      "url": "https://finance.yahoo.com/quote/WU/",
+      "domain": "finance.yahoo.com",
+      "category": "Public companies",
+      "logoSource": "logos/marks/westernunion.svg",
+      "initials": "WU",
+      "detail": "$WU NYSE",
+      "logo": "/logos/marks/westernunion.svg"
+    },
+    {
+      "name": "Wyndham",
+      "url": "https://finance.yahoo.com/quote/WH/",
+      "domain": "wyndhamhotels.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=wyndhamhotels.com&sz=128",
+      "initials": "W",
+      "detail": "$WH NYSE",
+      "logo": "/assets/logos/wyndhamhotels-com.png"
+    },
+    {
+      "name": "Yum! Brands",
+      "url": "https://finance.yahoo.com/quote/YUM/",
+      "domain": "yum.com",
+      "category": "Public companies",
+      "logoSource": "https://www.google.com/s2/favicons?domain=yum.com&sz=128",
+      "initials": "YB",
+      "detail": "$YUM NYSE",
+      "logo": "/assets/logos/yum-com.png"
+    },
+    {
+      "name": "Addressgraph",
+      "url": "https://kataho.app/",
+      "domain": "kataho.app",
+      "category": "Technology & business",
+      "logoSource": "https://kataho.app/frontend/assets/images/logo/favicon.png",
+      "initials": "AG",
+      "detail": "kataho.app",
+      "logo": "/assets/logos/kataho.png"
+    },
+    {
+      "name": "Adex",
+      "url": "https://www.adex.ltd",
+      "domain": "adex.ltd",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=adex.ltd&sz=128",
+      "initials": "A",
+      "detail": "adex.ltd",
+      "logo": "/assets/logos/adex-ltd.png"
+    },
+    {
+      "name": "AITC International",
+      "url": "https://aitc.ai/",
+      "domain": "aitc.ai",
+      "category": "Technology & business",
+      "logoSource": "https://aitc.ai/ (header SVG)",
+      "initials": "AI",
+      "detail": "aitc.ai",
+      "logo": "/assets/logos/aitc-international.svg",
+      "logoReview": "Official website asset verified 2026-09-29"
+    },
+    {
+      "name": "Alaya",
+      "url": "https://www.alaya.co",
+      "domain": "alaya.co",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=alaya.co&sz=128",
+      "initials": "AL",
+      "detail": "alaya.co",
+      "logo": "/assets/logos/alaya-co.png"
+    },
+    {
+      "name": "Alpas Technology",
+      "url": "https://alpastechnology.com/",
+      "domain": "alpastechnology.com",
+      "category": "Technology & business",
+      "logoSource": "https://alpastechnology.com/assets/favicon.png",
+      "initials": "AT",
+      "detail": "alpastechnology.com",
+      "logo": "/assets/logos/alpas-technology.png",
+      "logoReview": "Official white logo placed on a dark background for visibility. Verified 2026-09-29"
+    },
+    {
+      "name": "Alpen Labs",
+      "url": "https://www.alpenlabs.io",
+      "domain": "alpenlabs.io",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=alpenlabs.io&sz=128",
+      "initials": "AL",
+      "detail": "alpenlabs.io",
+      "logo": "/assets/logos/alpenlabs-io.png"
+    },
+    {
+      "name": "Amnil Tech",
+      "url": "https://www.amnil.com",
+      "domain": "amnil.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=amnil.com&sz=128",
+      "initials": "AT",
+      "detail": "amnil.com",
+      "logo": "/assets/logos/amnil-com.png"
+    },
+    {
+      "name": "Aqore",
+      "url": "https://www.aqore.com.np",
+      "domain": "aqore.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=aqore.com.np&sz=128",
+      "initials": "A",
+      "detail": "aqore.com.np",
+      "logo": "/assets/logos/aqore-com-np.png"
+    },
+    {
+      "name": "ARKBO Tech",
+      "url": "https://www.arkbotech.com/",
+      "domain": "arkbotech.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.arkbotech.com/icon.png",
+      "initials": "AR",
+      "detail": "arkbotech.com",
+      "logo": "/assets/logos/arkbo-tech.png",
+      "logoReview": "Official website asset verified 2026-09-29"
+    },
+    {
+      "name": "Architect Labs",
+      "url": "https://architectlabs.com",
+      "domain": "architectlabs.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=architectlabs.com&sz=128",
+      "initials": "A",
+      "detail": "architectlabs.com",
+      "logo": "/assets/logos/architectlabs-com.png"
+    },
+    {
+      "name": "Baato",
+      "url": "https://baato.io",
+      "domain": "baato.io",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=baato.io&sz=128",
+      "initials": "B",
+      "detail": "baato.io",
+      "logo": "/assets/logos/baato-io.png"
+    },
+    {
+      "name": "Assabet Tech",
+      "url": "https://www.assabettech.com",
+      "domain": "assabettech.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=assabettech.com&sz=128",
+      "initials": "AS",
+      "detail": "assabettech.com",
+      "logo": "/assets/logos/assabettech-com.png"
+    },
+    {
+      "name": "Biz Serve IT",
+      "url": "https://www.bizserveit.com",
+      "domain": "bizserveit.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=bizserveit.com&sz=128",
+      "initials": "BS",
+      "detail": "bizserveit.com",
+      "logo": "/assets/logos/bizserveit-com.png"
+    },
+    {
+      "name": "Cedar Gate",
+      "url": "https://www.cedargate.com",
+      "domain": "cedargate.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cedargate.com&sz=128",
+      "initials": "CG",
+      "detail": "cedargate.com",
+      "logo": "/assets/logos/cedargate-com.png"
+    },
+    {
+      "name": "Clock b",
+      "url": "https://www.clockb.com",
+      "domain": "clockb.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=clockb.com&sz=128",
+      "initials": "CB",
+      "detail": "clockb.com",
+      "logo": "/assets/logos/clockb-com.png"
+    },
+    {
+      "name": "CloudFactory",
+      "url": "https://www.cloudfactory.com",
+      "domain": "cloudfactory.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cloudfactory.com&sz=128",
+      "initials": "CF",
+      "detail": "cloudfactory.com",
+      "logo": "/assets/logos/cloudfactory-com.png"
+    },
+    {
+      "name": "Code Himalaya",
+      "url": "https://www.codehimalaya.com",
+      "domain": "codehimalaya.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=codehimalaya.com&sz=128",
+      "initials": "CH",
+      "detail": "codehimalaya.com",
+      "logo": "/assets/logos/codehimalaya-com.png"
+    },
+    {
+      "name": "Code Pixelz",
+      "url": "https://www.codepixelzmedia.com",
+      "domain": "codepixelzmedia.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=codepixelzmedia.com&sz=128",
+      "initials": "CP",
+      "detail": "codepixelzmedia.com",
+      "logo": "/assets/logos/codepixelzmedia-com.png"
+    },
+    {
+      "name": "Codewing",
+      "url": "https://codewing.co/",
+      "domain": "codewing.co",
+      "category": "Technology & business",
+      "logoSource": "https://codewing.co/wp-content/uploads/2021/03/codewing.png",
+      "initials": "CW",
+      "detail": "codewing.co",
+      "logo": "/assets/logos/codewing-com.png",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "ComplianceQuest",
+      "url": "https://www.compliancequest.com",
+      "domain": "compliancequest.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=compliancequest.com&sz=128",
+      "initials": "CQ",
+      "detail": "compliancequest.com",
+      "logo": "/assets/logos/compliancequest-com.png"
+    },
+    {
+      "name": "Curves n Colors",
+      "url": "https://www.curvesncolors.com",
+      "domain": "curvesncolors.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=curvesncolors.com&sz=128",
+      "initials": "CC",
+      "detail": "curvesncolors.com",
+      "logo": "/assets/logos/curvesncolors-com.png"
+    },
+    {
+      "name": "Deerhold",
+      "url": "https://www.deerhold.com",
+      "domain": "deerhold.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=deerhold.com&sz=128",
+      "initials": "D",
+      "detail": "deerhold.com",
+      "logo": "/assets/logos/deerhold-com.png"
+    },
+    {
+      "name": "DevDash Labs",
+      "url": "https://devdashlabs.com",
+      "domain": "devdashlabs.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=devdashlabs.com&sz=128",
+      "initials": "DD",
+      "detail": "devdashlabs.com",
+      "logo": "/assets/logos/devdashlabs-com.png"
+    },
+    {
+      "name": "Digital Karmakanda",
+      "url": "https://digitalkarmakanda.com",
+      "domain": "digitalkarmakanda.com",
+      "category": "Technology & business",
+      "logoSource": "logos/digitalkarmakanda.png",
+      "initials": "DK",
+      "detail": "digitalkarmakanda.com",
+      "logo": "/logos/digitalkarmakanda.png"
+    },
+    {
+      "name": "Dolma Advisors",
+      "url": "https://www.dolmaadvisors.com",
+      "domain": "dolmaadvisors.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dolmaadvisors.com&sz=128",
+      "initials": "DA",
+      "detail": "dolmaadvisors.com",
+      "logo": "/assets/logos/dolmaadvisors-com.png"
+    },
+    {
+      "name": "Dots n Dashes",
+      "url": "https://www.dndts.com.np",
+      "domain": "dndts.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dndts.com.np&sz=128",
+      "initials": "DD",
+      "detail": "dndts.com.np",
+      "logo": "/assets/logos/dndts-com-np.png"
+    },
+    {
+      "name": "Echowin",
+      "url": "https://echo.win/",
+      "domain": "echo.win",
+      "category": "Technology & business",
+      "logoSource": "https://echo.win/apple-touch-icon.png",
+      "initials": "E",
+      "detail": "echo.win",
+      "logo": "/assets/logos/echowin-com.png",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "EKbana",
+      "url": "https://www.ekbana.com",
+      "domain": "ekbana.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ekbana.com&sz=128",
+      "initials": "EK",
+      "detail": "ekbana.com",
+      "logo": "/assets/logos/ekbana-com.png"
+    },
+    {
+      "name": "Eminence Ways",
+      "url": "https://www.eminenceways.com",
+      "domain": "eminenceways.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=eminenceways.com&sz=128",
+      "initials": "EW",
+      "detail": "eminenceways.com",
+      "logo": "/assets/logos/eminenceways-com.png"
+    },
+    {
+      "name": "F1Soft",
+      "url": "https://www.f1soft.com",
+      "domain": "f1soft.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=f1soft.com&sz=128",
+      "initials": "FS",
+      "detail": "f1soft.com",
+      "logo": "/assets/logos/f1soft-com.png"
+    },
+    {
+      "name": "Facet Tech",
+      "url": "https://www.facet.com.np",
+      "domain": "facet.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=facet.com.np&sz=128",
+      "initials": "FT",
+      "detail": "facet.com.np",
+      "logo": "/assets/logos/facet-com-np.png"
+    },
+    {
+      "name": "Fawesome Apps",
+      "url": "https://www.fawesomeapps.com",
+      "domain": "fawesomeapps.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=fawesomeapps.com&sz=128",
+      "initials": "FA",
+      "detail": "fawesomeapps.com",
+      "logo": "/assets/logos/fawesomeapps-com.png"
+    },
+    {
+      "name": "Flextecs",
+      "url": "https://www.flextecs.com.np",
+      "domain": "flextecs.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=flextecs.com.np&sz=128",
+      "initials": "F",
+      "detail": "flextecs.com.np",
+      "logo": "/assets/logos/flextecs-com-np.png"
+    },
+    {
+      "name": "Flowli Studio",
+      "url": "https://flowli.studio/",
+      "domain": "flowli.studio",
+      "category": "Technology & business",
+      "initials": "FS",
+      "detail": "flowli.studio",
+      "logo": "/assets/logos/flowli-studio.png",
+      "logoSource": "https://framerusercontent.com/images/O6T8tHkYmARxWXFSjEuidryxtpU.png",
+      "logoReview": "Official site favicon, resized to 160px. Verified 2026-09-29"
+    },
+    {
+      "name": "Four Symmetrons",
+      "url": "https://www.foursymmetrons.com",
+      "domain": "foursymmetrons.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=foursymmetrons.com&sz=128",
+      "initials": "FS",
+      "detail": "foursymmetrons.com",
+      "logo": "/assets/logos/foursymmetrons-com.png"
+    },
+    {
+      "name": "G-Force Systems",
+      "url": "https://www.gforcesystems.com",
+      "domain": "gforcesystems.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=gforcesystems.com&sz=128",
+      "initials": "GF",
+      "detail": "gforcesystems.com",
+      "logo": "/assets/logos/gforcesystems-com.png"
+    },
+    {
+      "name": "Genese Solution",
+      "url": "https://www.genesesolution.com",
+      "domain": "genesesolution.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=genesesolution.com&sz=128",
+      "initials": "GS",
+      "detail": "genesesolution.com",
+      "logo": "/assets/logos/genesesolution-com.png"
+    },
+    {
+      "name": "Gham Power",
+      "url": "https://www.ghampower.com",
+      "domain": "ghampower.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ghampower.com&sz=128",
+      "initials": "GP",
+      "detail": "ghampower.com",
+      "logo": "/assets/logos/ghampower-com.png"
+    },
+    {
+      "name": "Grepsr",
+      "url": "https://www.grepsr.com",
+      "domain": "grepsr.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=grepsr.com&sz=128",
+      "initials": "GR",
+      "detail": "grepsr.com",
+      "logo": "/assets/logos/grepsr-com.png"
+    },
+    {
+      "name": "GrowByData",
+      "url": "https://www.growbydata.com",
+      "domain": "growbydata.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=growbydata.com&sz=128",
+      "initials": "GB",
+      "detail": "growbydata.com",
+      "logo": "/assets/logos/growbydata-com.png"
+    },
+    {
+      "name": "Gurzu",
+      "url": "https://www.gurzu.com",
+      "domain": "gurzu.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=gurzu.com&sz=128",
+      "initials": "G",
+      "detail": "gurzu.com",
+      "logo": "/assets/logos/gurzu-com.png"
+    },
+    {
+      "name": "Hamro Patro",
+      "url": "https://www.hamropatro.com",
+      "domain": "hamropatro.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=hamropatro.com&sz=128",
+      "initials": "HP",
+      "detail": "hamropatro.com",
+      "logo": "/assets/logos/hamropatro-com.png"
+    },
+    {
+      "name": "ICTC",
+      "url": "https://www.ictc.com.np",
+      "domain": "ictc.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ictc.com.np&sz=128",
+      "initials": "IC",
+      "detail": "ictc.com.np",
+      "logo": "/assets/logos/ictc-com-np.png"
+    },
+    {
+      "name": "IME Group",
+      "url": "https://www.imegroup.com.np",
+      "domain": "imegroup.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=imegroup.com.np&sz=128",
+      "initials": "IM",
+      "detail": "imegroup.com.np",
+      "logo": "/assets/logos/imegroup-com-np.png"
+    },
+    {
+      "name": "Incessant Rain",
+      "url": "https://www.incessantrain.com",
+      "domain": "incessantrain.com",
+      "category": "Technology & business",
+      "logoSource": "https://incessantrain.com/public/front/images/logo-blue.png",
+      "initials": "IR",
+      "detail": "incessantrain.com",
+      "logo": "/assets/logos/incessantrain-com.png"
+    },
+    {
+      "name": "Jasper IT",
+      "url": "https://www.jasperit.com.np",
+      "domain": "jasperit.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=jasperit.com.np&sz=128",
+      "initials": "JI",
+      "detail": "jasperit.com.np",
+      "logo": "/assets/logos/jasperit-com-np.png"
+    },
+    {
+      "name": "KA Power",
+      "url": "https://www.kapower.us",
+      "domain": "kapower.us",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kapower.us&sz=128",
+      "initials": "KA",
+      "detail": "kapower.us",
+      "logo": "/assets/logos/kapower-us.png"
+    },
+    {
+      "name": "Karkhana",
+      "url": "https://www.karkhana.io",
+      "domain": "karkhana.io",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=karkhana.io&sz=128",
+      "initials": "K",
+      "detail": "karkhana.io",
+      "logo": "/assets/logos/karkhana-io.png"
+    },
+    {
+      "name": "Lamina Labs",
+      "url": "https://laminalabs.ai",
+      "domain": "laminalabs.ai",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=laminalabs.ai&sz=128",
+      "initials": "LL",
+      "detail": "laminalabs.ai",
+      "logo": "/assets/logos/laminalabs-ai.png"
+    },
+    {
+      "name": "LF Technology",
+      "url": "https://www.lftechnology.com",
+      "domain": "lftechnology.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=lftechnology.com&sz=128",
+      "initials": "LF",
+      "detail": "lftechnology.com",
+      "logo": "/assets/logos/lftechnology-com.png"
+    },
+    {
+      "name": "Machnet",
+      "url": "https://www.machnetinc.com",
+      "domain": "machnetinc.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=machnetinc.com&sz=128",
+      "initials": "M",
+      "detail": "machnetinc.com",
+      "logo": "/assets/logos/machnetinc-com.png"
+    },
+    {
+      "name": "Maitri Holdings",
+      "url": "https://www.maitriholdingsservices.com",
+      "domain": "maitriholdingsservices.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=maitriholdingsservices.com&sz=128",
+      "initials": "MH",
+      "detail": "maitriholdingsservices.com",
+      "logo": "/assets/logos/maitriholdingsservices-com.png"
+    },
+    {
+      "name": "Mantra Ideas",
+      "url": "https://www.mantraideas.com",
+      "domain": "mantraideas.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=mantraideas.com&sz=128",
+      "initials": "MI",
+      "detail": "mantraideas.com",
+      "logo": "/assets/logos/mantraideas-com.png"
+    },
+    {
+      "name": "Mavorion",
+      "url": "https://www.mavorion.com",
+      "domain": "mavorion.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=mavorion.com&sz=128",
+      "initials": "M",
+      "detail": "mavorion.com",
+      "logo": "/assets/logos/mavorion-com.png"
+    },
+    {
+      "name": "Maya Remit",
+      "url": "https://www.mayaremit.com",
+      "domain": "mayaremit.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=mayaremit.com&sz=128",
+      "initials": "MR",
+      "detail": "mayaremit.com",
+      "logo": "/assets/logos/mayaremit-com.png"
+    },
+    {
+      "name": "Miyamoto Intl",
+      "url": "https://www.miyamotointernational.com",
+      "domain": "miyamotointernational.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=miyamotointernational.com&sz=128",
+      "initials": "MI",
+      "detail": "miyamotointernational.com",
+      "logo": "/assets/logos/miyamotointernational-com.png"
+    },
+    {
+      "name": "Naamche",
+      "url": "https://www.naamche.com",
+      "domain": "naamche.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=naamche.com&sz=128",
+      "initials": "N",
+      "detail": "naamche.com",
+      "logo": "/assets/logos/naamche-com.png"
+    },
+    {
+      "name": "Naamche Labs",
+      "url": "https://naamchelabs.com/",
+      "domain": "naamchelabs.com",
+      "category": "Technology & business",
+      "initials": "NL",
+      "detail": "naamchelabs.com",
+      "logo": "/assets/logos/naamche-labs.svg",
+      "logoSource": "https://naamchelabs.com/favicon.svg",
+      "logoReview": "Official favicon verified 2026-09-29"
+    },
+    {
+      "name": "Nepal Tea Collective",
+      "url": "https://www.nepalteacollective.com",
+      "domain": "nepalteacollective.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nepalteacollective.com&sz=128",
+      "initials": "NT",
+      "detail": "nepalteacollective.com",
+      "logo": "/assets/logos/nepalteacollective-com.png"
+    },
+    {
+      "name": "NAAMII",
+      "url": "https://naamii.org/",
+      "domain": "naamii.org",
+      "category": "Technology & business",
+      "logoSource": "https://naamii.org/logo.svg",
+      "initials": "NA",
+      "detail": "naamii.org",
+      "logo": "/assets/logos/naamii.svg",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "Neo Software",
+      "url": "https://www.neosoftware.com.np",
+      "domain": "neosoftware.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=neosoftware.com.np&sz=128",
+      "initials": "NS",
+      "detail": "neosoftware.com.np",
+      "logo": "/assets/logos/neosoftware-com-np.png"
+    },
+    {
+      "name": "Neosys Tech",
+      "url": "https://www.neosys.com.np",
+      "domain": "neosys.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=neosys.com.np&sz=128",
+      "initials": "NT",
+      "detail": "neosys.com.np",
+      "logo": "/assets/logos/neosys-com-np.png"
+    },
+    {
+      "name": "Neoteric",
+      "url": "https://www.neoteric.com.np",
+      "domain": "neoteric.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=neoteric.com.np&sz=128",
+      "initials": "N",
+      "detail": "neoteric.com.np",
+      "logo": "/assets/logos/neoteric-com-np.png"
+    },
+    {
+      "name": "Niural",
+      "url": "https://www.niural.com",
+      "domain": "niural.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=niural.com&sz=128",
+      "initials": "N",
+      "detail": "niural.com",
+      "logo": "/assets/logos/niural-com.png"
+    },
+    {
+      "name": "OnePoint Financial",
+      "url": "https://www.myonepoint.com",
+      "domain": "myonepoint.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=myonepoint.com&sz=128",
+      "initials": "OP",
+      "detail": "myonepoint.com",
+      "logo": "/assets/logos/myonepoint-com.png"
+    },
+    {
+      "name": "Outside Studio",
+      "url": "https://www.outside.com.np",
+      "domain": "outside.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=outside.com.np&sz=128",
+      "initials": "OS",
+      "detail": "outside.com.np",
+      "logo": "/assets/logos/outside-com-np.png"
+    },
+    {
+      "name": "Paracosma",
+      "url": "https://www.paracosma.com",
+      "domain": "paracosma.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=paracosma.com&sz=128",
+      "initials": "P",
+      "detail": "paracosma.com",
+      "logo": "/assets/logos/paracosma-com.png"
+    },
+    {
+      "name": "Parewa Labs",
+      "url": "https://www.programiz.com",
+      "domain": "programiz.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=programiz.com&sz=128",
+      "initials": "PL",
+      "detail": "programiz.com",
+      "logo": "/assets/logos/programiz-com.png"
+    },
+    {
+      "name": "Pathao",
+      "url": "https://www.pathao.com",
+      "domain": "pathao.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=pathao.com&sz=128",
+      "initials": "P",
+      "detail": "pathao.com",
+      "logo": "/assets/logos/pathao-com.png"
+    },
+    {
+      "name": "Peace Nepal",
+      "url": "https://www.peacenepal.com.np",
+      "domain": "peacenepal.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=peacenepal.com.np&sz=128",
+      "initials": "PN",
+      "detail": "peacenepal.com.np",
+      "logo": "/assets/logos/peacenepal-com-np.png"
+    },
+    {
+      "name": "PM Square",
+      "url": "https://www.pmsquare.com",
+      "domain": "pmsquare.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=pmsquare.com&sz=128",
+      "initials": "PM",
+      "detail": "pmsquare.com",
+      "logo": "/assets/logos/pmsquare-com.png"
+    },
+    {
+      "name": "Quickfox",
+      "url": "https://www.quickfox.io",
+      "domain": "quickfox.io",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=quickfox.io&sz=128",
+      "initials": "QF",
+      "detail": "quickfox.io",
+      "logo": "/assets/logos/quickfox-io.png"
+    },
+    {
+      "name": "Raindrop",
+      "url": "https://www.raindrop.io",
+      "domain": "raindrop.io",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=raindrop.io&sz=128",
+      "initials": "R",
+      "detail": "raindrop.io",
+      "logo": "/assets/logos/raindrop-io.png"
+    },
+    {
+      "name": "Rara Labs",
+      "url": "https://www.raralabs.com",
+      "domain": "raralabs.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=raralabs.com&sz=128",
+      "initials": "RL",
+      "detail": "raralabs.com",
+      "logo": "/assets/logos/raralabs-com.png"
+    },
+    {
+      "name": "Reduct.video",
+      "url": "https://www.reduct.video",
+      "domain": "reduct.video",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=reduct.video&sz=128",
+      "initials": "R",
+      "detail": "reduct.video",
+      "logo": "/assets/logos/reduct-video.png"
+    },
+    {
+      "name": "Renegade Insurance",
+      "url": "https://www.renegadeinsurance.com",
+      "domain": "renegadeinsurance.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=renegadeinsurance.com&sz=128",
+      "initials": "RI",
+      "detail": "renegadeinsurance.com",
+      "logo": "/assets/logos/renegadeinsurance-com.png"
+    },
+    {
+      "name": "Ripplebytes",
+      "url": "https://www.ripplebytes.com",
+      "domain": "ripplebytes.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ripplebytes.com&sz=128",
+      "initials": "RB",
+      "detail": "ripplebytes.com",
+      "logo": "/assets/logos/ripplebytes-com.png"
+    },
+    {
+      "name": "Rite Teams",
+      "url": "https://www.riteteams.com",
+      "domain": "riteteams.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=riteteams.com&sz=128",
+      "initials": "RT",
+      "detail": "riteteams.com",
+      "logo": "/assets/logos/riteteams-com.png"
+    },
+    {
+      "name": "SDS Software",
+      "url": "https://www.sdata.us",
+      "domain": "sdata.us",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sdata.us&sz=128",
+      "initials": "SD",
+      "detail": "sdata.us",
+      "logo": "/assets/logos/sdata-us.png"
+    },
+    {
+      "name": "SecurityPal",
+      "url": "https://www.securitypalhq.com",
+      "domain": "securitypalhq.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=securitypalhq.com&sz=128",
+      "initials": "SP",
+      "detail": "securitypalhq.com",
+      "logo": "/assets/logos/securitypalhq-com.png"
+    },
+    {
+      "name": "Smarten Tech",
+      "url": "https://www.smartentechnologies.com",
+      "domain": "smartentechnologies.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=smartentechnologies.com&sz=128",
+      "initials": "ST",
+      "detail": "smartentechnologies.com",
+      "logo": "/assets/logos/smartentechnologies-com.png"
+    },
+    {
+      "name": "SunnyData",
+      "url": "https://www.sunnydata.ai",
+      "domain": "sunnydata.ai",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sunnydata.ai&sz=128",
+      "initials": "SD",
+      "detail": "sunnydata.ai",
+      "logo": "/assets/logos/sunnydata-ai.png"
+    },
+    {
+      "name": "Swift Technology",
+      "url": "https://www.swifttech.com.np",
+      "domain": "swifttech.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=swifttech.com.np&sz=128",
+      "initials": "ST",
+      "detail": "swifttech.com.np",
+      "logo": "/assets/logos/swifttech-com-np.png"
+    },
+    {
+      "name": "SwiftFin Global",
+      "url": "https://www.swiftfinglobal.com",
+      "domain": "swiftfinglobal.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=swiftfinglobal.com&sz=128",
+      "initials": "SF",
+      "detail": "swiftfinglobal.com",
+      "logo": "/assets/logos/swiftfinglobal-com.png"
+    },
+    {
+      "name": "TAI Inc",
+      "url": "https://www.tai.com.np",
+      "domain": "tai.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tai.com.np&sz=128",
+      "initials": "TA",
+      "detail": "tai.com.np",
+      "logo": "/assets/logos/tai-com-np.png"
+    },
+    {
+      "name": "Techkraft",
+      "url": "https://techkraftinc.com/",
+      "domain": "techkraftinc.com",
+      "category": "Technology & business",
+      "logoSource": "https://techkraftinc.com/wp-content/uploads/2024/05/techkraft-fav.png",
+      "initials": "TK",
+      "detail": "techkraftinc.com",
+      "logo": "/assets/logos/techkraft-co.png",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "Tekkon Tech",
+      "url": "https://www.tekkon.com.au",
+      "domain": "tekkon.com.au",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tekkon.com.au&sz=128",
+      "initials": "TT",
+      "detail": "tekkon.com.au",
+      "logo": "/assets/logos/tekkon-com-au.png"
+    },
+    {
+      "name": "Thamel Remit",
+      "url": "https://www.thamelremit.com",
+      "domain": "thamelremit.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=thamelremit.com&sz=128",
+      "initials": "TR",
+      "detail": "thamelremit.com",
+      "logo": "/assets/logos/thamelremit-com.png"
+    },
+    {
+      "name": "The Drive AI",
+      "url": "https://thedrive.ai",
+      "domain": "thedrive.ai",
+      "category": "Technology & business",
+      "logoSource": "logos/thedrive.png",
+      "initials": "TD",
+      "detail": "thedrive.ai",
+      "logo": "/logos/thedrive.png"
+    },
+    {
+      "name": "Togglecorp",
+      "url": "https://www.togglecorp.com",
+      "domain": "togglecorp.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=togglecorp.com&sz=128",
+      "initials": "TC",
+      "detail": "togglecorp.com",
+      "logo": "/assets/logos/togglecorp-com.png"
+    },
+    {
+      "name": "Trilokya Tech",
+      "url": "https://www.trilokyatechnology.com",
+      "domain": "trilokyatechnology.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=trilokyatechnology.com&sz=128",
+      "initials": "TL",
+      "detail": "trilokyatechnology.com",
+      "logo": "/assets/logos/trilokyatechnology-com.png"
+    },
+    {
+      "name": "Vecminds",
+      "url": "https://www.vecminds.com",
+      "domain": "vecminds.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=vecminds.com&sz=128",
+      "initials": "VM",
+      "detail": "vecminds.com",
+      "logo": "/assets/logos/vecminds-com.png"
+    },
+    {
+      "name": "Veda App",
+      "url": "https://www.vedaapp.com",
+      "domain": "vedaapp.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=vedaapp.com&sz=128",
+      "initials": "VA",
+      "detail": "vedaapp.com",
+      "logo": "/assets/logos/vedaapp-com.png"
+    },
+    {
+      "name": "Veel",
+      "url": "https://www.veel.app",
+      "domain": "veel.app",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=veel.app&sz=128",
+      "initials": "VL",
+      "detail": "veel.app",
+      "logo": "/assets/logos/veel-app.png"
+    },
+    {
+      "name": "Web Experts",
+      "url": "https://www.webexpertsnepal.com",
+      "domain": "webexpertsnepal.com",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=webexpertsnepal.com&sz=128",
+      "initials": "WE",
+      "detail": "webexpertsnepal.com",
+      "logo": "/assets/logos/webexpertsnepal-com.png"
+    },
+    {
+      "name": "WorldLink",
+      "url": "https://www.worldlink.com.np",
+      "domain": "worldlink.com.np",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=worldlink.com.np&sz=128",
+      "initials": "WL",
+      "detail": "worldlink.com.np",
+      "logo": "/assets/logos/worldlink-com-np.png"
+    },
+    {
+      "name": "Xuno Nepal",
+      "url": "https://www.xuno.co",
+      "domain": "xuno.co",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=xuno.co&sz=128",
+      "initials": "XN",
+      "detail": "xuno.co",
+      "logo": "/assets/logos/xuno-co.png"
+    },
+    {
+      "name": "ZeroTB",
+      "url": "https://zerotb.ai",
+      "domain": "zerotb.ai",
+      "category": "Technology & business",
+      "logoSource": "https://www.google.com/s2/favicons?domain=zerotb.ai&sz=128",
+      "initials": "ZT",
+      "detail": "zerotb.ai",
+      "logo": "/assets/logos/zerotb-ai.png"
+    }
+  ],
+  "universities": [
+    {
+      "name": "MIT",
+      "url": "https://mit.edu",
+      "domain": "mit.edu",
+      "logoSource": "https://brand.mit.edu/logos-marks/mit-logo",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/mit-wordmark.png"
+    },
+    {
+      "name": "Stanford",
+      "url": "https://stanford.edu",
+      "domain": "stanford.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=stanford.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/stanford-edu.png"
+    },
+    {
+      "name": "Imperial College London",
+      "url": "https://imperial.ac.uk",
+      "domain": "imperial.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=imperial.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/imperial-ac-uk.png"
+    },
+    {
+      "name": "Oxford",
+      "url": "https://ox.ac.uk",
+      "domain": "ox.ac.uk",
+      "logoSource": "https://en.wikipedia.org/wiki/University_of_Oxford",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/oxford-arms.png"
+    },
+    {
+      "name": "Harvard",
+      "url": "https://harvard.edu",
+      "domain": "harvard.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=harvard.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/harvard-edu.png"
+    },
+    {
+      "name": "Cambridge",
+      "url": "https://cam.ac.uk",
+      "domain": "cam.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/cam-ac-uk.png"
+    },
+    {
+      "name": "Columbia",
+      "url": "https://columbia.edu",
+      "domain": "columbia.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=columbia.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/columbia-edu.png"
+    },
+    {
+      "name": "Princeton",
+      "url": "https://princeton.edu",
+      "domain": "princeton.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=princeton.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/princeton-edu.png"
+    },
+    {
+      "name": "UC Berkeley",
+      "url": "https://berkeley.edu",
+      "domain": "berkeley.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/berkeley-edu.png"
+    },
+    {
+      "name": "ETH Zurich",
+      "url": "https://ethz.ch",
+      "domain": "ethz.ch",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ethz.ch&sz=128",
+      "country": "🇨🇭",
+      "category": "International",
+      "logo": "/assets/logos/ethz-ch.png"
+    },
+    {
+      "name": "NUS",
+      "url": "https://nus.edu.sg",
+      "domain": "nus.edu.sg",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nus.edu.sg&sz=128",
+      "country": "🇸🇬",
+      "category": "International",
+      "logo": "/assets/logos/nus-edu-sg.png"
+    },
+    {
+      "name": "UCL",
+      "url": "https://ucl.ac.uk",
+      "domain": "ucl.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ucl.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/ucl-ac-uk.png"
+    },
+    {
+      "name": "NTU Singapore",
+      "url": "https://ntu.edu.sg",
+      "domain": "ntu.edu.sg",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ntu.edu.sg&sz=128",
+      "country": "🇸🇬",
+      "category": "International",
+      "logo": "/assets/logos/ntu-edu-sg.png"
+    },
+    {
+      "name": "Yale",
+      "url": "https://yale.edu",
+      "domain": "yale.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=yale.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/yale-edu.png"
+    },
+    {
+      "name": "UPenn",
+      "url": "https://upenn.edu",
+      "domain": "upenn.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=upenn.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/upenn-edu.png"
+    },
+    {
+      "name": "U of Chicago",
+      "url": "https://uchicago.edu",
+      "domain": "uchicago.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=uchicago.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/uchicago-edu.png"
+    },
+    {
+      "name": "Cornell",
+      "url": "https://cornell.edu",
+      "domain": "cornell.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cornell.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/cornell-edu.png"
+    },
+    {
+      "name": "Tsinghua",
+      "url": "https://tsinghua.edu.cn",
+      "domain": "tsinghua.edu.cn",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=128",
+      "country": "🇨🇳",
+      "category": "International",
+      "logo": "/assets/logos/tsinghua-edu-cn.png"
+    },
+    {
+      "name": "Peking University",
+      "url": "https://pku.edu.cn",
+      "domain": "pku.edu.cn",
+      "logoSource": "https://www.google.com/s2/favicons?domain=pku.edu.cn&sz=128",
+      "country": "🇨🇳",
+      "category": "International",
+      "logo": "/assets/logos/pku-edu-cn.png"
+    },
+    {
+      "name": "Melbourne",
+      "url": "https://unimelb.edu.au",
+      "domain": "unimelb.edu.au",
+      "logoSource": "https://www.google.com/s2/favicons?domain=unimelb.edu.au&sz=128",
+      "country": "🇦🇺",
+      "category": "International",
+      "logo": "/assets/logos/unimelb-edu-au.png"
+    },
+    {
+      "name": "UNSW",
+      "url": "https://unsw.edu.au",
+      "domain": "unsw.edu.au",
+      "logoSource": "https://www.google.com/s2/favicons?domain=unsw.edu.au&sz=128",
+      "country": "🇦🇺",
+      "category": "International",
+      "logo": "/assets/logos/unsw-edu-au.png"
+    },
+    {
+      "name": "EPFL",
+      "url": "https://epfl.ch",
+      "domain": "epfl.ch",
+      "logoSource": "https://www.google.com/s2/favicons?domain=epfl.ch&sz=128",
+      "country": "🇨🇭",
+      "category": "International",
+      "logo": "/assets/logos/epfl-ch.png"
+    },
+    {
+      "name": "TU Munich",
+      "url": "https://tum.de",
+      "domain": "tum.de",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tum.de&sz=128",
+      "country": "🇩🇪",
+      "category": "International",
+      "logo": "/assets/logos/tum-de.png"
+    },
+    {
+      "name": "Johns Hopkins",
+      "url": "https://jhu.edu",
+      "domain": "jhu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/jhu-edu.png"
+    },
+    {
+      "name": "Sydney",
+      "url": "https://sydney.edu.au",
+      "domain": "sydney.edu.au",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sydney.edu.au&sz=128",
+      "country": "🇦🇺",
+      "category": "International",
+      "logo": "/assets/logos/sydney-edu-au.png"
+    },
+    {
+      "name": "McGill",
+      "url": "https://mcgill.ca",
+      "domain": "mcgill.ca",
+      "logoSource": "https://www.google.com/s2/favicons?domain=mcgill.ca&sz=128",
+      "country": "🇨🇦",
+      "category": "International",
+      "logo": "/assets/logos/mcgill-ca.png"
+    },
+    {
+      "name": "U of Toronto",
+      "url": "https://utoronto.ca",
+      "domain": "utoronto.ca",
+      "logoSource": "https://www.google.com/s2/favicons?domain=utoronto.ca&sz=128",
+      "country": "🇨🇦",
+      "category": "International",
+      "logo": "/assets/logos/utoronto-ca.png"
+    },
+    {
+      "name": "Duke",
+      "url": "https://duke.edu",
+      "domain": "duke.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=duke.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/duke-edu.png"
+    },
+    {
+      "name": "Michigan",
+      "url": "https://umich.edu",
+      "domain": "umich.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=umich.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/umich-edu.png"
+    },
+    {
+      "name": "Manchester",
+      "url": "https://manchester.ac.uk",
+      "domain": "manchester.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=manchester.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/manchester-ac-uk.png"
+    },
+    {
+      "name": "Seoul National",
+      "url": "https://snu.ac.kr",
+      "domain": "snu.ac.kr",
+      "logoSource": "https://www.google.com/s2/favicons?domain=snu.ac.kr&sz=128",
+      "country": "🇰🇷",
+      "category": "International",
+      "logo": "/assets/logos/snu-ac-kr.png"
+    },
+    {
+      "name": "U of Tokyo",
+      "url": "https://u-tokyo.ac.jp",
+      "domain": "u-tokyo.ac.jp",
+      "logoSource": "https://www.google.com/s2/favicons?domain=u-tokyo.ac.jp&sz=128",
+      "country": "🇯🇵",
+      "category": "International",
+      "logo": "/assets/logos/u-tokyo-ac-jp.png"
+    },
+    {
+      "name": "UBC",
+      "url": "https://ubc.ca",
+      "domain": "ubc.ca",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ubc.ca&sz=128",
+      "country": "🇨🇦",
+      "category": "International",
+      "logo": "/assets/logos/ubc-ca.png"
+    },
+    {
+      "name": "UCLA",
+      "url": "https://ucla.edu",
+      "domain": "ucla.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ucla.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ucla-edu.png"
+    },
+    {
+      "name": "King's College London",
+      "url": "https://kcl.ac.uk",
+      "domain": "kcl.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kcl.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/kcl-ac-uk.png"
+    },
+    {
+      "name": "ANU",
+      "url": "https://anu.edu.au",
+      "domain": "anu.edu.au",
+      "logoSource": "https://www.google.com/s2/favicons?domain=anu.edu.au&sz=128",
+      "country": "🇦🇺",
+      "category": "International",
+      "logo": "/assets/logos/anu-edu-au.png"
+    },
+    {
+      "name": "Edinburgh",
+      "url": "https://ed.ac.uk",
+      "domain": "ed.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ed.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/ed-ac-uk.png"
+    },
+    {
+      "name": "Monash",
+      "url": "https://monash.edu",
+      "domain": "monash.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=monash.edu&sz=128",
+      "country": "🇦🇺",
+      "category": "International",
+      "logo": "/assets/logos/monash-edu.png"
+    },
+    {
+      "name": "Carnegie Mellon",
+      "url": "https://cmu.edu",
+      "domain": "cmu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cmu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/cmu-edu.png"
+    },
+    {
+      "name": "NYU",
+      "url": "https://nyu.edu",
+      "domain": "nyu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nyu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/nyu-edu.png"
+    },
+    {
+      "name": "LSE",
+      "url": "https://lse.ac.uk",
+      "domain": "lse.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=lse.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/lse-ac-uk.png"
+    },
+    {
+      "name": "Kyoto",
+      "url": "https://kyoto-u.ac.jp",
+      "domain": "kyoto-u.ac.jp",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kyoto-u.ac.jp&sz=128",
+      "country": "🇯🇵",
+      "category": "International",
+      "logo": "/assets/logos/kyoto-u-ac-jp.png"
+    },
+    {
+      "name": "Boston University",
+      "url": "https://bu.edu",
+      "domain": "bu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=bu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/bu-edu.png"
+    },
+    {
+      "name": "Georgia Tech",
+      "url": "https://gatech.edu",
+      "domain": "gatech.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=gatech.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/gatech-edu.png"
+    },
+    {
+      "name": "Georgetown",
+      "url": "https://georgetown.edu",
+      "domain": "georgetown.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=georgetown.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/georgetown-edu.png"
+    },
+    {
+      "name": "USC",
+      "url": "https://usc.edu",
+      "domain": "usc.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=usc.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/usc-edu.png"
+    },
+    {
+      "name": "Illinois Urbana",
+      "url": "https://illinois.edu",
+      "domain": "illinois.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=illinois.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/illinois-edu.png"
+    },
+    {
+      "name": "Maryland",
+      "url": "https://umd.edu",
+      "domain": "umd.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=umd.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/umd-edu.png"
+    },
+    {
+      "name": "UT Austin",
+      "url": "https://utexas.edu",
+      "domain": "utexas.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=utexas.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/utexas-edu.png"
+    },
+    {
+      "name": "Warwick",
+      "url": "https://warwick.ac.uk",
+      "domain": "warwick.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=warwick.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/warwick-ac-uk.png"
+    },
+    {
+      "name": "Penn State",
+      "url": "https://psu.edu",
+      "domain": "psu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=psu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/psu-edu.png"
+    },
+    {
+      "name": "Tufts",
+      "url": "https://tufts.edu",
+      "domain": "tufts.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tufts.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/tufts-edu.png"
+    },
+    {
+      "name": "Purdue",
+      "url": "https://purdue.edu",
+      "domain": "purdue.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=purdue.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/purdue-edu.png"
+    },
+    {
+      "name": "Brown",
+      "url": "https://brown.edu",
+      "domain": "brown.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=brown.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/brown-edu.png"
+    },
+    {
+      "name": "UC San Diego",
+      "url": "https://ucsd.edu",
+      "domain": "ucsd.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ucsd.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ucsd-edu.png"
+    },
+    {
+      "name": "Ohio State",
+      "url": "https://osu.edu",
+      "domain": "osu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=osu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/osu-edu.png"
+    },
+    {
+      "name": "Rutgers",
+      "url": "https://rutgers.edu",
+      "domain": "rutgers.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=rutgers.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/rutgers-edu.png"
+    },
+    {
+      "name": "Texas A&M",
+      "url": "https://tamu.edu",
+      "domain": "tamu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tamu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/tamu-edu.png"
+    },
+    {
+      "name": "Sheffield",
+      "url": "https://sheffield.ac.uk",
+      "domain": "sheffield.ac.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sheffield.ac.uk&sz=128",
+      "country": "🇬🇧",
+      "category": "International",
+      "logo": "/assets/logos/sheffield-ac-uk.png"
+    },
+    {
+      "name": "Auckland",
+      "url": "https://auckland.ac.nz",
+      "domain": "auckland.ac.nz",
+      "logoSource": "https://www.google.com/s2/favicons?domain=auckland.ac.nz&sz=128",
+      "country": "🇳🇿",
+      "category": "International",
+      "logo": "/assets/logos/auckland-ac-nz.png"
+    },
+    {
+      "name": "Indiana",
+      "url": "https://indiana.edu",
+      "domain": "indiana.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=indiana.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/indiana-edu.png"
+    },
+    {
+      "name": "Colorado Boulder",
+      "url": "https://colorado.edu",
+      "domain": "colorado.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=colorado.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/colorado-edu.png"
+    },
+    {
+      "name": "UNC Chapel Hill",
+      "url": "https://unc.edu",
+      "domain": "unc.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=unc.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/unc-edu.png"
+    },
+    {
+      "name": "Virginia",
+      "url": "https://virginia.edu",
+      "domain": "virginia.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=virginia.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/virginia-edu.png"
+    },
+    {
+      "name": "Florida",
+      "url": "https://ufl.edu",
+      "domain": "ufl.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ufl.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ufl-edu.png"
+    },
+    {
+      "name": "Georgia",
+      "url": "https://uga.edu",
+      "domain": "uga.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=uga.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/uga-edu.png"
+    },
+    {
+      "name": "Michigan State",
+      "url": "https://msu.edu",
+      "domain": "msu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=msu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/msu-edu.png"
+    },
+    {
+      "name": "Minnesota",
+      "url": "https://umn.edu",
+      "domain": "umn.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=umn.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/umn-edu.png"
+    },
+    {
+      "name": "Oregon",
+      "url": "https://uoregon.edu",
+      "domain": "uoregon.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=uoregon.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/uoregon-edu.png"
+    },
+    {
+      "name": "Alabama",
+      "url": "https://ua.edu",
+      "domain": "ua.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ua.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ua-edu.png"
+    },
+    {
+      "name": "Oklahoma",
+      "url": "https://ou.edu",
+      "domain": "ou.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ou.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ou-edu.png"
+    },
+    {
+      "name": "Tennessee",
+      "url": "https://utk.edu",
+      "domain": "utk.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=utk.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/utk-edu.png"
+    },
+    {
+      "name": "LSU",
+      "url": "https://lsu.edu",
+      "domain": "lsu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=lsu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/lsu-edu.png"
+    },
+    {
+      "name": "Iowa",
+      "url": "https://uiowa.edu",
+      "domain": "uiowa.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=uiowa.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/uiowa-edu.png"
+    },
+    {
+      "name": "Arizona State",
+      "url": "https://asu.edu",
+      "domain": "asu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=asu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/asu-edu.png"
+    },
+    {
+      "name": "NC State",
+      "url": "https://ncsu.edu",
+      "domain": "ncsu.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ncsu.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/ncsu-edu.png"
+    },
+    {
+      "name": "Virginia Tech",
+      "url": "https://vt.edu",
+      "domain": "vt.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=vt.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/vt-edu.png"
+    },
+    {
+      "name": "Auburn",
+      "url": "https://auburn.edu",
+      "domain": "auburn.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=auburn.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/auburn-edu.png"
+    },
+    {
+      "name": "Nebraska",
+      "url": "https://unl.edu",
+      "domain": "unl.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=unl.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/unl-edu.png"
+    },
+    {
+      "name": "Clemson",
+      "url": "https://clemson.edu",
+      "domain": "clemson.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=clemson.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/clemson-edu.png"
+    },
+    {
+      "name": "Dartmouth",
+      "url": "https://dartmouth.edu",
+      "domain": "dartmouth.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dartmouth.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/dartmouth-edu.png"
+    },
+    {
+      "name": "Rice",
+      "url": "https://rice.edu",
+      "domain": "rice.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=rice.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/rice-edu.png"
+    },
+    {
+      "name": "Vanderbilt",
+      "url": "https://vanderbilt.edu",
+      "domain": "vanderbilt.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=vanderbilt.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/vanderbilt-edu.png"
+    },
+    {
+      "name": "Notre Dame",
+      "url": "https://nd.edu",
+      "domain": "nd.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nd.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/nd-edu.png"
+    },
+    {
+      "name": "Washington U",
+      "url": "https://wustl.edu",
+      "domain": "wustl.edu",
+      "logoSource": "https://www.google.com/s2/favicons?domain=wustl.edu&sz=128",
+      "country": "🇺🇸",
+      "category": "International",
+      "logo": "/assets/logos/wustl-edu.png"
+    },
+    {
+      "name": "Heidelberg",
+      "url": "https://uni-heidelberg.de",
+      "domain": "uni-heidelberg.de",
+      "logoSource": "https://www.google.com/s2/favicons?domain=uni-heidelberg.de&sz=128",
+      "country": "🇩🇪",
+      "category": "International",
+      "logo": "/assets/logos/uni-heidelberg-de.png"
+    },
+    {
+      "name": "Sorbonne",
+      "url": "https://sorbonne-universite.fr",
+      "domain": "sorbonne-universite.fr",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sorbonne-universite.fr&sz=128",
+      "country": "🇫🇷",
+      "category": "International",
+      "logo": "/assets/logos/sorbonne-universite-fr.png"
+    },
+    {
+      "name": "Sciences Po",
+      "url": "https://sciencespo.fr",
+      "domain": "sciencespo.fr",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sciencespo.fr&sz=128",
+      "country": "🇫🇷",
+      "category": "International",
+      "logo": "/assets/logos/sciencespo-fr.png"
+    },
+    {
+      "name": "HKU",
+      "url": "https://hku.hk",
+      "domain": "hku.hk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=hku.hk&sz=128",
+      "country": "🇭🇰",
+      "category": "International",
+      "logo": "/assets/logos/hku-hk.png"
+    },
+    {
+      "name": "HKUST",
+      "url": "https://hkust.edu.hk",
+      "domain": "hkust.edu.hk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=hkust.edu.hk&sz=128",
+      "country": "🇭🇰",
+      "category": "International",
+      "logo": "/assets/logos/hkust-edu-hk.png"
+    },
+    {
+      "name": "IIT Bombay",
+      "url": "https://iitb.ac.in",
+      "domain": "iitb.ac.in",
+      "logoSource": "https://www.google.com/s2/favicons?domain=iitb.ac.in&sz=128",
+      "country": "🇮🇳",
+      "category": "International",
+      "logo": "/assets/logos/iitb-ac-in.png"
+    },
+    {
+      "name": "IIT Delhi",
+      "url": "https://iitd.ac.in",
+      "domain": "iitd.ac.in",
+      "logoSource": "https://www.google.com/s2/favicons?domain=iitd.ac.in&sz=128",
+      "country": "🇮🇳",
+      "category": "International",
+      "logo": "/assets/logos/iitd-ac-in.png"
+    },
+    {
+      "name": "Tribhuvan University",
+      "url": "https://tu.edu.np",
+      "domain": "tu.edu.np",
+      "logoSource": "https://en.wikipedia.org/wiki/Tribhuvan_University",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/tribhuvan.png"
+    },
+    {
+      "name": "Kathmandu University",
+      "url": "https://ku.edu.np",
+      "domain": "ku.edu.np",
+      "logoSource": "https://cdn.ku.edu.np/xh1551345964.cat/2/100/100",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/ku-edu-np.png",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "Pokhara University",
+      "url": "https://pu.edu.np",
+      "domain": "pu.edu.np",
+      "logoSource": "https://www.google.com/s2/favicons?domain=pu.edu.np&sz=128",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/pu-edu-np.png"
+    },
+    {
+      "name": "Pulchowk Campus",
+      "url": "https://pcampus.edu.np/",
+      "domain": "ioe.edu.np",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ioe.edu.np&sz=128",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/ioe-edu-np.png"
+    },
+    {
+      "name": "Nepal Academy of Science and Technology",
+      "url": "https://nast.gov.np",
+      "domain": "nast.gov.np",
+      "logoSource": "https://en.wikipedia.org/wiki/Nepal_Academy_of_Science_and_Technology",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/nast.png"
+    },
+    {
+      "name": "Lumbini Buddhist University",
+      "url": "https://lbu.edu.np",
+      "domain": "lbu.edu.np",
+      "logoSource": "https://www.google.com/s2/favicons?domain=lbu.edu.np&sz=128",
+      "country": "🇳🇵",
+      "category": "Nepal",
+      "logo": "/assets/logos/lbu-edu-np.png"
+    }
+  ],
+  "investors": [
+    {
+      "name": "a16z",
+      "url": "https://a16z.com",
+      "domain": "a16z.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=a16z.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/a16z-com.png"
+    },
+    {
+      "name": "Aadhyanta Fund",
+      "url": "https://aadhyanta.com",
+      "domain": "aadhyanta.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=aadhyanta.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/aadhyanta-com.png"
+    },
+    {
+      "name": "Alibaba Group",
+      "url": "https://alibabagroup.com",
+      "domain": "alibabagroup.com",
+      "logoSource": "logos/marks/alibaba.svg",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/alibaba-group.png"
+    },
+    {
+      "name": "Craft Ventures",
+      "url": "https://craftventures.com",
+      "domain": "craftventures.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=craftventures.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/craftventures-com.png"
+    },
+    {
+      "name": "cyber·Fund",
+      "url": "https://cyber.fund",
+      "domain": "cyber.fund",
+      "logoSource": "https://www.google.com/s2/favicons?domain=cyber.fund&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/cyber-fund.png"
+    },
+    {
+      "name": "DBA",
+      "url": "https://dba.xyz/",
+      "domain": "dba.xyz",
+      "logoSource": "https://dba.xyz/ (header SVG)",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/dba.svg",
+      "logoReview": "Official header wordmark with its computed light-theme fill. Blank favicon excluded. Verified 2026-09-29"
+    },
+    {
+      "name": "Dolma Fund",
+      "url": "https://dolmaimpact.com",
+      "domain": "dolmaimpact.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dolmaimpact.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/dolmaimpact-com.png"
+    },
+    {
+      "name": "Entrepreneurs First",
+      "url": "https://www.joinef.com/",
+      "domain": "joinef.com",
+      "logoSource": "https://www.joinef.com/wp-content/uploads/2025/03/web-app-manifest-512x512-1-150x150.png",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/entrepreneurs-first.png"
+    },
+    {
+      "name": "FOG Ventures",
+      "url": "https://fog.ventures",
+      "domain": "fog.ventures",
+      "logoSource": "https://cdn.prod.website-files.com/692da68beb11b6bf9958234d/693d16a53dbc3aa00df6b2a8_256.png",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/fog-ventures.png",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "Foundation Capital",
+      "url": "https://foundationcapital.com",
+      "domain": "foundationcapital.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=foundationcapital.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/foundationcapital-com.png"
+    },
+    {
+      "name": "FTV Capital",
+      "url": "https://ftvcapital.com",
+      "domain": "ftvcapital.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ftvcapital.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/ftvcapital-com.png"
+    },
+    {
+      "name": "Go-Jek",
+      "url": "https://gojek.com",
+      "domain": "gojek.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=gojek.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/gojek-com.png"
+    },
+    {
+      "name": "Greylock Partners",
+      "url": "https://greylock.com",
+      "domain": "greylock.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=greylock.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/greylock-com.png"
+    },
+    {
+      "name": "Hustle Fund",
+      "url": "https://hustlefund.vc",
+      "domain": "hustlefund.vc",
+      "logoSource": "https://www.google.com/s2/favicons?domain=hustlefund.vc&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/hustlefund-vc.png"
+    },
+    {
+      "name": "Inspired Capital",
+      "url": "https://inspiredcapital.com",
+      "domain": "inspiredcapital.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=inspiredcapital.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/inspiredcapital-com.png"
+    },
+    {
+      "name": "Insight Partners",
+      "url": "https://insightpartners.com",
+      "domain": "insightpartners.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=insightpartners.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/insightpartners-com.png"
+    },
+    {
+      "name": "Kindred Ventures",
+      "url": "https://kindredventures.com",
+      "domain": "kindredventures.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kindredventures.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/kindredventures-com.png"
+    },
+    {
+      "name": "Link Ventures",
+      "url": "https://linkventures.com",
+      "domain": "linkventures.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=linkventures.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/linkventures-com.png"
+    },
+    {
+      "name": "M13",
+      "url": "https://m13.co",
+      "domain": "m13.co",
+      "logoSource": "https://www.google.com/s2/favicons?domain=m13.co&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/m13-co.png"
+    },
+    {
+      "name": "Marathon",
+      "url": "https://marathon.com",
+      "domain": "marathon.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=marathon.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/marathon-com.png"
+    },
+    {
+      "name": "Momo VC",
+      "url": "https://momo-vc.com",
+      "domain": "momo-vc.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=momo-vc.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/momo-vc-com.png"
+    },
+    {
+      "name": "New Form Capital",
+      "url": "https://newformcap.com",
+      "domain": "newformcap.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=newformcap.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/newformcap-com.png"
+    },
+    {
+      "name": "NewView Capital",
+      "url": "https://nvc.vc",
+      "domain": "nvc.vc",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nvc.vc&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/nvc-vc.png"
+    },
+    {
+      "name": "NFX",
+      "url": "https://nfx.com",
+      "domain": "nfx.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nfx.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/nfx-com.png"
+    },
+    {
+      "name": "r0 Capital",
+      "url": "https://r0capital.com/",
+      "domain": "r0capital.com",
+      "logoSource": "https://cdn.prod.website-files.com/68781358038f204ba6842b97/690180699f9ce28bfd733c3b_Group%201.png",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/r0-capital.png",
+      "logoReview": "Official website asset verified 2026-09-29"
+    },
+    {
+      "name": "Race Capital",
+      "url": "https://race.capital",
+      "domain": "race.capital",
+      "logoSource": "https://www.google.com/s2/favicons?domain=race.capital&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/race-capital.png"
+    },
+    {
+      "name": "Ribbit Capital",
+      "url": "https://ribbitcap.com",
+      "domain": "ribbitcap.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ribbitcap.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/ribbitcap-com.png"
+    },
+    {
+      "name": "Rocket Internet",
+      "url": "https://rocket-internet.com",
+      "domain": "rocket-internet.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=rocket-internet.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/rocket-internet-com.png"
+    },
+    {
+      "name": "Sequoia Capital",
+      "url": "https://sequoiacap.com",
+      "domain": "sequoiacap.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=sequoiacap.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/sequoiacap-com.png"
+    },
+    {
+      "name": "South Park Commons",
+      "url": "https://southparkcommons.com",
+      "domain": "southparkcommons.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=southparkcommons.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/southparkcommons-com.png"
+    },
+    {
+      "name": "Tectonic Capital",
+      "url": "https://tectonic.vc/",
+      "domain": "tectonic.vc",
+      "logoSource": "https://tectonic.vc/images/83f4dc83456a16b2dbf736988754c52d.svg",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/tectonic-symbol.svg",
+      "logoReview": "Official blue symbol cropped from the published wordmark. Generic site-builder favicon excluded. Verified 2026-09-29"
+    },
+    {
+      "name": "Together Fund",
+      "url": "https://together.fund",
+      "domain": "together.fund",
+      "logoSource": "https://www.google.com/s2/favicons?domain=together.fund&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/together-fund.png"
+    },
+    {
+      "name": "TQ Ventures",
+      "url": "https://tq.vc",
+      "domain": "tq.vc",
+      "logoSource": "https://www.google.com/s2/favicons?domain=tq.vc&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/tq-vc.png"
+    },
+    {
+      "name": "Uncommon Capital",
+      "url": "https://investuncommon.com/",
+      "domain": "investuncommon.com",
+      "logoSource": "https://investuncommon.com/images/favicon.jpg",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/uncommon-capital.jpg",
+      "logoReview": "Official website asset verified 2026-09-29"
+    },
+    {
+      "name": "Weatherford Capital",
+      "url": "https://weatherfordcapital.com",
+      "domain": "weatherfordcapital.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=weatherfordcapital.com&sz=128",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/weatherfordcapital-com.png"
+    },
+    {
+      "name": "Y Combinator",
+      "url": "https://ycombinator.com",
+      "domain": "ycombinator.com",
+      "logoSource": "logos/marks/ycombinator.svg",
+      "category": "Venture & private capital",
+      "logo": "/assets/logos/y-combinator.svg"
+    },
+    {
+      "name": "Aadyanta Advisory",
+      "url": "https://aadhyanta.com",
+      "domain": "aadhyanta.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=aadhyanta.com&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/aadhyanta-com.png"
+    },
+    {
+      "name": "DAI",
+      "url": "https://dai.com",
+      "domain": "dai.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dai.com&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/dai-com.png"
+    },
+    {
+      "name": "DFC (USA)",
+      "url": "https://dfc.gov",
+      "domain": "dfc.gov",
+      "logoSource": "https://www.google.com/s2/favicons?domain=dfc.gov&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/dfc-gov.png"
+    },
+    {
+      "name": "FCDO / DFID (UK)",
+      "url": "https://gov.uk",
+      "domain": "gov.uk",
+      "logoSource": "https://www.google.com/s2/favicons?domain=gov.uk&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/gov-uk.png"
+    },
+    {
+      "name": "GIZ (Germany)",
+      "url": "https://giz.de",
+      "domain": "giz.de",
+      "logoSource": "https://www.google.com/s2/favicons?domain=giz.de&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/giz-de.png"
+    },
+    {
+      "name": "IFC",
+      "url": "https://ifc.org",
+      "domain": "ifc.org",
+      "logoSource": "https://www.google.com/s2/favicons?domain=ifc.org&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/ifc-org.png"
+    },
+    {
+      "name": "JICA (Japan)",
+      "url": "https://jica.go.jp",
+      "domain": "jica.go.jp",
+      "logoSource": "https://www.google.com/s2/favicons?domain=jica.go.jp&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/jica-go-jp.png"
+    },
+    {
+      "name": "KOICA (South Korea)",
+      "url": "https://koica.go.kr",
+      "domain": "koica.go.kr",
+      "logoSource": "https://en.wikipedia.org/wiki/Korea_International_Cooperation_Agency",
+      "category": "Development finance",
+      "logo": "/assets/logos/koica.png"
+    },
+    {
+      "name": "Norway",
+      "url": "https://norad.no",
+      "domain": "norad.no",
+      "logoSource": "https://www.google.com/s2/favicons?domain=norad.no&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/norad-no.png"
+    },
+    {
+      "name": "Switzerland",
+      "url": "https://eda.admin.ch",
+      "domain": "eda.admin.ch",
+      "logoSource": "https://www.google.com/s2/favicons?domain=eda.admin.ch&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/eda-admin-ch.png"
+    },
+    {
+      "name": "United Nations",
+      "url": "https://un.org",
+      "domain": "un.org",
+      "logoSource": "logos/marks/unitednations.svg",
+      "category": "Development finance",
+      "logo": "/logos/marks/unitednations.svg"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://worldbank.org",
+      "domain": "worldbank.org",
+      "logoSource": "https://www.google.com/s2/favicons?domain=worldbank.org&sz=128",
+      "category": "Development finance",
+      "logo": "/assets/logos/worldbank-org.png"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "U.S. Embassy Nepal",
+      "description": "Diplomatic engagement with Nepal's tech sector and founder community",
+      "url": "https://np.usembassy.gov",
+      "domain": "usembassy.gov",
+      "logoSource": "https://www.google.com/s2/favicons?domain=usembassy.gov&sz=128",
+      "logo": "/assets/logos/usembassy-gov.png"
+    },
+    {
+      "name": "AmCham Nepal",
+      "description": "American Chamber of Commerce in Nepal, fostering U.S.-Nepal trade and investment",
+      "url": "https://www.amchamnepal.com",
+      "domain": "amchamnepal.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=amchamnepal.com&sz=128",
+      "logo": "/assets/logos/amchamnepal-com.png"
+    },
+    {
+      "name": "NAS-IT",
+      "description": "Nepal Association of Software and IT Services, representing the nation's tech industry",
+      "url": "https://nasit.org.np",
+      "domain": "nasit.org.np",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nasit.org.np&sz=128",
+      "logo": "/assets/logos/nasit-org-np.png"
+    },
+    {
+      "name": "TGND",
+      "description": "The Great Nepali Diaspora, uniting Nepalis worldwide to build bridges back home",
+      "url": "https://www.thegreatnepalidiaspora.org",
+      "domain": "thegreatnepalidiaspora.org",
+      "logoSource": "https://www.google.com/s2/favicons?domain=thegreatnepalidiaspora.org&sz=128",
+      "logo": "/assets/logos/thegreatnepalidiaspora-org.png"
+    },
+    {
+      "name": "Nepal Stock Exchange (NEPSE)",
+      "description": "Nepal’s stock exchange and a source for current listed-company information.",
+      "url": "https://nepalstock.com",
+      "domain": "nepalstock.com",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nepalstock.com&sz=128",
+      "logo": "/assets/logos/nepalstock-com.png"
+    },
+    {
+      "name": "NAAMII",
+      "description": "Nepal Applied Mathematics and Informatics Institute: research in AI, mathematics, and computing.",
+      "url": "https://naamii.org/",
+      "domain": "naamii.org",
+      "logoSource": "https://naamii.org/logo.svg",
+      "logo": "/assets/logos/naamii.svg",
+      "logoReview": "Verified official website asset, 2026-09-28"
+    },
+    {
+      "name": "🗽 Consulate General of Nepal, New York",
+      "description": "Consulate General of Nepal in New York, supporting Nepali communities and diplomatic relations",
+      "url": "https://nyc.nepalconsulate.gov.np/our-team-detail/7/",
+      "domain": "nyc.nepalconsulate.gov.np",
+      "logoSource": "Original repository: nepal-emblem.png",
+      "logo": "/assets/logos/nepal-emblem.png"
+    },
+    {
+      "name": "🌉 Consulate General of Nepal, San Francisco",
+      "description": "Consulate General of Nepal in San Francisco, serving the Nepali diaspora on the West Coast",
+      "url": "https://www.nepalcgsf.org",
+      "domain": "www.nepalcgsf.org",
+      "logoSource": "Original repository: nepal-emblem.png",
+      "logo": "/assets/logos/nepal-emblem.png"
+    },
+    {
+      "name": "Nepali Leaders Network",
+      "description": "Connecting and empowering Nepali leaders across industries and geographies",
+      "url": "https://www.nepalileadersnetwork.com",
+      "domain": "www.nepalileadersnetwork.com",
+      "logoSource": "",
+      "logo": "/assets/logos/www-nepalileadersnetwork-com.png"
+    },
+    {
+      "name": "FNCCI",
+      "description": "Federation of Nepalese Chambers of Commerce and Industry",
+      "url": "https://www.fncci.org",
+      "domain": "fncci.org",
+      "logoSource": "https://www.google.com/s2/favicons?domain=fncci.org&sz=128",
+      "logo": "/assets/logos/fncci-org.png"
+    },
+    {
+      "name": "Nepal Economic Forum",
+      "description": "Independent economic policy think tank driving Nepal's growth discourse",
+      "url": "https://nepaleconomicforum.org",
+      "domain": "nepaleconomicforum.org",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nepaleconomicforum.org&sz=128",
+      "logo": "/assets/logos/nepaleconomicforum-org.png"
+    },
+    {
+      "name": "IIDS",
+      "description": "Institute for Integrated Development Studies, an independent policy research institute.",
+      "url": "https://iids.org.np",
+      "domain": "iids.org.np",
+      "logoSource": "https://www.google.com/s2/favicons?domain=iids.org.np&sz=128",
+      "logo": "/assets/logos/iids-org-np.png"
+    },
+    {
+      "name": "British Embassy Nepal",
+      "description": "UK diplomatic mission supporting bilateral trade and development",
+      "url": "https://www.gov.uk/world/organisations/british-embassy-kathmandu",
+      "domain": "www.gov.uk",
+      "logoSource": "https://www.gov.uk/assets/frontend/govuk_publishing_components/crests/org_crest_18px_x2-d7e9ca2aac7d1a9dacc57634cb4acf442e21f2744086a105cc8ec3618f13aeee.png",
+      "logo": "/assets/logos/british-embassy.png"
+    },
+    {
+      "name": "French Embassy Nepal",
+      "description": "Embassy of France, promoting Franco-Nepali cooperation",
+      "url": "https://np.diplomatie.gouv.fr/",
+      "domain": "np.diplomatie.gouv.fr",
+      "logoSource": "https://np.diplomatie.gouv.fr/themes/custom/sdp/favicon.ico",
+      "logo": "/assets/logos/french-embassy.png"
+    },
+    {
+      "name": "Japanese Embassy Nepal",
+      "description": "One of Nepal's largest bilateral development partners",
+      "url": "https://www.np.emb-japan.go.jp",
+      "domain": "www.np.emb-japan.go.jp",
+      "logoSource": "",
+      "logo": "/assets/logos/japan-flag.svg"
+    },
+    {
+      "name": "Swiss Embassy Nepal",
+      "description": "Supporting governance and economic development",
+      "url": "https://www.schweiz-nepal.eda.admin.ch/en/embassy-of-switzerland",
+      "domain": "schweiz-nepal.eda.admin.ch",
+      "logoSource": "https://www.schweiz-nepal.eda.admin.ch/images/swiss-logo-flag.svg",
+      "logo": "/assets/logos/swiss-embassy.svg"
+    },
+    {
+      "name": "German Embassy Nepal",
+      "description": "Partner in technical cooperation and infrastructure",
+      "url": "https://kathmandu.diplo.de/np-de",
+      "domain": "kathmandu.diplo.de",
+      "logoSource": "https://www.auswaertiges-amt.de/resource/crblob/772/47f731c5aa09d415e52ad2d35c55a7be/aamt-logo-sp-data.svg",
+      "logo": "/assets/logos/german-embassy.svg"
+    },
+    {
+      "name": "Australian Embassy Nepal",
+      "description": "Education, trade, and humanitarian programs",
+      "url": "https://nepal.embassy.gov.au",
+      "domain": "nepal.embassy.gov.au",
+      "logoSource": "https://nepal.embassy.gov.au/app/images/coat-of-arms-black-80.png",
+      "logo": "/assets/logos/australian-embassy.png"
+    },
+    {
+      "name": "Canada in Nepal",
+      "description": "Canadian consular services and country information for Nepal",
+      "url": "https://travel.gc.ca/assistance/embassies-consulates/nepal",
+      "domain": "travel.gc.ca",
+      "logoSource": "",
+      "logo": "/assets/logos/travel-gc-ca.png"
+    }
+  ],
+  "press": [
+    {
+      "name": "Bringing 'Silicon Peaks' to Nepal",
+      "publication": "Nepali Times",
+      "date": "24 Aug 2026",
+      "description": "Pukar Hamal, founder and CEO of SecurityPal, on naming and scaling Silicon Peaks from Silicon Valley to Kathmandu.",
+      "url": "https://nepalitimes.com/bringing-silicon-peaks-to-nepal",
+      "logo": "/assets/logos/press-nepalitimes-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nepalitimes.com&sz=128"
+    },
+    {
+      "name": "Lamina Labs raises $4.8M for Simi; first all-Nepali YC team",
+      "publication": "TechSathi",
+      "date": "Aug 2026",
+      "description": "",
+      "url": "https://techsathi.com/lamina-labs-nepali-ai-startup-raises-4-8-million/",
+      "logo": "/assets/logos/press-techsathi-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=techsathi.com&sz=128"
+    },
+    {
+      "name": "Pukar Hamal, founder of SecurityPal AI, on Silicon Peaks",
+      "publication": "Kathmandu Post",
+      "date": "Aug 2026",
+      "description": "",
+      "url": "https://kathmandupost.com/columns/2026/08/20/it-takes-a-global-village",
+      "logo": "/assets/logos/press-kathmandupost-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kathmandupost.com&sz=128"
+    },
+    {
+      "name": "Silicon Peaks and the path from services to products",
+      "publication": "HimalPress",
+      "date": "Aug 2026",
+      "description": "",
+      "url": "https://en.himalpress.com/from-services-to-products-the-next-chapter-for-nepals-tech-industry/",
+      "logo": "/assets/logos/press-en-himalpress-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=en.himalpress.com&sz=128"
+    },
+    {
+      "name": "Niural grows Series A to $52M, launches AI Labs",
+      "publication": "PRNewswire",
+      "date": "Jun 2026",
+      "description": "",
+      "url": "https://www.prnewswire.com/news-releases/niural-launches-niural-ai-labs-and-grows-its-series-a-to-52-million-302806440.html",
+      "logo": "/assets/logos/press-prnewswire-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=prnewswire.com&sz=128"
+    },
+    {
+      "name": "Architect Labs raises $24M seed for AI chip design",
+      "publication": "Business Wire",
+      "date": "Jun 2026",
+      "description": "",
+      "url": "https://www.businesswire.com/news/home/20260618895194/en/Architect-Labs-Raises-%2424M-Seed-to-Democratize-Custom-Chip-Design",
+      "logo": "/assets/logos/press-businesswire-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=businesswire.com&sz=128"
+    },
+    {
+      "name": "Nepal might be the next AI success story",
+      "publication": "Reason",
+      "date": "Jun 2026",
+      "description": "",
+      "url": "https://reason.com/2026/06/10/the-next-ai-success-story-might-be-nepal/",
+      "logo": "/assets/logos/press-reason-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=reason.com&sz=128"
+    },
+    {
+      "name": "Silicon Peaks model for a home-grown tech cluster",
+      "publication": "Nepali Times",
+      "date": "Apr 2026",
+      "description": "",
+      "url": "https://nepalitimes.com/creating-a-firm-future-for-nepal",
+      "logo": "/assets/logos/press-nepalitimes-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=nepalitimes.com&sz=128"
+    },
+    {
+      "name": "Fusemachines lists on NASDAQ under ticker $FUSE",
+      "publication": "Online Khabar",
+      "date": "Oct 2025",
+      "description": "",
+      "url": "https://english.onlinekhabar.com/fusemachines-listed-us-stock-exchange.html",
+      "logo": "/assets/logos/press-english-onlinekhabar-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=english.onlinekhabar.com&sz=128"
+    },
+    {
+      "name": "SecurityPal named to Next Big Things in Tech list",
+      "publication": "Fast Company",
+      "date": "Oct 2025",
+      "description": "",
+      "url": "https://www.fastcompany.com/next-big-things-in-tech/list",
+      "logo": "/assets/logos/press-fastcompany-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=fastcompany.com&sz=128"
+    },
+    {
+      "name": "SecurityPal and Silicon Peaks on Equity podcast",
+      "publication": "TechCrunch",
+      "date": "Aug 2025",
+      "description": "",
+      "url": "https://techcrunch.com/podcast/why-securitypal-is-choosing-nuanced-capital-over-more-vc-rounds/",
+      "logo": "/logos/marks/techcrunch.svg"
+    },
+    {
+      "name": "SecurityPal combines AI and experts in Nepal",
+      "publication": "VentureBeat",
+      "date": "23 Jul 2025",
+      "description": "Inside the Kathmandu team helping enterprises complete security reviews.",
+      "url": "https://venturebeat.com/security/securitypal-combines-ai-and-experts-in-nepal-to-speed-enterprise-security-questionnaires-by-87x-or-more/",
+      "logo": "/assets/logos/press-venturebeat-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=venturebeat.com&sz=128"
+    },
+    {
+      "name": "Niural raises $31M Series A for global payroll",
+      "publication": "PRNewswire",
+      "date": "Jun 2025",
+      "description": "",
+      "url": "https://www.prnewswire.com/news-releases/niural-raises-31m-to-transform-global-cfo-and-people-operations-302492603.html",
+      "logo": "/assets/logos/press-prnewswire-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=prnewswire.com&sz=128"
+    },
+    {
+      "name": "Alpen Labs raises $10.6M seed for Bitcoin ZK rollup",
+      "publication": "The Block",
+      "date": "Apr 2024",
+      "description": "",
+      "url": "https://www.theblock.co/post/289610",
+      "logo": "/assets/logos/press-theblock-co.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=theblock.co&sz=128"
+    },
+    {
+      "name": "SecurityPal inaugurates Security Operations Command Centre in Nepal",
+      "publication": "Kathmandu Post",
+      "date": "Feb 2023",
+      "description": "",
+      "url": "https://kathmandupost.com/29/2023/02/21/securitypal-inaugurates-security-operations-command-centre",
+      "logo": "/assets/logos/press-kathmandupost-com.png",
+      "logoSource": "https://www.google.com/s2/favicons?domain=kathmandupost.com&sz=128"
+    },
+    {
+      "name": "Alibaba acquires Daraz from Rocket Internet",
+      "publication": "TechCrunch",
+      "date": "May 2018",
+      "description": "",
+      "url": "https://techcrunch.com/2018/05/08/alibaba-daraz/",
+      "logo": "/logos/marks/techcrunch.svg"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "url": "https://siliconpeaks-snow.vercel.app/",
+  "sourceCommit": "58684f0f96117df225236e94a2aad94a133c83aa",
+  "runs": [
+    {
+      "run": "sp-lighthouse-before-mobile",
+      "date": "2026-09-28T03:10:35.305Z",
+      "lighthouseVersion": "13.0.3",
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 96,
+        "accessibility": 92,
+        "best-practices": 100,
+        "seo": 69
+      },
+      "metrics": {
+        "first-contentful-paint": 1362.8384999999998,
+        "largest-contentful-paint": 2082.8385,
+        "speed-index": 4054.4562747371224,
+        "total-blocking-time": 108,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": "sp-lighthouse-release-mobile-1",
+      "date": "2026-09-28T03:53:47.775Z",
+      "lighthouseVersion": "13.0.3",
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1458.0140000000001,
+        "largest-contentful-paint": 1960.0140000000001,
+        "speed-index": 2827.591712679252,
+        "total-blocking-time": 1,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": "sp-lighthouse-release-mobile-2",
+      "date": "2026-09-28T03:54:46.686Z",
+      "lighthouseVersion": "13.0.3",
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1378,
+        "largest-contentful-paint": 1919,
+        "speed-index": 1486.5811134828236,
+        "total-blocking-time": 89,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": "sp-lighthouse-release-mobile-3",
+      "date": "2026-09-28T03:56:03.964Z",
+      "lighthouseVersion": "13.0.3",
+      "formFactor": "mobile",
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1324.701,
+        "largest-contentful-paint": 1941.701,
+        "speed-index": 1324.701,
+        "total-blocking-time": 44,
+        "cumulative-layout-shift": 0
+      }
+    },
+    {
+      "run": "sp-lighthouse-release-desktop-1",
+      "date": "2026-09-28T03:56:58.027Z",
+      "lighthouseVersion": "13.0.3",
+      "formFactor": "desktop",
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 379.14099999999996,
+        "largest-contentful-paint": 464.14099999999996,
+        "speed-index": 524.4185065304066,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0
+      }
+    }
+  ],
+  "mobileMedian": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "mobileMetricMedian": {
+    "first-contentful-paint": 1378,
+    "largest-contentful-paint": 1941.701,
+    "speed-index": 1486.5811134828236,
+    "total-blocking-time": 44,
+    "cumulative-layout-shift": 0
+  },
+  "note": "The calculator-only follow-up preserves a query entered before its lazy module loads. It does not change initial page resources."
+}

@@ -1,0 +1,42 @@
+{
+  ".co-card": 113,
+  ".uni-pill": 98,
+  ".inv-name": 47,
+  ".press-card": 23,
+  ".champ-card": 19,
+  ".airline-tag": 12,
+  ".tz-city": 9,
+  "sections": [
+    "globe-section",
+    "relief",
+    "manifesto",
+    "manifesto-2",
+    "companies",
+    "universities",
+    "investors",
+    "press",
+    "champions",
+    "events",
+    "diaspora",
+    "final-cta"
+  ],
+  "editorial": {
+    "#manifesto": [
+      "Away from the noise of familiar valleys, where the air is thinner and the horizon stretches further than you thought possible, you begin to see things differently. Patterns emerge. What seemed impossible from below becomes, from up here, simply a matter of choosing the right route.",
+      "Nepal has always understood this. It is a country where perspective is built into the geography.",
+      "Silicon Peaks is a thesis rooted in that understanding: the belief that the next generation of world-class technology companies will not emerge solely from familiar zip codes, but from places where ambition has been quietly compounding for decades. Kathmandu is one of those places."
+    ],
+    "#manifesto-2": [
+      "In the past several years, something has shifted. The Nepali engineers who went abroad to study at Stanford, MIT, Carnegie Mellon, the Ivy League, and leading universities across Europe and Asia returned with more than a degree. They came back with conviction, capital, and the kind of networks that create ecosystems rather than just companies.",
+      "Nepal's IT exports crossed the billion-dollar mark in 2025, more than doubling in three years. Over $200 million in venture capital has been deployed directly into Silicon Peaks companies. Positioned between two of the world's largest economies, with hydropower-backed infrastructure and a talent pipeline ranked first globally in per capita U.S. university enrollment, Nepal holds a place of rare strategic value.",
+      "Landlocked, but directly connected to the largest \"ocean\" on the planet: the Internet.",
+      "The talent exists. The will exists. The momentum is visible to anyone paying attention.",
+      "The companies defining the next decade of enterprise technology, AI infrastructure, fintech, and global services are being built right now in the neighborhood of Mt. Everest and 8 of the 14 highest peaks in the world. Founded by people who have seen the world and chosen, deliberately, to build it here.",
+      "Silicon Peaks is an open invitation. To builders who see what others are still missing. To investors looking for signal before it becomes consensus. To the founders who feel the pull of a place they haven't visited yet but somehow already recognize.",
+      "The peaks have always been there. The world is only now looking up."
+    ],
+    "#diaspora": [
+      "Nepal's diaspora spans the Gulf states, North America, Europe, East Asia, and Oceania. From engineers at top Silicon Valley firms to entrepreneurs founding companies in London, Doha, and Sydney, the Nepali global network is one of the fastest-growing migrant communities in the world. They send home over $12 billion annually, ranking Nepal first in South Asia for remittances as a share of GDP."
+    ]
+  }
+}

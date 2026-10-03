@@ -9,3 +9,16 @@ package-lock.json
 wrangler.jsonc
 LICENSE
 README.md
+.gstack/
+
+src
+scripts
+data
+docs
+tests
+
+.vercel
+dist
+deploy
+.github
+.vercelignore

@@ -1,0 +1,41 @@
+/* The calculator uses the same square surfaces and Snow palette as the page. */
+.tz-modal-overlay{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;padding:24px;background:#183d6255;backdrop-filter:blur(8px)}
+.tz-modal-overlay.open{display:flex}
+.tz-modal{position:relative;box-sizing:border-box;width:100%;max-width:890px;max-height:calc(100dvh - 48px);overflow:auto;overscroll-behavior:contain;padding:40px;background:#fff;border:1px solid #d7e3ee;border-radius:0;box-shadow:0 24px 80px #173a6626;color:#24435f;text-align:left;font:400 13px/1.6 var(--bd);scrollbar-width:thin;scrollbar-color:#abc1d6 #f5f8fb}
+.tz-modal button,.tz-modal input{font:inherit;border-radius:0}
+.tz-modal-close{position:absolute;top:16px;right:16px;width:40px;height:40px;display:grid;place-items:center;background:#fff;color:#315777;border:1px solid #d7e3ee;font-size:25px!important;cursor:pointer}
+.tz-modal-close:hover,.tz-remove:hover,#tz-today:hover{background:#eaf1f8}
+.tz-eyebrow{display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#526f89;margin-bottom:12px}
+#tz-title{margin:0 35px 13px 0;font:450 clamp(28px,4vw,39px)/1.15 var(--bd);letter-spacing:-.045em;color:#24435f}
+#tz-description{font-size:13px;color:#566e84;max-width:630px;margin:0 0 28px}
+.tz-tools{display:grid;grid-template-columns:minmax(0,1fr) 226px;gap:22px;align-items:end}
+.tz-tools label{display:block;font-weight:550;font-size:12px;margin-bottom:7px}
+#tz-city-count{display:block;font-size:10px;color:#536d85;margin-bottom:9px}
+.tz-search-field{position:relative;display:flex;align-items:center;gap:8px;border:1px solid #b6cadd;background:#f6f9fc;padding:0 13px}
+.tz-search-field>span{font-size:23px;color:#52718f}
+#tz-input{width:100%;min-width:0;height:46px;border:0;background:transparent;color:#233f5a;padding:0;font-size:12px;outline:0}
+#tz-input::placeholder{color:#566f87}
+.tz-search-field:focus-within{outline:2px solid #466e98;outline-offset:2px}
+#tz-results{position:absolute;z-index:3;top:calc(100% + 6px);left:-1px;right:-1px;max-height:285px;overflow:auto;border:1px solid #b6cadd;background:#fff;box-shadow:0 10px 25px #24435f1a;scrollbar-width:thin;scrollbar-color:#abc1d6 #f5f8fb}
+#tz-results[hidden]{display:none}
+.tz-result{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 14px;cursor:pointer;border-bottom:1px solid #e5edf4;min-height:54px}
+.tz-result strong,.tz-result small{display:block}.tz-result strong{font-weight:500;font-size:12px}.tz-result small{font-size:10px;color:#526e87;overflow-wrap:anywhere}
+.tz-result:hover,.tz-result[aria-selected=true]{background:#eaf2fa}.tz-result>span:last-child{font-size:18px;color:#315e87}
+.tz-no-results{padding:15px;margin:0;color:#536d85;font-size:12px}
+.tz-date-field>div{display:flex}.tz-date-field input{box-sizing:border-box;min-width:0;width:100%;height:48px;border:1px solid #b6cadd;background:#f6f9fc;padding:9px;color:#24435f;font-size:12px}
+#tz-today{padding:8px 12px;border:1px solid #b6cadd;border-left:0;background:#fff;color:#315777;font-size:11px;cursor:pointer;min-height:44px}
+#tz-feedback{font-size:11px;color:#4c6883;min-height:18px;margin:10px 0 17px}
+.tz-scale>span{display:block;font-size:10px;color:#4c6883;margin-bottom:9px}
+.tz-scale>div{display:flex;justify-content:space-between;font-size:9px;color:#4c6883}
+.tz-compare-row{border-bottom:1px solid #d7e3ee;padding:18px 0 16px}.tz-home-row{margin-top:10px;padding:18px 16px 16px;background:#f3f7fb;border:1px solid #d7e3ee}
+.tz-city-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.tz-city-heading h3{font:500 15px/1.3 var(--bd);letter-spacing:-.02em;color:#24435f;margin:0 0 4px}.tz-city-heading p{margin:0;font-size:10px;color:#536d85}
+.tz-home-label{font-size:10px;color:#466581;white-space:nowrap}.tz-row-actions{display:flex;align-items:center;gap:12px}.tz-shared{font:500 11px/1.4 var(--bd);color:#21614f;background:#eef7f2;padding:5px 9px;white-space:nowrap}.tz-none{color:#536d85;background:#f0f4f7}
+.tz-remove{border:1px solid #d7e3ee;background:#fff;color:#466581;width:36px;height:36px;font-size:21px!important;cursor:pointer}
+.tz-timeline{height:25px;width:100%;border:1px solid #d7e3ee;position:relative}.tz-timeline::after{content:'';position:absolute;inset:0;background:repeating-linear-gradient(to right,transparent 0 calc(100% / 24 - 1px),#ffffffaa calc(100% / 24 - 1px) calc(100% / 24));pointer-events:none}
+.tz-overlap-detail{font-size:10px;color:#466581;margin:8px 0 0;line-height:1.6}
+.tz-legend{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:22px;font-size:10px;color:#466581}.tz-legend span{display:flex;gap:7px;align-items:center}.tz-legend i{width:10px;height:10px;display:block}.tz-legend-shared{background:#277460}.tz-legend-work{background:#799ab8}.tz-legend-off{background:#e8eef4;border:1px solid #b6cadd}
+.tz-footnote{margin:14px 0 0;font-size:10px;color:#536d85}
+@media(max-width:600px){.tz-modal-overlay{padding:12px}.tz-modal{padding:30px 20px 22px;max-height:calc(100dvh - 24px)}.tz-modal-close{top:11px;right:11px;width:36px;height:36px}.tz-eyebrow{font-size:9px;max-width:220px}#tz-title{font-size:29px}#tz-description{font-size:12px;margin-bottom:22px}.tz-tools{grid-template-columns:1fr;gap:16px}.tz-date-field{max-width:260px}#tz-input{font-size:12px}#tz-feedback{margin-bottom:13px}.tz-city-heading h3{font-size:14px}.tz-row-actions{gap:7px}.tz-shared{font-size:10px;padding:5px 7px}.tz-home-row{padding-inline:12px}.tz-legend{gap:9px 14px;font-size:9px}.tz-overlap-detail{font-size:10px}#tz-results{max-height:245px}}
+
+#tz-input:focus-visible{outline:none!important;box-shadow:none}.tz-home-row{margin-inline:-12px;padding-inline:12px}
+@media(max-width:600px){#tz-input,.tz-date-field input{font-size:16px}}

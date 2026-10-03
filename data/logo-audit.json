@@ -1,0 +1,2250 @@
+[
+  {
+    "name": "Coca-Cola",
+    "group": "companies",
+    "path": "/assets/logos/coca-cola.svg",
+    "available": true,
+    "bytes": 13831,
+    "source": "https://www.coca-colacompany.com/content/dam/corporate/us/en/header-footer/Header%20Icon.svg",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Fusemachines",
+    "group": "companies",
+    "path": "/assets/logos/fusemachines-com.png",
+    "available": true,
+    "bytes": 3824,
+    "source": "https://www.google.com/s2/favicons?domain=fusemachines.com&sz=128"
+  },
+  {
+    "name": "Hyatt",
+    "group": "companies",
+    "path": "/assets/logos/hyatt-com.png",
+    "available": true,
+    "bytes": 153,
+    "source": "https://www.google.com/s2/favicons?domain=hyatt.com&sz=128"
+  },
+  {
+    "name": "IQVIA",
+    "group": "companies",
+    "path": "/assets/logos/iqvia-com.png",
+    "available": true,
+    "bytes": 323,
+    "source": "https://www.google.com/s2/favicons?domain=iqvia.com&sz=128"
+  },
+  {
+    "name": "Marriott",
+    "group": "companies",
+    "path": "/logos/marks/marriott.svg",
+    "available": true,
+    "bytes": 419,
+    "source": "logos/marks/marriott.svg"
+  },
+  {
+    "name": "Mastercard",
+    "group": "companies",
+    "path": "/logos/marks/mastercard.svg",
+    "available": true,
+    "bytes": 870,
+    "source": "logos/marks/mastercard.svg"
+  },
+  {
+    "name": "MetLife",
+    "group": "companies",
+    "path": "/assets/logos/metlife-com.png",
+    "available": true,
+    "bytes": 2198,
+    "source": "https://www.google.com/s2/favicons?domain=metlife.com&sz=128"
+  },
+  {
+    "name": "Omnicom",
+    "group": "companies",
+    "path": "/assets/logos/omnicom.svg",
+    "available": true,
+    "bytes": 5016,
+    "source": "https://en.wikipedia.org/wiki/Omnicom_Group"
+  },
+  {
+    "name": "PepsiCo",
+    "group": "companies",
+    "path": "/assets/logos/pepsico-com.png",
+    "available": true,
+    "bytes": 1587,
+    "source": "https://www.google.com/s2/favicons?domain=pepsico.com&sz=128"
+  },
+  {
+    "name": "reAlpha",
+    "group": "companies",
+    "path": "/assets/logos/realpha-com.png",
+    "available": true,
+    "bytes": 1621,
+    "source": "https://www.google.com/s2/favicons?domain=realpha.com&sz=128"
+  },
+  {
+    "name": "Unilever",
+    "group": "companies",
+    "path": "/logos/marks/unilever.svg",
+    "available": true,
+    "bytes": 26288,
+    "source": "logos/marks/unilever.svg"
+  },
+  {
+    "name": "Visa",
+    "group": "companies",
+    "path": "/logos/marks/visacard.svg",
+    "available": true,
+    "bytes": 813,
+    "source": "logos/marks/visacard.svg"
+  },
+  {
+    "name": "Western Union",
+    "group": "companies",
+    "path": "/logos/marks/westernunion.svg",
+    "available": true,
+    "bytes": 361,
+    "source": "logos/marks/westernunion.svg"
+  },
+  {
+    "name": "Wyndham",
+    "group": "companies",
+    "path": "/assets/logos/wyndhamhotels-com.png",
+    "available": true,
+    "bytes": 611,
+    "source": "https://www.google.com/s2/favicons?domain=wyndhamhotels.com&sz=128"
+  },
+  {
+    "name": "Yum! Brands",
+    "group": "companies",
+    "path": "/assets/logos/yum-com.png",
+    "available": true,
+    "bytes": 892,
+    "source": "https://www.google.com/s2/favicons?domain=yum.com&sz=128"
+  },
+  {
+    "name": "Addressgraph",
+    "group": "companies",
+    "path": "/assets/logos/kataho.png",
+    "available": true,
+    "bytes": 4340,
+    "source": "https://kataho.app/frontend/assets/images/logo/favicon.png",
+    "review": "User-supplied product URL; official Kataho app mark, checked against its header wordmark."
+  },
+  {
+    "name": "Adex",
+    "group": "companies",
+    "path": "/assets/logos/adex-ltd.png",
+    "available": true,
+    "bytes": 1082,
+    "source": "https://www.google.com/s2/favicons?domain=adex.ltd&sz=128"
+  },
+  {
+    "name": "AITC International",
+    "group": "companies",
+    "path": "/assets/logos/aitc-international.svg",
+    "available": true,
+    "bytes": 3966,
+    "source": "https://aitc.ai/ (header SVG)",
+    "review": "Official website asset verified 2026-09-29"
+  },
+  {
+    "name": "Alaya",
+    "group": "companies",
+    "path": "/assets/logos/alaya-co.png",
+    "available": true,
+    "bytes": 1592,
+    "source": "https://www.google.com/s2/favicons?domain=alaya.co&sz=128"
+  },
+  {
+    "name": "Alpas Technology",
+    "group": "companies",
+    "path": "/assets/logos/alpas-technology.png",
+    "available": true,
+    "bytes": 5506,
+    "source": "https://alpastechnology.com/assets/favicon.png",
+    "review": "Official white logo placed on a dark background for visibility. Verified 2026-09-29"
+  },
+  {
+    "name": "Alpen Labs",
+    "group": "companies",
+    "path": "/assets/logos/alpenlabs-io.png",
+    "available": true,
+    "bytes": 909,
+    "source": "https://www.google.com/s2/favicons?domain=alpenlabs.io&sz=128"
+  },
+  {
+    "name": "Amnil Tech",
+    "group": "companies",
+    "path": "/assets/logos/amnil-com.png",
+    "available": true,
+    "bytes": 1742,
+    "source": "https://www.google.com/s2/favicons?domain=amnil.com&sz=128"
+  },
+  {
+    "name": "Aqore",
+    "group": "companies",
+    "path": "/assets/logos/aqore-com-np.png",
+    "available": true,
+    "bytes": 742,
+    "source": "https://www.google.com/s2/favicons?domain=aqore.com.np&sz=128"
+  },
+  {
+    "name": "ARKBO Tech",
+    "group": "companies",
+    "path": "/assets/logos/arkbo-tech.png",
+    "available": true,
+    "bytes": 17503,
+    "source": "https://www.arkbotech.com/icon.png",
+    "review": "Official website asset verified 2026-09-29"
+  },
+  {
+    "name": "Architect Labs",
+    "group": "companies",
+    "path": "/assets/logos/architectlabs-com.png",
+    "available": true,
+    "bytes": 784,
+    "source": "https://www.google.com/s2/favicons?domain=architectlabs.com&sz=128"
+  },
+  {
+    "name": "Baato",
+    "group": "companies",
+    "path": "/assets/logos/baato-io.png",
+    "available": true,
+    "bytes": 1129,
+    "source": "https://www.google.com/s2/favicons?domain=baato.io&sz=128"
+  },
+  {
+    "name": "Assabet Tech",
+    "group": "companies",
+    "path": "/assets/logos/assabettech-com.png",
+    "available": true,
+    "bytes": 629,
+    "source": "https://www.google.com/s2/favicons?domain=assabettech.com&sz=128"
+  },
+  {
+    "name": "Biz Serve IT",
+    "group": "companies",
+    "path": "/assets/logos/bizserveit-com.png",
+    "available": true,
+    "bytes": 1027,
+    "source": "https://www.google.com/s2/favicons?domain=bizserveit.com&sz=128"
+  },
+  {
+    "name": "Cedar Gate",
+    "group": "companies",
+    "path": "/assets/logos/cedargate-com.png",
+    "available": true,
+    "bytes": 3481,
+    "source": "https://www.google.com/s2/favicons?domain=cedargate.com&sz=128"
+  },
+  {
+    "name": "Clock b",
+    "group": "companies",
+    "path": "/assets/logos/clockb-com.png",
+    "available": true,
+    "bytes": 516,
+    "source": "https://www.google.com/s2/favicons?domain=clockb.com&sz=128"
+  },
+  {
+    "name": "CloudFactory",
+    "group": "companies",
+    "path": "/assets/logos/cloudfactory-com.png",
+    "available": true,
+    "bytes": 817,
+    "source": "https://www.google.com/s2/favicons?domain=cloudfactory.com&sz=128"
+  },
+  {
+    "name": "Code Himalaya",
+    "group": "companies",
+    "path": "/assets/logos/codehimalaya-com.png",
+    "available": true,
+    "bytes": 4741,
+    "source": "https://www.google.com/s2/favicons?domain=codehimalaya.com&sz=128"
+  },
+  {
+    "name": "Code Pixelz",
+    "group": "companies",
+    "path": "/assets/logos/codepixelzmedia-com.png",
+    "available": true,
+    "bytes": 1345,
+    "source": "https://www.google.com/s2/favicons?domain=codepixelzmedia.com&sz=128"
+  },
+  {
+    "name": "Codewing",
+    "group": "companies",
+    "path": "/assets/logos/codewing-com.png",
+    "available": true,
+    "bytes": 3786,
+    "source": "https://codewing.co/wp-content/uploads/2021/03/codewing.png",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "ComplianceQuest",
+    "group": "companies",
+    "path": "/assets/logos/compliancequest-com.png",
+    "available": true,
+    "bytes": 1056,
+    "source": "https://www.google.com/s2/favicons?domain=compliancequest.com&sz=128"
+  },
+  {
+    "name": "Curves n Colors",
+    "group": "companies",
+    "path": "/assets/logos/curvesncolors-com.png",
+    "available": true,
+    "bytes": 4994,
+    "source": "https://www.google.com/s2/favicons?domain=curvesncolors.com&sz=128"
+  },
+  {
+    "name": "Deerhold",
+    "group": "companies",
+    "path": "/assets/logos/deerhold-com.png",
+    "available": true,
+    "bytes": 1646,
+    "source": "https://www.google.com/s2/favicons?domain=deerhold.com&sz=128"
+  },
+  {
+    "name": "DevDash Labs",
+    "group": "companies",
+    "path": "/assets/logos/devdashlabs-com.png",
+    "available": true,
+    "bytes": 1514,
+    "source": "https://www.google.com/s2/favicons?domain=devdashlabs.com&sz=128"
+  },
+  {
+    "name": "Digital Karmakanda",
+    "group": "companies",
+    "path": "/logos/digitalkarmakanda.png",
+    "available": true,
+    "bytes": 12080,
+    "source": "logos/digitalkarmakanda.png"
+  },
+  {
+    "name": "Dolma Advisors",
+    "group": "companies",
+    "path": "/assets/logos/dolmaadvisors-com.png",
+    "available": true,
+    "bytes": 4501,
+    "source": "https://www.google.com/s2/favicons?domain=dolmaadvisors.com&sz=128"
+  },
+  {
+    "name": "Dots n Dashes",
+    "group": "companies",
+    "path": "/assets/logos/dndts-com-np.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=dndts.com.np&sz=128"
+  },
+  {
+    "name": "Echowin",
+    "group": "companies",
+    "path": "/assets/logos/echowin-com.png",
+    "available": true,
+    "bytes": 6935,
+    "source": "https://echo.win/apple-touch-icon.png",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "EKbana",
+    "group": "companies",
+    "path": "/assets/logos/ekbana-com.png",
+    "available": true,
+    "bytes": 1342,
+    "source": "https://www.google.com/s2/favicons?domain=ekbana.com&sz=128"
+  },
+  {
+    "name": "Eminence Ways",
+    "group": "companies",
+    "path": "/assets/logos/eminenceways-com.png",
+    "available": true,
+    "bytes": 2765,
+    "source": "https://www.google.com/s2/favicons?domain=eminenceways.com&sz=128"
+  },
+  {
+    "name": "F1Soft",
+    "group": "companies",
+    "path": "/assets/logos/f1soft-com.png",
+    "available": true,
+    "bytes": 1531,
+    "source": "https://www.google.com/s2/favicons?domain=f1soft.com&sz=128"
+  },
+  {
+    "name": "Facet Tech",
+    "group": "companies",
+    "path": "/assets/logos/facet-com-np.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=facet.com.np&sz=128"
+  },
+  {
+    "name": "Fawesome Apps",
+    "group": "companies",
+    "path": "/assets/logos/fawesomeapps-com.png",
+    "available": true,
+    "bytes": 1614,
+    "source": "https://www.google.com/s2/favicons?domain=fawesomeapps.com&sz=128"
+  },
+  {
+    "name": "Flextecs",
+    "group": "companies",
+    "path": "/assets/logos/flextecs-com-np.png",
+    "available": true,
+    "bytes": 420,
+    "source": "https://www.google.com/s2/favicons?domain=flextecs.com.np&sz=128"
+  },
+  {
+    "name": "Four Symmetrons",
+    "group": "companies",
+    "path": "/assets/logos/foursymmetrons-com.png",
+    "available": true,
+    "bytes": 949,
+    "source": "https://www.google.com/s2/favicons?domain=foursymmetrons.com&sz=128"
+  },
+  {
+    "name": "G-Force Systems",
+    "group": "companies",
+    "path": "/assets/logos/gforcesystems-com.png",
+    "available": true,
+    "bytes": 1859,
+    "source": "https://www.google.com/s2/favicons?domain=gforcesystems.com&sz=128"
+  },
+  {
+    "name": "Genese Solution",
+    "group": "companies",
+    "path": "/assets/logos/genesesolution-com.png",
+    "available": true,
+    "bytes": 2891,
+    "source": "https://www.google.com/s2/favicons?domain=genesesolution.com&sz=128"
+  },
+  {
+    "name": "Gham Power",
+    "group": "companies",
+    "path": "/assets/logos/ghampower-com.png",
+    "available": true,
+    "bytes": 1060,
+    "source": "https://www.google.com/s2/favicons?domain=ghampower.com&sz=128"
+  },
+  {
+    "name": "Grepsr",
+    "group": "companies",
+    "path": "/assets/logos/grepsr-com.png",
+    "available": true,
+    "bytes": 1684,
+    "source": "https://www.google.com/s2/favicons?domain=grepsr.com&sz=128"
+  },
+  {
+    "name": "GrowByData",
+    "group": "companies",
+    "path": "/assets/logos/growbydata-com.png",
+    "available": true,
+    "bytes": 9869,
+    "source": "https://www.google.com/s2/favicons?domain=growbydata.com&sz=128"
+  },
+  {
+    "name": "Gurzu",
+    "group": "companies",
+    "path": "/assets/logos/gurzu-com.png",
+    "available": true,
+    "bytes": 2006,
+    "source": "https://www.google.com/s2/favicons?domain=gurzu.com&sz=128"
+  },
+  {
+    "name": "Hamro Patro",
+    "group": "companies",
+    "path": "/assets/logos/hamropatro-com.png",
+    "available": true,
+    "bytes": 2015,
+    "source": "https://www.google.com/s2/favicons?domain=hamropatro.com&sz=128"
+  },
+  {
+    "name": "ICTC",
+    "group": "companies",
+    "path": "/assets/logos/ictc-com-np.png",
+    "available": true,
+    "bytes": 1633,
+    "source": "https://www.google.com/s2/favicons?domain=ictc.com.np&sz=128"
+  },
+  {
+    "name": "IME Group",
+    "group": "companies",
+    "path": "/assets/logos/imegroup-com-np.png",
+    "available": true,
+    "bytes": 964,
+    "source": "https://www.google.com/s2/favicons?domain=imegroup.com.np&sz=128"
+  },
+  {
+    "name": "Incessant Rain",
+    "group": "companies",
+    "path": "/assets/logos/incessantrain-com.png",
+    "available": true,
+    "bytes": 7546,
+    "source": "https://incessantrain.com/public/front/images/logo-blue.png"
+  },
+  {
+    "name": "Jasper IT",
+    "group": "companies",
+    "path": "/assets/logos/jasperit-com-np.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=jasperit.com.np&sz=128"
+  },
+  {
+    "name": "KA Power",
+    "group": "companies",
+    "path": "/assets/logos/kapower-us.png",
+    "available": true,
+    "bytes": 3340,
+    "source": "https://www.google.com/s2/favicons?domain=kapower.us&sz=128"
+  },
+  {
+    "name": "Karkhana",
+    "group": "companies",
+    "path": "/assets/logos/karkhana-io.png",
+    "available": true,
+    "bytes": 1893,
+    "source": "https://www.google.com/s2/favicons?domain=karkhana.io&sz=128"
+  },
+  {
+    "name": "Lamina Labs",
+    "group": "companies",
+    "path": "/assets/logos/laminalabs-ai.png",
+    "available": true,
+    "bytes": 2371,
+    "source": "https://www.google.com/s2/favicons?domain=laminalabs.ai&sz=128"
+  },
+  {
+    "name": "LF Technology",
+    "group": "companies",
+    "path": "/assets/logos/lftechnology-com.png",
+    "available": true,
+    "bytes": 1357,
+    "source": "https://www.google.com/s2/favicons?domain=lftechnology.com&sz=128"
+  },
+  {
+    "name": "Machnet",
+    "group": "companies",
+    "path": "/assets/logos/machnetinc-com.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=machnetinc.com&sz=128"
+  },
+  {
+    "name": "Maitri Holdings",
+    "group": "companies",
+    "path": "/assets/logos/maitriholdingsservices-com.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=maitriholdingsservices.com&sz=128"
+  },
+  {
+    "name": "Mantra Ideas",
+    "group": "companies",
+    "path": "/assets/logos/mantraideas-com.png",
+    "available": true,
+    "bytes": 1661,
+    "source": "https://www.google.com/s2/favicons?domain=mantraideas.com&sz=128"
+  },
+  {
+    "name": "Mavorion",
+    "group": "companies",
+    "path": "/assets/logos/mavorion-com.png",
+    "available": true,
+    "bytes": 1856,
+    "source": "https://www.google.com/s2/favicons?domain=mavorion.com&sz=128"
+  },
+  {
+    "name": "Maya Remit",
+    "group": "companies",
+    "path": "/assets/logos/mayaremit-com.png",
+    "available": true,
+    "bytes": 4383,
+    "source": "https://www.google.com/s2/favicons?domain=mayaremit.com&sz=128"
+  },
+  {
+    "name": "Miyamoto Intl",
+    "group": "companies",
+    "path": "/assets/logos/miyamotointernational-com.png",
+    "available": true,
+    "bytes": 666,
+    "source": "https://www.google.com/s2/favicons?domain=miyamotointernational.com&sz=128"
+  },
+  {
+    "name": "Naamche",
+    "group": "companies",
+    "path": "/assets/logos/naamche-com.png",
+    "available": true,
+    "bytes": 1133,
+    "source": "https://www.google.com/s2/favicons?domain=naamche.com&sz=128"
+  },
+  {
+    "name": "Nepal Tea Collective",
+    "group": "companies",
+    "path": "/assets/logos/nepalteacollective-com.png",
+    "available": true,
+    "bytes": 1784,
+    "source": "https://www.google.com/s2/favicons?domain=nepalteacollective.com&sz=128"
+  },
+  {
+    "name": "NAAMII",
+    "group": "companies",
+    "path": "/assets/logos/naamii.svg",
+    "available": true,
+    "bytes": 3366,
+    "source": "https://naamii.org/logo.svg",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Neo Software",
+    "group": "companies",
+    "path": "/assets/logos/neosoftware-com-np.png",
+    "available": true,
+    "bytes": 393,
+    "source": "https://www.google.com/s2/favicons?domain=neosoftware.com.np&sz=128"
+  },
+  {
+    "name": "Neosys Tech",
+    "group": "companies",
+    "path": "/assets/logos/neosys-com-np.png",
+    "available": true,
+    "bytes": 1222,
+    "source": "https://www.google.com/s2/favicons?domain=neosys.com.np&sz=128"
+  },
+  {
+    "name": "Neoteric",
+    "group": "companies",
+    "path": "/assets/logos/neoteric-com-np.png",
+    "available": true,
+    "bytes": 2483,
+    "source": "https://www.google.com/s2/favicons?domain=neoteric.com.np&sz=128"
+  },
+  {
+    "name": "Niural",
+    "group": "companies",
+    "path": "/assets/logos/niural-com.png",
+    "available": true,
+    "bytes": 1604,
+    "source": "https://www.google.com/s2/favicons?domain=niural.com&sz=128"
+  },
+  {
+    "name": "OnePoint Financial",
+    "group": "companies",
+    "path": "/assets/logos/myonepoint-com.png",
+    "available": true,
+    "bytes": 821,
+    "source": "https://www.google.com/s2/favicons?domain=myonepoint.com&sz=128"
+  },
+  {
+    "name": "Outside Studio",
+    "group": "companies",
+    "path": "/assets/logos/outside-com-np.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=outside.com.np&sz=128"
+  },
+  {
+    "name": "Paracosma",
+    "group": "companies",
+    "path": "/assets/logos/paracosma-com.png",
+    "available": true,
+    "bytes": 890,
+    "source": "https://www.google.com/s2/favicons?domain=paracosma.com&sz=128"
+  },
+  {
+    "name": "Parewa Labs",
+    "group": "companies",
+    "path": "/assets/logos/programiz-com.png",
+    "available": true,
+    "bytes": 1360,
+    "source": "https://www.google.com/s2/favicons?domain=programiz.com&sz=128"
+  },
+  {
+    "name": "Pathao",
+    "group": "companies",
+    "path": "/assets/logos/pathao-com.png",
+    "available": true,
+    "bytes": 1619,
+    "source": "https://www.google.com/s2/favicons?domain=pathao.com&sz=128"
+  },
+  {
+    "name": "Peace Nepal",
+    "group": "companies",
+    "path": "/assets/logos/peacenepal-com-np.png",
+    "available": true,
+    "bytes": 5416,
+    "source": "https://www.google.com/s2/favicons?domain=peacenepal.com.np&sz=128"
+  },
+  {
+    "name": "PM Square",
+    "group": "companies",
+    "path": "/assets/logos/pmsquare-com.png",
+    "available": true,
+    "bytes": 1882,
+    "source": "https://www.google.com/s2/favicons?domain=pmsquare.com&sz=128"
+  },
+  {
+    "name": "Quickfox",
+    "group": "companies",
+    "path": "/assets/logos/quickfox-io.png",
+    "available": true,
+    "bytes": 1905,
+    "source": "https://www.google.com/s2/favicons?domain=quickfox.io&sz=128"
+  },
+  {
+    "name": "Raindrop",
+    "group": "companies",
+    "path": "/assets/logos/raindrop-io.png",
+    "available": true,
+    "bytes": 3751,
+    "source": "https://www.google.com/s2/favicons?domain=raindrop.io&sz=128"
+  },
+  {
+    "name": "Rara Labs",
+    "group": "companies",
+    "path": "/assets/logos/raralabs-com.png",
+    "available": true,
+    "bytes": 1476,
+    "source": "https://www.google.com/s2/favicons?domain=raralabs.com&sz=128"
+  },
+  {
+    "name": "Reduct.video",
+    "group": "companies",
+    "path": "/assets/logos/reduct-video.png",
+    "available": true,
+    "bytes": 556,
+    "source": "https://www.google.com/s2/favicons?domain=reduct.video&sz=128"
+  },
+  {
+    "name": "Renegade Insurance",
+    "group": "companies",
+    "path": "/assets/logos/renegadeinsurance-com.png",
+    "available": true,
+    "bytes": 1075,
+    "source": "https://www.google.com/s2/favicons?domain=renegadeinsurance.com&sz=128"
+  },
+  {
+    "name": "Ripplebytes",
+    "group": "companies",
+    "path": "/assets/logos/ripplebytes-com.png",
+    "available": true,
+    "bytes": 1820,
+    "source": "https://www.google.com/s2/favicons?domain=ripplebytes.com&sz=128"
+  },
+  {
+    "name": "Rite Teams",
+    "group": "companies",
+    "path": "/assets/logos/riteteams-com.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=riteteams.com&sz=128"
+  },
+  {
+    "name": "SDS Software",
+    "group": "companies",
+    "path": "/assets/logos/sdata-us.png",
+    "available": true,
+    "bytes": 1683,
+    "source": "https://www.google.com/s2/favicons?domain=sdata.us&sz=128"
+  },
+  {
+    "name": "SecurityPal",
+    "group": "companies",
+    "path": "/assets/logos/securitypalhq-com.png",
+    "available": true,
+    "bytes": 1082,
+    "source": "https://www.google.com/s2/favicons?domain=securitypalhq.com&sz=128"
+  },
+  {
+    "name": "Smarten Tech",
+    "group": "companies",
+    "path": "/assets/logos/smartentechnologies-com.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=smartentechnologies.com&sz=128"
+  },
+  {
+    "name": "SunnyData",
+    "group": "companies",
+    "path": "/assets/logos/sunnydata-ai.png",
+    "available": true,
+    "bytes": 7768,
+    "source": "https://www.google.com/s2/favicons?domain=sunnydata.ai&sz=128"
+  },
+  {
+    "name": "Swift Technology",
+    "group": "companies",
+    "path": "/assets/logos/swifttech-com-np.png",
+    "available": true,
+    "bytes": 793,
+    "source": "https://www.google.com/s2/favicons?domain=swifttech.com.np&sz=128"
+  },
+  {
+    "name": "SwiftFin Global",
+    "group": "companies",
+    "path": "/assets/logos/swiftfinglobal-com.png",
+    "available": true,
+    "bytes": 1294,
+    "source": "https://www.google.com/s2/favicons?domain=swiftfinglobal.com&sz=128"
+  },
+  {
+    "name": "TAI Inc",
+    "group": "companies",
+    "path": "/assets/logos/tai-com-np.png",
+    "available": true,
+    "bytes": 2691,
+    "source": "https://www.google.com/s2/favicons?domain=tai.com.np&sz=128"
+  },
+  {
+    "name": "Techkraft",
+    "group": "companies",
+    "path": "/assets/logos/techkraft-co.png",
+    "available": true,
+    "bytes": 2616,
+    "source": "https://techkraftinc.com/wp-content/uploads/2024/05/techkraft-fav.png",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Tekkon Tech",
+    "group": "companies",
+    "path": "/assets/logos/tekkon-com-au.png",
+    "available": true,
+    "bytes": 376,
+    "source": "https://www.google.com/s2/favicons?domain=tekkon.com.au&sz=128"
+  },
+  {
+    "name": "Thamel Remit",
+    "group": "companies",
+    "path": "/assets/logos/thamelremit-com.png",
+    "available": true,
+    "bytes": 264,
+    "source": "https://www.google.com/s2/favicons?domain=thamelremit.com&sz=128"
+  },
+  {
+    "name": "The Drive AI",
+    "group": "companies",
+    "path": "/logos/thedrive.png",
+    "available": true,
+    "bytes": 61486,
+    "source": "logos/thedrive.png"
+  },
+  {
+    "name": "Togglecorp",
+    "group": "companies",
+    "path": "/assets/logos/togglecorp-com.png",
+    "available": true,
+    "bytes": 23307,
+    "source": "https://www.google.com/s2/favicons?domain=togglecorp.com&sz=128"
+  },
+  {
+    "name": "Trilokya Tech",
+    "group": "companies",
+    "path": "/assets/logos/trilokyatechnology-com.png",
+    "available": false,
+    "bytes": 0,
+    "source": "https://www.google.com/s2/favicons?domain=trilokyatechnology.com&sz=128"
+  },
+  {
+    "name": "Vecminds",
+    "group": "companies",
+    "path": "/assets/logos/vecminds-com.png",
+    "available": true,
+    "bytes": 52020,
+    "source": "https://www.google.com/s2/favicons?domain=vecminds.com&sz=128"
+  },
+  {
+    "name": "Veda App",
+    "group": "companies",
+    "path": "/assets/logos/vedaapp-com.png",
+    "available": true,
+    "bytes": 1150,
+    "source": "https://www.google.com/s2/favicons?domain=vedaapp.com&sz=128"
+  },
+  {
+    "name": "Veel",
+    "group": "companies",
+    "path": "/assets/logos/veel-app.png",
+    "available": true,
+    "bytes": 1852,
+    "source": "https://www.google.com/s2/favicons?domain=veel.app&sz=128"
+  },
+  {
+    "name": "Web Experts",
+    "group": "companies",
+    "path": "/assets/logos/webexpertsnepal-com.png",
+    "available": true,
+    "bytes": 2045,
+    "source": "https://www.google.com/s2/favicons?domain=webexpertsnepal.com&sz=128"
+  },
+  {
+    "name": "WorldLink",
+    "group": "companies",
+    "path": "/assets/logos/worldlink-com-np.png",
+    "available": true,
+    "bytes": 1705,
+    "source": "https://www.google.com/s2/favicons?domain=worldlink.com.np&sz=128"
+  },
+  {
+    "name": "Xuno Nepal",
+    "group": "companies",
+    "path": "/assets/logos/xuno-co.png",
+    "available": true,
+    "bytes": 3587,
+    "source": "https://www.google.com/s2/favicons?domain=xuno.co&sz=128"
+  },
+  {
+    "name": "ZeroTB",
+    "group": "companies",
+    "path": "/assets/logos/zerotb-ai.png",
+    "available": true,
+    "bytes": 2180,
+    "source": "https://www.google.com/s2/favicons?domain=zerotb.ai&sz=128"
+  },
+  {
+    "name": "MIT",
+    "group": "universities",
+    "path": "/assets/logos/mit-wordmark.png",
+    "available": true,
+    "bytes": 1728,
+    "source": "https://brand.mit.edu/logos-marks/mit-logo"
+  },
+  {
+    "name": "Stanford",
+    "group": "universities",
+    "path": "/assets/logos/stanford-edu.png",
+    "available": true,
+    "bytes": 1571,
+    "source": "https://www.google.com/s2/favicons?domain=stanford.edu&sz=128"
+  },
+  {
+    "name": "Imperial College London",
+    "group": "universities",
+    "path": "/assets/logos/imperial-ac-uk.png",
+    "available": true,
+    "bytes": 171,
+    "source": "https://www.google.com/s2/favicons?domain=imperial.ac.uk&sz=128"
+  },
+  {
+    "name": "Oxford",
+    "group": "universities",
+    "path": "/assets/logos/oxford-arms.png",
+    "available": true,
+    "bytes": 4843,
+    "source": "https://en.wikipedia.org/wiki/University_of_Oxford"
+  },
+  {
+    "name": "Harvard",
+    "group": "universities",
+    "path": "/assets/logos/harvard-edu.png",
+    "available": true,
+    "bytes": 1293,
+    "source": "https://www.google.com/s2/favicons?domain=harvard.edu&sz=128"
+  },
+  {
+    "name": "Cambridge",
+    "group": "universities",
+    "path": "/assets/logos/cam-ac-uk.png",
+    "available": true,
+    "bytes": 1150,
+    "source": "https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128"
+  },
+  {
+    "name": "Columbia",
+    "group": "universities",
+    "path": "/assets/logos/columbia-edu.png",
+    "available": true,
+    "bytes": 1483,
+    "source": "https://www.google.com/s2/favicons?domain=columbia.edu&sz=128"
+  },
+  {
+    "name": "Princeton",
+    "group": "universities",
+    "path": "/assets/logos/princeton-edu.png",
+    "available": true,
+    "bytes": 1357,
+    "source": "https://www.google.com/s2/favicons?domain=princeton.edu&sz=128"
+  },
+  {
+    "name": "UC Berkeley",
+    "group": "universities",
+    "path": "/assets/logos/berkeley-edu.png",
+    "available": true,
+    "bytes": 1943,
+    "source": "https://www.google.com/s2/favicons?domain=berkeley.edu&sz=128"
+  },
+  {
+    "name": "ETH Zurich",
+    "group": "universities",
+    "path": "/assets/logos/ethz-ch.png",
+    "available": true,
+    "bytes": 3175,
+    "source": "https://www.google.com/s2/favicons?domain=ethz.ch&sz=128"
+  },
+  {
+    "name": "NUS",
+    "group": "universities",
+    "path": "/assets/logos/nus-edu-sg.png",
+    "available": true,
+    "bytes": 1150,
+    "source": "https://www.google.com/s2/favicons?domain=nus.edu.sg&sz=128"
+  },
+  {
+    "name": "UCL",
+    "group": "universities",
+    "path": "/assets/logos/ucl-ac-uk.png",
+    "available": true,
+    "bytes": 963,
+    "source": "https://www.google.com/s2/favicons?domain=ucl.ac.uk&sz=128"
+  },
+  {
+    "name": "NTU Singapore",
+    "group": "universities",
+    "path": "/assets/logos/ntu-edu-sg.png",
+    "available": true,
+    "bytes": 769,
+    "source": "https://www.google.com/s2/favicons?domain=ntu.edu.sg&sz=128"
+  },
+  {
+    "name": "Yale",
+    "group": "universities",
+    "path": "/assets/logos/yale-edu.png",
+    "available": true,
+    "bytes": 1299,
+    "source": "https://www.google.com/s2/favicons?domain=yale.edu&sz=128"
+  },
+  {
+    "name": "UPenn",
+    "group": "universities",
+    "path": "/assets/logos/upenn-edu.png",
+    "available": true,
+    "bytes": 1516,
+    "source": "https://www.google.com/s2/favicons?domain=upenn.edu&sz=128"
+  },
+  {
+    "name": "U of Chicago",
+    "group": "universities",
+    "path": "/assets/logos/uchicago-edu.png",
+    "available": true,
+    "bytes": 4619,
+    "source": "https://www.google.com/s2/favicons?domain=uchicago.edu&sz=128"
+  },
+  {
+    "name": "Cornell",
+    "group": "universities",
+    "path": "/assets/logos/cornell-edu.png",
+    "available": true,
+    "bytes": 1497,
+    "source": "https://www.google.com/s2/favicons?domain=cornell.edu&sz=128"
+  },
+  {
+    "name": "Tsinghua",
+    "group": "universities",
+    "path": "/assets/logos/tsinghua-edu-cn.png",
+    "available": true,
+    "bytes": 1201,
+    "source": "https://www.google.com/s2/favicons?domain=tsinghua.edu.cn&sz=128"
+  },
+  {
+    "name": "Peking University",
+    "group": "universities",
+    "path": "/assets/logos/pku-edu-cn.png",
+    "available": true,
+    "bytes": 3785,
+    "source": "https://www.google.com/s2/favicons?domain=pku.edu.cn&sz=128"
+  },
+  {
+    "name": "Melbourne",
+    "group": "universities",
+    "path": "/assets/logos/unimelb-edu-au.png",
+    "available": true,
+    "bytes": 1667,
+    "source": "https://www.google.com/s2/favicons?domain=unimelb.edu.au&sz=128"
+  },
+  {
+    "name": "UNSW",
+    "group": "universities",
+    "path": "/assets/logos/unsw-edu-au.png",
+    "available": true,
+    "bytes": 2668,
+    "source": "https://www.google.com/s2/favicons?domain=unsw.edu.au&sz=128"
+  },
+  {
+    "name": "EPFL",
+    "group": "universities",
+    "path": "/assets/logos/epfl-ch.png",
+    "available": true,
+    "bytes": 851,
+    "source": "https://www.google.com/s2/favicons?domain=epfl.ch&sz=128"
+  },
+  {
+    "name": "TU Munich",
+    "group": "universities",
+    "path": "/assets/logos/tum-de.png",
+    "available": true,
+    "bytes": 535,
+    "source": "https://www.google.com/s2/favicons?domain=tum.de&sz=128"
+  },
+  {
+    "name": "Johns Hopkins",
+    "group": "universities",
+    "path": "/assets/logos/jhu-edu.png",
+    "available": true,
+    "bytes": 3255,
+    "source": "https://www.google.com/s2/favicons?domain=jhu.edu&sz=128"
+  },
+  {
+    "name": "Sydney",
+    "group": "universities",
+    "path": "/assets/logos/sydney-edu-au.png",
+    "available": true,
+    "bytes": 4366,
+    "source": "https://www.google.com/s2/favicons?domain=sydney.edu.au&sz=128"
+  },
+  {
+    "name": "McGill",
+    "group": "universities",
+    "path": "/assets/logos/mcgill-ca.png",
+    "available": true,
+    "bytes": 458,
+    "source": "https://www.google.com/s2/favicons?domain=mcgill.ca&sz=128"
+  },
+  {
+    "name": "U of Toronto",
+    "group": "universities",
+    "path": "/assets/logos/utoronto-ca.png",
+    "available": true,
+    "bytes": 3252,
+    "source": "https://www.google.com/s2/favicons?domain=utoronto.ca&sz=128"
+  },
+  {
+    "name": "Duke",
+    "group": "universities",
+    "path": "/assets/logos/duke-edu.png",
+    "available": true,
+    "bytes": 1560,
+    "source": "https://www.google.com/s2/favicons?domain=duke.edu&sz=128"
+  },
+  {
+    "name": "Michigan",
+    "group": "universities",
+    "path": "/assets/logos/umich-edu.png",
+    "available": true,
+    "bytes": 2846,
+    "source": "https://www.google.com/s2/favicons?domain=umich.edu&sz=128"
+  },
+  {
+    "name": "Manchester",
+    "group": "universities",
+    "path": "/assets/logos/manchester-ac-uk.png",
+    "available": true,
+    "bytes": 364,
+    "source": "https://www.google.com/s2/favicons?domain=manchester.ac.uk&sz=128"
+  },
+  {
+    "name": "Seoul National",
+    "group": "universities",
+    "path": "/assets/logos/snu-ac-kr.png",
+    "available": true,
+    "bytes": 4899,
+    "source": "https://www.google.com/s2/favicons?domain=snu.ac.kr&sz=128"
+  },
+  {
+    "name": "U of Tokyo",
+    "group": "universities",
+    "path": "/assets/logos/u-tokyo-ac-jp.png",
+    "available": true,
+    "bytes": 901,
+    "source": "https://www.google.com/s2/favicons?domain=u-tokyo.ac.jp&sz=128"
+  },
+  {
+    "name": "UBC",
+    "group": "universities",
+    "path": "/assets/logos/ubc-ca.png",
+    "available": true,
+    "bytes": 1301,
+    "source": "https://www.google.com/s2/favicons?domain=ubc.ca&sz=128"
+  },
+  {
+    "name": "UCLA",
+    "group": "universities",
+    "path": "/assets/logos/ucla-edu.png",
+    "available": true,
+    "bytes": 429,
+    "source": "https://www.google.com/s2/favicons?domain=ucla.edu&sz=128"
+  },
+  {
+    "name": "King's College London",
+    "group": "universities",
+    "path": "/assets/logos/kcl-ac-uk.png",
+    "available": true,
+    "bytes": 701,
+    "source": "https://www.google.com/s2/favicons?domain=kcl.ac.uk&sz=128"
+  },
+  {
+    "name": "ANU",
+    "group": "universities",
+    "path": "/assets/logos/anu-edu-au.png",
+    "available": true,
+    "bytes": 1975,
+    "source": "https://www.google.com/s2/favicons?domain=anu.edu.au&sz=128"
+  },
+  {
+    "name": "Edinburgh",
+    "group": "universities",
+    "path": "/assets/logos/ed-ac-uk.png",
+    "available": true,
+    "bytes": 1010,
+    "source": "https://www.google.com/s2/favicons?domain=ed.ac.uk&sz=128"
+  },
+  {
+    "name": "Monash",
+    "group": "universities",
+    "path": "/assets/logos/monash-edu.png",
+    "available": true,
+    "bytes": 3893,
+    "source": "https://www.google.com/s2/favicons?domain=monash.edu&sz=128"
+  },
+  {
+    "name": "Carnegie Mellon",
+    "group": "universities",
+    "path": "/assets/logos/cmu-edu.png",
+    "available": true,
+    "bytes": 431,
+    "source": "https://www.google.com/s2/favicons?domain=cmu.edu&sz=128"
+  },
+  {
+    "name": "NYU",
+    "group": "universities",
+    "path": "/assets/logos/nyu-edu.png",
+    "available": true,
+    "bytes": 284,
+    "source": "https://www.google.com/s2/favicons?domain=nyu.edu&sz=128"
+  },
+  {
+    "name": "LSE",
+    "group": "universities",
+    "path": "/assets/logos/lse-ac-uk.png",
+    "available": true,
+    "bytes": 791,
+    "source": "https://www.google.com/s2/favicons?domain=lse.ac.uk&sz=128"
+  },
+  {
+    "name": "Kyoto",
+    "group": "universities",
+    "path": "/assets/logos/kyoto-u-ac-jp.png",
+    "available": true,
+    "bytes": 4989,
+    "source": "https://www.google.com/s2/favicons?domain=kyoto-u.ac.jp&sz=128"
+  },
+  {
+    "name": "Boston University",
+    "group": "universities",
+    "path": "/assets/logos/bu-edu.png",
+    "available": true,
+    "bytes": 349,
+    "source": "https://www.google.com/s2/favicons?domain=bu.edu&sz=128"
+  },
+  {
+    "name": "Georgia Tech",
+    "group": "universities",
+    "path": "/assets/logos/gatech-edu.png",
+    "available": true,
+    "bytes": 1404,
+    "source": "https://www.google.com/s2/favicons?domain=gatech.edu&sz=128"
+  },
+  {
+    "name": "Georgetown",
+    "group": "universities",
+    "path": "/assets/logos/georgetown-edu.png",
+    "available": true,
+    "bytes": 2182,
+    "source": "https://www.google.com/s2/favicons?domain=georgetown.edu&sz=128"
+  },
+  {
+    "name": "USC",
+    "group": "universities",
+    "path": "/assets/logos/usc-edu.png",
+    "available": true,
+    "bytes": 1610,
+    "source": "https://www.google.com/s2/favicons?domain=usc.edu&sz=128"
+  },
+  {
+    "name": "Illinois Urbana",
+    "group": "universities",
+    "path": "/assets/logos/illinois-edu.png",
+    "available": true,
+    "bytes": 424,
+    "source": "https://www.google.com/s2/favicons?domain=illinois.edu&sz=128"
+  },
+  {
+    "name": "Maryland",
+    "group": "universities",
+    "path": "/assets/logos/umd-edu.png",
+    "available": true,
+    "bytes": 23017,
+    "source": "https://www.google.com/s2/favicons?domain=umd.edu&sz=128"
+  },
+  {
+    "name": "UT Austin",
+    "group": "universities",
+    "path": "/assets/logos/utexas-edu.png",
+    "available": true,
+    "bytes": 3611,
+    "source": "https://www.google.com/s2/favicons?domain=utexas.edu&sz=128"
+  },
+  {
+    "name": "Warwick",
+    "group": "universities",
+    "path": "/assets/logos/warwick-ac-uk.png",
+    "available": true,
+    "bytes": 2834,
+    "source": "https://www.google.com/s2/favicons?domain=warwick.ac.uk&sz=128"
+  },
+  {
+    "name": "Penn State",
+    "group": "universities",
+    "path": "/assets/logos/psu-edu.png",
+    "available": true,
+    "bytes": 2657,
+    "source": "https://www.google.com/s2/favicons?domain=psu.edu&sz=128"
+  },
+  {
+    "name": "Tufts",
+    "group": "universities",
+    "path": "/assets/logos/tufts-edu.png",
+    "available": true,
+    "bytes": 1244,
+    "source": "https://www.google.com/s2/favicons?domain=tufts.edu&sz=128"
+  },
+  {
+    "name": "Purdue",
+    "group": "universities",
+    "path": "/assets/logos/purdue-edu.png",
+    "available": true,
+    "bytes": 1386,
+    "source": "https://www.google.com/s2/favicons?domain=purdue.edu&sz=128"
+  },
+  {
+    "name": "Brown",
+    "group": "universities",
+    "path": "/assets/logos/brown-edu.png",
+    "available": true,
+    "bytes": 1818,
+    "source": "https://www.google.com/s2/favicons?domain=brown.edu&sz=128"
+  },
+  {
+    "name": "UC San Diego",
+    "group": "universities",
+    "path": "/assets/logos/ucsd-edu.png",
+    "available": true,
+    "bytes": 1574,
+    "source": "https://www.google.com/s2/favicons?domain=ucsd.edu&sz=128"
+  },
+  {
+    "name": "Ohio State",
+    "group": "universities",
+    "path": "/assets/logos/osu-edu.png",
+    "available": true,
+    "bytes": 407,
+    "source": "https://www.google.com/s2/favicons?domain=osu.edu&sz=128"
+  },
+  {
+    "name": "Rutgers",
+    "group": "universities",
+    "path": "/assets/logos/rutgers-edu.png",
+    "available": true,
+    "bytes": 762,
+    "source": "https://www.google.com/s2/favicons?domain=rutgers.edu&sz=128"
+  },
+  {
+    "name": "Texas A&M",
+    "group": "universities",
+    "path": "/assets/logos/tamu-edu.png",
+    "available": true,
+    "bytes": 1733,
+    "source": "https://www.google.com/s2/favicons?domain=tamu.edu&sz=128"
+  },
+  {
+    "name": "Sheffield",
+    "group": "universities",
+    "path": "/assets/logos/sheffield-ac-uk.png",
+    "available": true,
+    "bytes": 3368,
+    "source": "https://www.google.com/s2/favicons?domain=sheffield.ac.uk&sz=128"
+  },
+  {
+    "name": "Auckland",
+    "group": "universities",
+    "path": "/assets/logos/auckland-ac-nz.png",
+    "available": true,
+    "bytes": 2497,
+    "source": "https://www.google.com/s2/favicons?domain=auckland.ac.nz&sz=128"
+  },
+  {
+    "name": "Indiana",
+    "group": "universities",
+    "path": "/assets/logos/indiana-edu.png",
+    "available": true,
+    "bytes": 1141,
+    "source": "https://www.google.com/s2/favicons?domain=indiana.edu&sz=128"
+  },
+  {
+    "name": "Colorado Boulder",
+    "group": "universities",
+    "path": "/assets/logos/colorado-edu.png",
+    "available": true,
+    "bytes": 2298,
+    "source": "https://www.google.com/s2/favicons?domain=colorado.edu&sz=128"
+  },
+  {
+    "name": "UNC Chapel Hill",
+    "group": "universities",
+    "path": "/assets/logos/unc-edu.png",
+    "available": true,
+    "bytes": 2664,
+    "source": "https://www.google.com/s2/favicons?domain=unc.edu&sz=128"
+  },
+  {
+    "name": "Virginia",
+    "group": "universities",
+    "path": "/assets/logos/virginia-edu.png",
+    "available": true,
+    "bytes": 1923,
+    "source": "https://www.google.com/s2/favicons?domain=virginia.edu&sz=128"
+  },
+  {
+    "name": "Florida",
+    "group": "universities",
+    "path": "/assets/logos/ufl-edu.png",
+    "available": true,
+    "bytes": 457,
+    "source": "https://www.google.com/s2/favicons?domain=ufl.edu&sz=128"
+  },
+  {
+    "name": "Georgia",
+    "group": "universities",
+    "path": "/assets/logos/uga-edu.png",
+    "available": true,
+    "bytes": 15086,
+    "source": "https://www.google.com/s2/favicons?domain=uga.edu&sz=128"
+  },
+  {
+    "name": "Michigan State",
+    "group": "universities",
+    "path": "/assets/logos/msu-edu.png",
+    "available": true,
+    "bytes": 5459,
+    "source": "https://www.google.com/s2/favicons?domain=msu.edu&sz=128"
+  },
+  {
+    "name": "Minnesota",
+    "group": "universities",
+    "path": "/assets/logos/umn-edu.png",
+    "available": true,
+    "bytes": 236,
+    "source": "https://www.google.com/s2/favicons?domain=umn.edu&sz=128"
+  },
+  {
+    "name": "Oregon",
+    "group": "universities",
+    "path": "/assets/logos/uoregon-edu.png",
+    "available": true,
+    "bytes": 1506,
+    "source": "https://www.google.com/s2/favicons?domain=uoregon.edu&sz=128"
+  },
+  {
+    "name": "Alabama",
+    "group": "universities",
+    "path": "/assets/logos/ua-edu.png",
+    "available": true,
+    "bytes": 2023,
+    "source": "https://www.google.com/s2/favicons?domain=ua.edu&sz=128"
+  },
+  {
+    "name": "Oklahoma",
+    "group": "universities",
+    "path": "/assets/logos/ou-edu.png",
+    "available": true,
+    "bytes": 1056,
+    "source": "https://www.google.com/s2/favicons?domain=ou.edu&sz=128"
+  },
+  {
+    "name": "Tennessee",
+    "group": "universities",
+    "path": "/assets/logos/utk-edu.png",
+    "available": true,
+    "bytes": 695,
+    "source": "https://www.google.com/s2/favicons?domain=utk.edu&sz=128"
+  },
+  {
+    "name": "LSU",
+    "group": "universities",
+    "path": "/assets/logos/lsu-edu.png",
+    "available": true,
+    "bytes": 257,
+    "source": "https://www.google.com/s2/favicons?domain=lsu.edu&sz=128"
+  },
+  {
+    "name": "Iowa",
+    "group": "universities",
+    "path": "/assets/logos/uiowa-edu.png",
+    "available": true,
+    "bytes": 338,
+    "source": "https://www.google.com/s2/favicons?domain=uiowa.edu&sz=128"
+  },
+  {
+    "name": "Arizona State",
+    "group": "universities",
+    "path": "/assets/logos/asu-edu.png",
+    "available": true,
+    "bytes": 775,
+    "source": "https://www.google.com/s2/favicons?domain=asu.edu&sz=128"
+  },
+  {
+    "name": "NC State",
+    "group": "universities",
+    "path": "/assets/logos/ncsu-edu.png",
+    "available": true,
+    "bytes": 1270,
+    "source": "https://www.google.com/s2/favicons?domain=ncsu.edu&sz=128"
+  },
+  {
+    "name": "Virginia Tech",
+    "group": "universities",
+    "path": "/assets/logos/vt-edu.png",
+    "available": true,
+    "bytes": 413,
+    "source": "https://www.google.com/s2/favicons?domain=vt.edu&sz=128"
+  },
+  {
+    "name": "Auburn",
+    "group": "universities",
+    "path": "/assets/logos/auburn-edu.png",
+    "available": true,
+    "bytes": 2648,
+    "source": "https://www.google.com/s2/favicons?domain=auburn.edu&sz=128"
+  },
+  {
+    "name": "Nebraska",
+    "group": "universities",
+    "path": "/assets/logos/unl-edu.png",
+    "available": true,
+    "bytes": 1250,
+    "source": "https://www.google.com/s2/favicons?domain=unl.edu&sz=128"
+  },
+  {
+    "name": "Clemson",
+    "group": "universities",
+    "path": "/assets/logos/clemson-edu.png",
+    "available": true,
+    "bytes": 400,
+    "source": "https://www.google.com/s2/favicons?domain=clemson.edu&sz=128"
+  },
+  {
+    "name": "Dartmouth",
+    "group": "universities",
+    "path": "/assets/logos/dartmouth-edu.png",
+    "available": true,
+    "bytes": 3137,
+    "source": "https://www.google.com/s2/favicons?domain=dartmouth.edu&sz=128"
+  },
+  {
+    "name": "Rice",
+    "group": "universities",
+    "path": "/assets/logos/rice-edu.png",
+    "available": true,
+    "bytes": 3824,
+    "source": "https://www.google.com/s2/favicons?domain=rice.edu&sz=128"
+  },
+  {
+    "name": "Vanderbilt",
+    "group": "universities",
+    "path": "/assets/logos/vanderbilt-edu.png",
+    "available": true,
+    "bytes": 1089,
+    "source": "https://www.google.com/s2/favicons?domain=vanderbilt.edu&sz=128"
+  },
+  {
+    "name": "Notre Dame",
+    "group": "universities",
+    "path": "/assets/logos/nd-edu.png",
+    "available": true,
+    "bytes": 1543,
+    "source": "https://www.google.com/s2/favicons?domain=nd.edu&sz=128"
+  },
+  {
+    "name": "Washington U",
+    "group": "universities",
+    "path": "/assets/logos/wustl-edu.png",
+    "available": true,
+    "bytes": 2043,
+    "source": "https://www.google.com/s2/favicons?domain=wustl.edu&sz=128"
+  },
+  {
+    "name": "Heidelberg",
+    "group": "universities",
+    "path": "/assets/logos/uni-heidelberg-de.png",
+    "available": true,
+    "bytes": 5293,
+    "source": "https://www.google.com/s2/favicons?domain=uni-heidelberg.de&sz=128"
+  },
+  {
+    "name": "Sorbonne",
+    "group": "universities",
+    "path": "/assets/logos/sorbonne-universite-fr.png",
+    "available": true,
+    "bytes": 388,
+    "source": "https://www.google.com/s2/favicons?domain=sorbonne-universite.fr&sz=128"
+  },
+  {
+    "name": "Sciences Po",
+    "group": "universities",
+    "path": "/assets/logos/sciencespo-fr.png",
+    "available": true,
+    "bytes": 2000,
+    "source": "https://www.google.com/s2/favicons?domain=sciencespo.fr&sz=128"
+  },
+  {
+    "name": "HKU",
+    "group": "universities",
+    "path": "/assets/logos/hku-hk.png",
+    "available": true,
+    "bytes": 5966,
+    "source": "https://www.google.com/s2/favicons?domain=hku.hk&sz=128"
+  },
+  {
+    "name": "HKUST",
+    "group": "universities",
+    "path": "/assets/logos/hkust-edu-hk.png",
+    "available": true,
+    "bytes": 2050,
+    "source": "https://www.google.com/s2/favicons?domain=hkust.edu.hk&sz=128"
+  },
+  {
+    "name": "IIT Bombay",
+    "group": "universities",
+    "path": "/assets/logos/iitb-ac-in.png",
+    "available": true,
+    "bytes": 497,
+    "source": "https://www.google.com/s2/favicons?domain=iitb.ac.in&sz=128"
+  },
+  {
+    "name": "IIT Delhi",
+    "group": "universities",
+    "path": "/assets/logos/iitd-ac-in.png",
+    "available": true,
+    "bytes": 1639,
+    "source": "https://www.google.com/s2/favicons?domain=iitd.ac.in&sz=128"
+  },
+  {
+    "name": "Tribhuvan University",
+    "group": "universities",
+    "path": "/assets/logos/tribhuvan.png",
+    "available": true,
+    "bytes": 5352,
+    "source": "https://en.wikipedia.org/wiki/Tribhuvan_University"
+  },
+  {
+    "name": "Kathmandu University",
+    "group": "universities",
+    "path": "/assets/logos/ku-edu-np.png",
+    "available": true,
+    "bytes": 15611,
+    "source": "https://cdn.ku.edu.np/xh1551345964.cat/2/100/100",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Pokhara University",
+    "group": "universities",
+    "path": "/assets/logos/pu-edu-np.png",
+    "available": true,
+    "bytes": 675,
+    "source": "https://www.google.com/s2/favicons?domain=pu.edu.np&sz=128"
+  },
+  {
+    "name": "Pulchowk Campus",
+    "group": "universities",
+    "path": "/assets/logos/ioe-edu-np.png",
+    "available": true,
+    "bytes": 4029,
+    "source": "https://www.google.com/s2/favicons?domain=ioe.edu.np&sz=128"
+  },
+  {
+    "name": "Nepal Academy of Science and Technology",
+    "group": "universities",
+    "path": "/assets/logos/nast.png",
+    "available": true,
+    "bytes": 8107,
+    "source": "https://en.wikipedia.org/wiki/Nepal_Academy_of_Science_and_Technology"
+  },
+  {
+    "name": "Lumbini Buddhist University",
+    "group": "universities",
+    "path": "/assets/logos/lbu-edu-np.png",
+    "available": true,
+    "bytes": 5698,
+    "source": "https://www.google.com/s2/favicons?domain=lbu.edu.np&sz=128"
+  },
+  {
+    "name": "a16z",
+    "group": "investors",
+    "path": "/assets/logos/a16z-com.png",
+    "available": true,
+    "bytes": 2168,
+    "source": "https://www.google.com/s2/favicons?domain=a16z.com&sz=128"
+  },
+  {
+    "name": "Aadhyanta Fund",
+    "group": "investors",
+    "path": "/assets/logos/aadhyanta-com.png",
+    "available": true,
+    "bytes": 2600,
+    "source": "https://www.google.com/s2/favicons?domain=aadhyanta.com&sz=128"
+  },
+  {
+    "name": "Alibaba Group",
+    "group": "investors",
+    "path": "/assets/logos/alibaba-group.png",
+    "available": true,
+    "bytes": 9146,
+    "source": "logos/marks/alibaba.svg"
+  },
+  {
+    "name": "Craft Ventures",
+    "group": "investors",
+    "path": "/assets/logos/craftventures-com.png",
+    "available": true,
+    "bytes": 547,
+    "source": "https://www.google.com/s2/favicons?domain=craftventures.com&sz=128"
+  },
+  {
+    "name": "cyber·Fund",
+    "group": "investors",
+    "path": "/assets/logos/cyber-fund.png",
+    "available": true,
+    "bytes": 5430,
+    "source": "https://www.google.com/s2/favicons?domain=cyber.fund&sz=128"
+  },
+  {
+    "name": "DBA",
+    "group": "investors",
+    "path": "/assets/logos/dba.svg",
+    "available": true,
+    "bytes": 1723,
+    "source": "https://dba.xyz/ (header SVG)",
+    "review": "Official header wordmark with its computed light-theme fill. Blank favicon excluded. Verified 2026-09-29"
+  },
+  {
+    "name": "Dolma Fund",
+    "group": "investors",
+    "path": "/assets/logos/dolmaimpact-com.png",
+    "available": true,
+    "bytes": 4501,
+    "source": "https://www.google.com/s2/favicons?domain=dolmaimpact.com&sz=128"
+  },
+  {
+    "name": "Entrepreneurs First",
+    "group": "investors",
+    "path": "/assets/logos/entrepreneurs-first.png",
+    "available": true,
+    "bytes": 791,
+    "source": "https://www.joinef.com/wp-content/uploads/2025/03/web-app-manifest-512x512-1-150x150.png"
+  },
+  {
+    "name": "FOG Ventures",
+    "group": "investors",
+    "path": "/assets/logos/fog-ventures.png",
+    "available": true,
+    "bytes": 10276,
+    "source": "https://cdn.prod.website-files.com/692da68beb11b6bf9958234d/693d16a53dbc3aa00df6b2a8_256.png",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "Foundation Capital",
+    "group": "investors",
+    "path": "/assets/logos/foundationcapital-com.png",
+    "available": true,
+    "bytes": 346,
+    "source": "https://www.google.com/s2/favicons?domain=foundationcapital.com&sz=128"
+  },
+  {
+    "name": "FTV Capital",
+    "group": "investors",
+    "path": "/assets/logos/ftvcapital-com.png",
+    "available": true,
+    "bytes": 1490,
+    "source": "https://www.google.com/s2/favicons?domain=ftvcapital.com&sz=128"
+  },
+  {
+    "name": "Go-Jek",
+    "group": "investors",
+    "path": "/assets/logos/gojek-com.png",
+    "available": true,
+    "bytes": 1167,
+    "source": "https://www.google.com/s2/favicons?domain=gojek.com&sz=128"
+  },
+  {
+    "name": "Greylock Partners",
+    "group": "investors",
+    "path": "/assets/logos/greylock-com.png",
+    "available": true,
+    "bytes": 673,
+    "source": "https://www.google.com/s2/favicons?domain=greylock.com&sz=128"
+  },
+  {
+    "name": "Hustle Fund",
+    "group": "investors",
+    "path": "/assets/logos/hustlefund-vc.png",
+    "available": true,
+    "bytes": 1428,
+    "source": "https://www.google.com/s2/favicons?domain=hustlefund.vc&sz=128"
+  },
+  {
+    "name": "Inspired Capital",
+    "group": "investors",
+    "path": "/assets/logos/inspiredcapital-com.png",
+    "available": true,
+    "bytes": 875,
+    "source": "https://www.google.com/s2/favicons?domain=inspiredcapital.com&sz=128"
+  },
+  {
+    "name": "Insight Partners",
+    "group": "investors",
+    "path": "/assets/logos/insightpartners-com.png",
+    "available": true,
+    "bytes": 1237,
+    "source": "https://www.google.com/s2/favicons?domain=insightpartners.com&sz=128"
+  },
+  {
+    "name": "Kindred Ventures",
+    "group": "investors",
+    "path": "/assets/logos/kindredventures-com.png",
+    "available": true,
+    "bytes": 3879,
+    "source": "https://www.google.com/s2/favicons?domain=kindredventures.com&sz=128"
+  },
+  {
+    "name": "Link Ventures",
+    "group": "investors",
+    "path": "/assets/logos/linkventures-com.png",
+    "available": true,
+    "bytes": 785,
+    "source": "https://www.google.com/s2/favicons?domain=linkventures.com&sz=128"
+  },
+  {
+    "name": "M13",
+    "group": "investors",
+    "path": "/assets/logos/m13-co.png",
+    "available": true,
+    "bytes": 658,
+    "source": "https://www.google.com/s2/favicons?domain=m13.co&sz=128"
+  },
+  {
+    "name": "Marathon",
+    "group": "investors",
+    "path": "/assets/logos/marathon-com.png",
+    "available": true,
+    "bytes": 318,
+    "source": "https://www.google.com/s2/favicons?domain=marathon.com&sz=128"
+  },
+  {
+    "name": "Momo VC",
+    "group": "investors",
+    "path": "/assets/logos/momo-vc-com.png",
+    "available": true,
+    "bytes": 1004,
+    "source": "https://www.google.com/s2/favicons?domain=momo-vc.com&sz=128"
+  },
+  {
+    "name": "New Form Capital",
+    "group": "investors",
+    "path": "/assets/logos/newformcap-com.png",
+    "available": true,
+    "bytes": 2041,
+    "source": "https://www.google.com/s2/favicons?domain=newformcap.com&sz=128"
+  },
+  {
+    "name": "NewView Capital",
+    "group": "investors",
+    "path": "/assets/logos/nvc-vc.png",
+    "available": true,
+    "bytes": 981,
+    "source": "https://www.google.com/s2/favicons?domain=nvc.vc&sz=128"
+  },
+  {
+    "name": "NFX",
+    "group": "investors",
+    "path": "/assets/logos/nfx-com.png",
+    "available": true,
+    "bytes": 1481,
+    "source": "https://www.google.com/s2/favicons?domain=nfx.com&sz=128"
+  },
+  {
+    "name": "Race Capital",
+    "group": "investors",
+    "path": "/assets/logos/race-capital.png",
+    "available": true,
+    "bytes": 945,
+    "source": "https://www.google.com/s2/favicons?domain=race.capital&sz=128"
+  },
+  {
+    "name": "Ribbit Capital",
+    "group": "investors",
+    "path": "/assets/logos/ribbitcap-com.png",
+    "available": true,
+    "bytes": 1982,
+    "source": "https://www.google.com/s2/favicons?domain=ribbitcap.com&sz=128"
+  },
+  {
+    "name": "Rocket Internet",
+    "group": "investors",
+    "path": "/assets/logos/rocket-internet-com.png",
+    "available": true,
+    "bytes": 744,
+    "source": "https://www.google.com/s2/favicons?domain=rocket-internet.com&sz=128"
+  },
+  {
+    "name": "Sequoia Capital",
+    "group": "investors",
+    "path": "/assets/logos/sequoiacap-com.png",
+    "available": true,
+    "bytes": 695,
+    "source": "https://www.google.com/s2/favicons?domain=sequoiacap.com&sz=128"
+  },
+  {
+    "name": "South Park Commons",
+    "group": "investors",
+    "path": "/assets/logos/southparkcommons-com.png",
+    "available": true,
+    "bytes": 692,
+    "source": "https://www.google.com/s2/favicons?domain=southparkcommons.com&sz=128"
+  },
+  {
+    "name": "Tectonic Capital",
+    "group": "investors",
+    "path": "/assets/logos/tectonic-symbol.svg",
+    "available": true,
+    "bytes": 6852,
+    "source": "https://tectonic.vc/images/83f4dc83456a16b2dbf736988754c52d.svg",
+    "review": "Official blue symbol cropped from the published wordmark. Generic site-builder favicon excluded. Verified 2026-09-29"
+  },
+  {
+    "name": "Together Fund",
+    "group": "investors",
+    "path": "/assets/logos/together-fund.png",
+    "available": true,
+    "bytes": 1762,
+    "source": "https://www.google.com/s2/favicons?domain=together.fund&sz=128"
+  },
+  {
+    "name": "TQ Ventures",
+    "group": "investors",
+    "path": "/assets/logos/tq-vc.png",
+    "available": true,
+    "bytes": 2143,
+    "source": "https://www.google.com/s2/favicons?domain=tq.vc&sz=128"
+  },
+  {
+    "name": "r0 Capital",
+    "group": "investors",
+    "path": "/assets/logos/r0-capital.png",
+    "available": true,
+    "bytes": 3830,
+    "source": "https://cdn.prod.website-files.com/68781358038f204ba6842b97/690180699f9ce28bfd733c3b_Group%201.png",
+    "review": "Official website asset verified 2026-09-29"
+  },
+  {
+    "name": "Uncommon Capital",
+    "group": "investors",
+    "path": "/assets/logos/uncommon-capital.jpg",
+    "available": true,
+    "bytes": 2134,
+    "source": "https://investuncommon.com/images/favicon.jpg",
+    "review": "Official website asset verified 2026-09-29"
+  },
+  {
+    "name": "Weatherford Capital",
+    "group": "investors",
+    "path": "/assets/logos/weatherfordcapital-com.png",
+    "available": true,
+    "bytes": 2053,
+    "source": "https://www.google.com/s2/favicons?domain=weatherfordcapital.com&sz=128"
+  },
+  {
+    "name": "Y Combinator",
+    "group": "investors",
+    "path": "/assets/logos/y-combinator.svg",
+    "available": true,
+    "bytes": 413,
+    "source": "logos/marks/ycombinator.svg"
+  },
+  {
+    "name": "Aadyanta Advisory",
+    "group": "investors",
+    "path": "/assets/logos/aadhyanta-com.png",
+    "available": true,
+    "bytes": 2600,
+    "source": "https://www.google.com/s2/favicons?domain=aadhyanta.com&sz=128"
+  },
+  {
+    "name": "DAI",
+    "group": "investors",
+    "path": "/assets/logos/dai-com.png",
+    "available": true,
+    "bytes": 112,
+    "source": "https://www.google.com/s2/favicons?domain=dai.com&sz=128"
+  },
+  {
+    "name": "DFC (USA)",
+    "group": "investors",
+    "path": "/assets/logos/dfc-gov.png",
+    "available": true,
+    "bytes": 990,
+    "source": "https://www.google.com/s2/favicons?domain=dfc.gov&sz=128"
+  },
+  {
+    "name": "FCDO / DFID (UK)",
+    "group": "investors",
+    "path": "/assets/logos/gov-uk.png",
+    "available": true,
+    "bytes": 1971,
+    "source": "https://www.google.com/s2/favicons?domain=gov.uk&sz=128"
+  },
+  {
+    "name": "GIZ (Germany)",
+    "group": "investors",
+    "path": "/assets/logos/giz-de.png",
+    "available": true,
+    "bytes": 3681,
+    "source": "https://www.google.com/s2/favicons?domain=giz.de&sz=128"
+  },
+  {
+    "name": "IFC",
+    "group": "investors",
+    "path": "/assets/logos/ifc-org.png",
+    "available": true,
+    "bytes": 246,
+    "source": "https://www.google.com/s2/favicons?domain=ifc.org&sz=128"
+  },
+  {
+    "name": "JICA (Japan)",
+    "group": "investors",
+    "path": "/assets/logos/jica-go-jp.png",
+    "available": true,
+    "bytes": 901,
+    "source": "https://www.google.com/s2/favicons?domain=jica.go.jp&sz=128"
+  },
+  {
+    "name": "KOICA (South Korea)",
+    "group": "investors",
+    "path": "/assets/logos/koica.png",
+    "available": true,
+    "bytes": 4703,
+    "source": "https://en.wikipedia.org/wiki/Korea_International_Cooperation_Agency"
+  },
+  {
+    "name": "Norway",
+    "group": "investors",
+    "path": "/assets/logos/norad-no.png",
+    "available": true,
+    "bytes": 664,
+    "source": "https://www.google.com/s2/favicons?domain=norad.no&sz=128"
+  },
+  {
+    "name": "Switzerland",
+    "group": "investors",
+    "path": "/assets/logos/eda-admin-ch.png",
+    "available": true,
+    "bytes": 779,
+    "source": "https://www.google.com/s2/favicons?domain=eda.admin.ch&sz=128"
+  },
+  {
+    "name": "United Nations",
+    "group": "investors",
+    "path": "/logos/marks/unitednations.svg",
+    "available": true,
+    "bytes": 19000,
+    "source": "logos/marks/unitednations.svg"
+  },
+  {
+    "name": "World Bank",
+    "group": "investors",
+    "path": "/assets/logos/worldbank-org.png",
+    "available": true,
+    "bytes": 4661,
+    "source": "https://www.google.com/s2/favicons?domain=worldbank.org&sz=128"
+  },
+  {
+    "name": "U.S. Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/usembassy-gov.png",
+    "available": true,
+    "bytes": 10038,
+    "source": "https://www.google.com/s2/favicons?domain=usembassy.gov&sz=128"
+  },
+  {
+    "name": "AmCham Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/amchamnepal-com.png",
+    "available": true,
+    "bytes": 5390,
+    "source": "https://www.google.com/s2/favicons?domain=amchamnepal.com&sz=128"
+  },
+  {
+    "name": "NAS-IT",
+    "group": "organizations",
+    "path": "/assets/logos/nasit-org-np.png",
+    "available": true,
+    "bytes": 3225,
+    "source": "https://www.google.com/s2/favicons?domain=nasit.org.np&sz=128"
+  },
+  {
+    "name": "TGND",
+    "group": "organizations",
+    "path": "/assets/logos/thegreatnepalidiaspora-org.png",
+    "available": true,
+    "bytes": 2011,
+    "source": "https://www.google.com/s2/favicons?domain=thegreatnepalidiaspora.org&sz=128"
+  },
+  {
+    "name": "Nepal Stock Exchange (NEPSE)",
+    "group": "organizations",
+    "path": "/assets/logos/nepalstock-com.png",
+    "available": true,
+    "bytes": 1150,
+    "source": "https://www.google.com/s2/favicons?domain=nepalstock.com&sz=128"
+  },
+  {
+    "name": "NAAMII",
+    "group": "organizations",
+    "path": "/assets/logos/naamii.svg",
+    "available": true,
+    "bytes": 3366,
+    "source": "https://naamii.org/logo.svg",
+    "review": "Verified official website asset, 2026-09-28"
+  },
+  {
+    "name": "🗽 Consulate General of Nepal, New York",
+    "group": "organizations",
+    "path": "/assets/logos/nepal-emblem.png",
+    "available": true,
+    "bytes": 5464,
+    "source": "Original repository: nepal-emblem.png"
+  },
+  {
+    "name": "🌉 Consulate General of Nepal, San Francisco",
+    "group": "organizations",
+    "path": "/assets/logos/nepal-emblem.png",
+    "available": true,
+    "bytes": 5464,
+    "source": "Original repository: nepal-emblem.png"
+  },
+  {
+    "name": "Nepali Leaders Network",
+    "group": "organizations",
+    "path": "/assets/logos/www-nepalileadersnetwork-com.png",
+    "available": true,
+    "bytes": 1685,
+    "source": ""
+  },
+  {
+    "name": "FNCCI",
+    "group": "organizations",
+    "path": "/assets/logos/fncci-org.png",
+    "available": true,
+    "bytes": 575,
+    "source": "https://www.google.com/s2/favicons?domain=fncci.org&sz=128"
+  },
+  {
+    "name": "Nepal Economic Forum",
+    "group": "organizations",
+    "path": "/assets/logos/nepaleconomicforum-org.png",
+    "available": true,
+    "bytes": 766,
+    "source": "https://www.google.com/s2/favicons?domain=nepaleconomicforum.org&sz=128"
+  },
+  {
+    "name": "IIDS",
+    "group": "organizations",
+    "path": "/assets/logos/iids-org-np.png",
+    "available": true,
+    "bytes": 1027,
+    "source": "https://www.google.com/s2/favicons?domain=iids.org.np&sz=128"
+  },
+  {
+    "name": "British Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/british-embassy.png",
+    "available": true,
+    "bytes": 3851,
+    "source": "https://www.gov.uk/assets/frontend/govuk_publishing_components/crests/org_crest_18px_x2-d7e9ca2aac7d1a9dacc57634cb4acf442e21f2744086a105cc8ec3618f13aeee.png",
+    "review": "Royal coat of arms used by the British Embassy Kathmandu organization header, replacing the generic GOV.UK icon."
+  },
+  {
+    "name": "French Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/french-embassy.png",
+    "available": true,
+    "bytes": 1785,
+    "source": "https://np.diplomatie.gouv.fr/themes/custom/sdp/favicon.ico",
+    "review": "Official Marianne favicon, converted losslessly from ICO to PNG. Previous embassy URL redirects to this government website."
+  },
+  {
+    "name": "Japanese Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/japan-flag.svg",
+    "available": true,
+    "bytes": 151,
+    "source": "",
+    "review": "User-approved Japanese national flag in SVG at 3:2 proportions. This is not an embassy-specific logo. Official embassy and MOFA branding sources returned access denied."
+  },
+  {
+    "name": "Swiss Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/swiss-embassy.svg",
+    "available": true,
+    "bytes": 467,
+    "source": "https://www.schweiz-nepal.eda.admin.ch/images/swiss-logo-flag.svg",
+    "review": "Official Swiss shield from the current Nepal embassy website header, unchanged."
+  },
+  {
+    "name": "German Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/german-embassy.svg",
+    "available": true,
+    "bytes": 8276,
+    "source": "https://www.auswaertiges-amt.de/resource/crblob/772/47f731c5aa09d415e52ad2d35c55a7be/aamt-logo-sp-data.svg",
+    "review": "Official Federal Foreign Office federal eagle. Current embassy URL listed by the foreign office; the old np.diplo.de URL now redirects to its global mission directory."
+  },
+  {
+    "name": "Australian Embassy Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/australian-embassy.png",
+    "available": true,
+    "bytes": 4970,
+    "source": "https://nepal.embassy.gov.au/app/images/coat-of-arms-black-80.png",
+    "review": "Official coat of arms from the Australian Embassy Nepal website header, unchanged."
+  },
+  {
+    "name": "Canada in Nepal",
+    "group": "organizations",
+    "path": "/assets/logos/travel-gc-ca.png",
+    "available": true,
+    "bytes": 1465,
+    "source": ""
+  },
+  {
+    "name": "Naamche Labs",
+    "group": "companies",
+    "path": "/assets/logos/naamche-labs.svg",
+    "available": true,
+    "bytes": 346,
+    "source": "https://naamchelabs.com/favicon.svg",
+    "review": "Official favicon verified 2026-09-29"
+  },
+  {
+    "name": "Flowli Studio",
+    "group": "companies",
+    "path": "/assets/logos/flowli-studio.png",
+    "available": true,
+    "bytes": 2958,
+    "source": "https://framerusercontent.com/images/O6T8tHkYmARxWXFSjEuidryxtpU.png",
+    "review": "Official site favicon, resized to 160px. Verified 2026-09-29"
+  }
+]

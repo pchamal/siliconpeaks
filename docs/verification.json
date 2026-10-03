@@ -1,0 +1,678 @@
+{
+  "date": "2026-09-28",
+  "automatedTests": {
+    "passed": 10,
+    "total": 10
+  },
+  "browser": {
+    "desktopUI": {
+      "passed": 15,
+      "total": 15,
+      "checks": {
+        "Every rendered image decodes": true,
+        "No horizontal overflow": true,
+        "Statistics centered and constrained": true,
+        "Five visible section dividers": true,
+        "Listing controls styled for touch": true,
+        "Listing actions grouped inside their sections": true,
+        "Reading guide follows thesis-talent": true,
+        "Reading guide follows thesis-capital": true,
+        "Reading guide follows thesis-invitation": true,
+        "Dialog contained on screen": true,
+        "Dialog and actions square": true,
+        "Dialog has accessible name and description": true,
+        "Email draft has correct destination": true,
+        "Focus enters dialog": true,
+        "Escape closes dialog and restores focus": true
+      },
+      "images": 319,
+      "broken": []
+    },
+    "mobileUI": {
+      "passed": 17,
+      "total": 17,
+      "checks": {
+        "Every rendered image decodes": true,
+        "No horizontal overflow": true,
+        "Statistics centered and constrained": true,
+        "Five visible section dividers": true,
+        "Listing controls styled for touch": true,
+        "Listing actions grouped inside their sections": true,
+        "Reading guide follows thesis-talent": true,
+        "Reading guide follows thesis-capital": true,
+        "Reading guide follows thesis-invitation": true,
+        "Dialog contained on screen": true,
+        "Dialog and actions square": true,
+        "Dialog has accessible name and description": true,
+        "Email draft has correct destination": true,
+        "Focus enters dialog": true,
+        "Escape closes dialog and restores focus": true,
+        "Mobile menu opens": true,
+        "Mobile menu closes on selection": true
+      },
+      "images": 319,
+      "broken": []
+    },
+    "desktopMountains": {
+      "passed": 32,
+      "total": 32,
+      "checks": {
+        "Scroll sequence enabled": true,
+        "Slow pace of about one viewport per mountain": true,
+        "Sticky profile fits viewport": true,
+        "Reading pause before next profile": true,
+        "Down shows mountain 1": true,
+        "Down shows mountain 2": true,
+        "Down shows mountain 3": true,
+        "Down shows mountain 4": true,
+        "Down shows mountain 5": true,
+        "Down shows mountain 6": true,
+        "Down shows mountain 7": true,
+        "Down shows mountain 8": true,
+        "Up returns to mountain 7": true,
+        "Up returns to mountain 6": true,
+        "Up returns to mountain 5": true,
+        "Up returns to mountain 4": true,
+        "Up returns to mountain 3": true,
+        "Up returns to mountain 2": true,
+        "Up returns to mountain 1": true,
+        "Navbar returns on upward scroll": true,
+        "Navbar hides on downward scroll": true,
+        "Keyboard focus reveals navbar": true,
+        "No drawn mountain figures": true,
+        "Eight photo profiles": true,
+        "Matching italic wordmarks": true,
+        "No navigation mountain icon": true,
+        "GitHub repo in navigation": true,
+        "No footer image title": true,
+        "Hidden decorative scrollbars": true,
+        "Every company card and frame square": true,
+        "Six creative metrics, square panel": true,
+        "No page overflow": true
+      },
+      "dimensions": {
+        "stage": 516,
+        "travel": 7350,
+        "top": 100
+      }
+    },
+    "mobileMountains": {
+      "passed": 32,
+      "total": 32,
+      "checks": {
+        "Scroll sequence enabled": true,
+        "Slow pace of about one viewport per mountain": true,
+        "Sticky profile fits viewport": true,
+        "Reading pause before next profile": true,
+        "Down shows mountain 1": true,
+        "Down shows mountain 2": true,
+        "Down shows mountain 3": true,
+        "Down shows mountain 4": true,
+        "Down shows mountain 5": true,
+        "Down shows mountain 6": true,
+        "Down shows mountain 7": true,
+        "Down shows mountain 8": true,
+        "Up returns to mountain 7": true,
+        "Up returns to mountain 6": true,
+        "Up returns to mountain 5": true,
+        "Up returns to mountain 4": true,
+        "Up returns to mountain 3": true,
+        "Up returns to mountain 2": true,
+        "Up returns to mountain 1": true,
+        "Navbar returns on upward scroll": true,
+        "Navbar hides on downward scroll": true,
+        "Keyboard focus reveals navbar": true,
+        "No drawn mountain figures": true,
+        "Eight photo profiles": true,
+        "Matching italic wordmarks": true,
+        "No navigation mountain icon": true,
+        "GitHub repo in navigation": true,
+        "No footer image title": true,
+        "Hidden decorative scrollbars": true,
+        "Every company card and frame square": true,
+        "Six creative metrics, square panel": true,
+        "No page overflow": true
+      },
+      "dimensions": {
+        "stage": 600,
+        "travel": 6203,
+        "top": 94
+      }
+    },
+    "desktopTimezone": {
+      "width": 1440,
+      "checks": [
+        {
+          "name": "focus starts in search",
+          "passed": true
+        },
+        {
+          "name": "city collection loaded",
+          "passed": true
+        },
+        {
+          "name": "square modal",
+          "passed": true
+        },
+        {
+          "name": "no native datalist",
+          "passed": true
+        },
+        {
+          "name": "search shows city",
+          "passed": true
+        },
+        {
+          "name": "keyboard active descendant",
+          "passed": true
+        },
+        {
+          "name": "city added by keyboard",
+          "passed": true
+        },
+        {
+          "name": "selection closes list",
+          "passed": true
+        },
+        {
+          "name": "country search",
+          "passed": true
+        },
+        {
+          "name": "city added by tap",
+          "passed": true
+        },
+        {
+          "name": "duplicate excluded",
+          "passed": true
+        },
+        {
+          "name": "empty search feedback",
+          "passed": true
+        },
+        {
+          "name": "first Escape closes suggestions only",
+          "passed": true
+        },
+        {
+          "name": "winter London overlap",
+          "passed": true
+        },
+        {
+          "name": "summer London overlap",
+          "passed": true
+        },
+        {
+          "name": "city removed",
+          "passed": true
+        },
+        {
+          "name": "modal fits viewport",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "focus wraps inside dialog",
+          "passed": true
+        },
+        {
+          "name": "Escape closes modal and restores trigger",
+          "passed": true
+        }
+      ],
+      "pass": 20,
+      "fail": []
+    },
+    "mobileTimezone": {
+      "width": 390,
+      "checks": [
+        {
+          "name": "focus starts in search",
+          "passed": true
+        },
+        {
+          "name": "city collection loaded",
+          "passed": true
+        },
+        {
+          "name": "square modal",
+          "passed": true
+        },
+        {
+          "name": "no native datalist",
+          "passed": true
+        },
+        {
+          "name": "search shows city",
+          "passed": true
+        },
+        {
+          "name": "keyboard active descendant",
+          "passed": true
+        },
+        {
+          "name": "city added by keyboard",
+          "passed": true
+        },
+        {
+          "name": "selection closes list",
+          "passed": true
+        },
+        {
+          "name": "country search",
+          "passed": true
+        },
+        {
+          "name": "city added by tap",
+          "passed": true
+        },
+        {
+          "name": "duplicate excluded",
+          "passed": true
+        },
+        {
+          "name": "empty search feedback",
+          "passed": true
+        },
+        {
+          "name": "first Escape closes suggestions only",
+          "passed": true
+        },
+        {
+          "name": "winter London overlap",
+          "passed": true
+        },
+        {
+          "name": "summer London overlap",
+          "passed": true
+        },
+        {
+          "name": "city removed",
+          "passed": true
+        },
+        {
+          "name": "modal fits viewport",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "focus wraps inside dialog",
+          "passed": true
+        },
+        {
+          "name": "Escape closes modal and restores trigger",
+          "passed": true
+        }
+      ],
+      "pass": 20,
+      "fail": []
+    }
+  },
+  "searchPages": [
+    {
+      "path": "/companies/",
+      "width": 1440,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true
+      },
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "path": "/companies/",
+      "width": 390,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true,
+        "menuOpens": true,
+        "menuCloses": true
+      },
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "path": "/startups/",
+      "width": 1440,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true
+      },
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "path": "/startups/",
+      "width": 390,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true,
+        "menuOpens": true,
+        "menuCloses": true
+      },
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "path": "/investors/",
+      "width": 1440,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true
+      },
+      "passed": 6,
+      "total": 6
+    },
+    {
+      "path": "/investors/",
+      "width": 390,
+      "checks": {
+        "noOverflow": true,
+        "oneH1": true,
+        "allImages": true,
+        "canonical": true,
+        "github": true,
+        "structuredData": true,
+        "menuOpens": true,
+        "menuCloses": true
+      },
+      "passed": 8,
+      "total": 8
+    }
+  ],
+  "live": {
+    "url": "https://siliconpeaks-snow.vercel.app",
+    "routes": [
+      {
+        "path": "/",
+        "status": 200,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/companies/",
+        "status": 200,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/startups/",
+        "status": 200,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/investors/",
+        "status": 200,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "noindex": "noindex, nofollow",
+        "body": "User-agent: *\nDisallow: /\n"
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/src/template.html",
+        "status": 404,
+        "noindex": "noindex, nofollow"
+      },
+      {
+        "path": "/package.json",
+        "status": 404,
+        "noindex": "noindex, nofollow"
+      }
+    ],
+    "video": {
+      "status": 206,
+      "range": "bytes 0-1/1102886",
+      "size": 2
+    },
+    "ui": {
+      "passed": 17,
+      "total": 17,
+      "checks": {
+        "Every rendered image decodes": true,
+        "No horizontal overflow": true,
+        "Statistics centered and constrained": true,
+        "Five visible section dividers": true,
+        "Listing controls styled for touch": true,
+        "Listing actions grouped inside their sections": true,
+        "Reading guide follows thesis-talent": true,
+        "Reading guide follows thesis-capital": true,
+        "Reading guide follows thesis-invitation": true,
+        "Dialog contained on screen": true,
+        "Dialog and actions square": true,
+        "Dialog has accessible name and description": true,
+        "Email draft has correct destination": true,
+        "Focus enters dialog": true,
+        "Escape closes dialog and restores focus": true,
+        "Mobile menu opens": true,
+        "Mobile menu closes on selection": true
+      },
+      "images": 319,
+      "broken": []
+    }
+  },
+  "limits": [
+    "17 legacy directory entries have no verified logo image",
+    "OS reduced-motion emulation was unavailable in the browser driver",
+    "Economic snapshots retained from the original site are not independently verified"
+  ],
+  "timezoneAccessibility": {
+    "violations": [],
+    "passes": 24
+  },
+  "githubCI": {
+    "status": "success",
+    "run": "https://github.com/arjanchaudharyy/siliconpeaks/actions/runs/36375440469",
+    "sourceCommit": "58684f0f96117df225236e94a2aad94a133c83aa"
+  },
+  "liveRelease": {
+    "url": "https://siliconpeaks-snow.vercel.app",
+    "ui": {
+      "passed": 17,
+      "total": 17,
+      "checks": {
+        "Every rendered image decodes": true,
+        "No horizontal overflow": true,
+        "Statistics centered and constrained": true,
+        "Five visible section dividers": true,
+        "Listing controls styled for touch": true,
+        "Listing actions grouped inside their sections": true,
+        "Reading guide follows thesis-talent": true,
+        "Reading guide follows thesis-capital": true,
+        "Reading guide follows thesis-invitation": true,
+        "Dialog contained on screen": true,
+        "Dialog and actions square": true,
+        "Dialog has accessible name and description": true,
+        "Email draft has correct destination": true,
+        "Focus enters dialog": true,
+        "Escape closes dialog and restores focus": true,
+        "Mobile menu opens": true,
+        "Mobile menu closes on selection": true
+      },
+      "images": 319,
+      "broken": []
+    },
+    "timezone": {
+      "width": 390,
+      "checks": [
+        {
+          "name": "focus starts in search",
+          "passed": true
+        },
+        {
+          "name": "city collection loaded",
+          "passed": true
+        },
+        {
+          "name": "square modal",
+          "passed": true
+        },
+        {
+          "name": "no native datalist",
+          "passed": true
+        },
+        {
+          "name": "search shows city",
+          "passed": true
+        },
+        {
+          "name": "keyboard active descendant",
+          "passed": true
+        },
+        {
+          "name": "city added by keyboard",
+          "passed": true
+        },
+        {
+          "name": "selection closes list",
+          "passed": true
+        },
+        {
+          "name": "country search",
+          "passed": true
+        },
+        {
+          "name": "city added by tap",
+          "passed": true
+        },
+        {
+          "name": "duplicate excluded",
+          "passed": true
+        },
+        {
+          "name": "empty search feedback",
+          "passed": true
+        },
+        {
+          "name": "first Escape closes suggestions only",
+          "passed": true
+        },
+        {
+          "name": "winter London overlap",
+          "passed": true
+        },
+        {
+          "name": "summer London overlap",
+          "passed": true
+        },
+        {
+          "name": "city removed",
+          "passed": true
+        },
+        {
+          "name": "modal fits viewport",
+          "passed": true
+        },
+        {
+          "name": "no horizontal overflow",
+          "passed": true
+        },
+        {
+          "name": "focus wraps inside dialog",
+          "passed": true
+        },
+        {
+          "name": "Escape closes modal and restores trigger",
+          "passed": true
+        }
+      ],
+      "pass": 20,
+      "fail": []
+    },
+    "mountains": {
+      "passed": 32,
+      "total": 32,
+      "checks": {
+        "Scroll sequence enabled": true,
+        "Slow pace of about one viewport per mountain": true,
+        "Sticky profile fits viewport": true,
+        "Reading pause before next profile": true,
+        "Down shows mountain 1": true,
+        "Down shows mountain 2": true,
+        "Down shows mountain 3": true,
+        "Down shows mountain 4": true,
+        "Down shows mountain 5": true,
+        "Down shows mountain 6": true,
+        "Down shows mountain 7": true,
+        "Down shows mountain 8": true,
+        "Up returns to mountain 7": true,
+        "Up returns to mountain 6": true,
+        "Up returns to mountain 5": true,
+        "Up returns to mountain 4": true,
+        "Up returns to mountain 3": true,
+        "Up returns to mountain 2": true,
+        "Up returns to mountain 1": true,
+        "Navbar returns on upward scroll": true,
+        "Navbar hides on downward scroll": true,
+        "Keyboard focus reveals navbar": true,
+        "No drawn mountain figures": true,
+        "Eight photo profiles": true,
+        "Matching italic wordmarks": true,
+        "No navigation mountain icon": true,
+        "GitHub repo in navigation": true,
+        "No footer image title": true,
+        "Hidden decorative scrollbars": true,
+        "Every company card and frame square": true,
+        "Six creative metrics, square panel": true,
+        "No page overflow": true
+      },
+      "dimensions": {
+        "stage": 600,
+        "travel": 6203,
+        "top": 94
+      }
+    },
+    "checksPassed": 69
+  },
+  "lighthouse": {
+    "mobileMedian": [
+      99,
+      100,
+      100,
+      100
+    ],
+    "mobilePerformanceRuns": [
+      98,
+      99,
+      99
+    ],
+    "desktop": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "details": "lighthouse.json"
+  }
+}

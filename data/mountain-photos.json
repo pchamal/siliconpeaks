@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Mount_Everest",
+    "file": "Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg/1280px-Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mt._Everest_from_Gokyo_Ri_November_5%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg",
+    "artist": "Rdevany",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Digital photograph of Mount Everest taken at an elevation of 5,300 meter from Gokyo Ri, Khumbu, Nepal",
+    "slug": "everest",
+    "local": "/assets/mountains/everest.webp",
+    "width": 800,
+    "height": 533,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Everest",
+      "kicker": "Sagarmatha",
+      "description": "The highest mountain on Earth, rising on Nepal’s border with Tibet. Its summit was jointly measured by Nepal and China in 2020.",
+      "source": "https://en.wikipedia.org/wiki/Mount_Everest"
+    }
+  },
+  {
+    "title": "Kangchenjunga",
+    "file": "Kangchenjunga_PangPema.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Kangchenjunga_PangPema.JPG/1280px-Kangchenjunga_PangPema.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Kangchenjunga_PangPema.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Kangchenjunga_PangPema.JPG",
+    "artist": "Tomabarker",
+    "license": "CC BY 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+    "description": "<a href=\"https://en.wikipedia.org/wiki/Kangchenjunga\" class=\"extiw\" title=\"w:Kangchenjunga\">Kangchenjunga</a> as seen from the NNW. Taken from Pang Pema, Nepal",
+    "slug": "kangchenjunga",
+    "local": "/assets/mountains/kangchenjunga.webp",
+    "width": 800,
+    "height": 450,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Kangchenjunga",
+      "kicker": "Nepal · Sikkim",
+      "description": "A mountain with five major summits in the border region between eastern Nepal and Sikkim, India.",
+      "source": "https://en.wikipedia.org/wiki/Kangchenjunga"
+    }
+  },
+  {
+    "title": "Lhotse",
+    "file": "Lhotse-fromChukhungRi.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Lhotse-fromChukhungRi.jpg/1280px-Lhotse-fromChukhungRi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/Lhotse-fromChukhungRi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Lhotse-fromChukhungRi.jpg",
+    "artist": "Uwe Gille",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "<a href=\"//commons.wikimedia.org/wiki/Lhotse\" title=\"Lhotse\">Lhotse</a>, south face, view from Chukhung Ri. This peak is connected to Mount Everest via the South Col. In addition to the main summit at 8,516 meters above sea level. The south face rises 3.2 km in only 2.25 km of horizontal distance, which makes it the steepest face of this size in the world.",
+    "slug": "lhotse",
+    "local": "/assets/mountains/lhotse.webp",
+    "width": 800,
+    "height": 521,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Lhotse",
+      "kicker": "Khumbu · Tibet",
+      "description": "Earth’s fourth-highest summit, on the border between Nepal’s Khumbu region and Tibet, connected to Everest by the South Col.",
+      "source": "https://en.wikipedia.org/wiki/Lhotse"
+    }
+  },
+  {
+    "title": "Makalu",
+    "file": "Makalu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Makalu.jpg/1280px-Makalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Makalu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Makalu.jpg",
+    "artist": "Ben Tubby",
+    "license": "CC BY 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Makalu from the southwest",
+    "slug": "makalu",
+    "local": "/assets/mountains/makalu.webp",
+    "width": 800,
+    "height": 532,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Makalu",
+      "kicker": "Mahalangur Himal",
+      "description": "An isolated, four-sided pyramid on the Nepal–China border, 19 kilometres southeast of Everest.",
+      "source": "https://en.wikipedia.org/wiki/Makalu"
+    }
+  },
+  {
+    "title": "Cho_Oyu",
+    "file": "Chooyu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Chooyu.jpg/1280px-Chooyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chooyu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Chooyu.jpg",
+    "artist": "Robstar06 at German Wikipedia",
+    "license": "Public domain",
+    "description": "Blick von Tingri",
+    "slug": "cho-oyu",
+    "local": "/assets/mountains/cho-oyu.webp",
+    "width": 800,
+    "height": 450,
+    "licenseURL": "",
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Cho Oyu",
+      "kicker": "Mahalangur Himal",
+      "description": "Its Tibetan name means “Turquoise Goddess”. The mountain stands about 20 kilometres west of Everest.",
+      "source": "https://en.wikipedia.org/wiki/Cho_Oyu"
+    }
+  },
+  {
+    "title": "Dhaulagiri",
+    "file": "Dhaulagiri_-_view_from_aircraft.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Dhaulagiri_-_view_from_aircraft.jpg/1280px-Dhaulagiri_-_view_from_aircraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Dhaulagiri_-_view_from_aircraft.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Dhaulagiri_-_view_from_aircraft.jpg",
+    "artist": "Sergey Ashmarin",
+    "license": "CC BY-SA 3.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "Dhaulagiri (8167 m), view from aircraft / Nepal.",
+    "slug": "dhaulagiri",
+    "local": "/assets/mountains/dhaulagiri.webp",
+    "width": 800,
+    "height": 524,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Dhaulagiri",
+      "kicker": "Gandaki, Nepal",
+      "description": "Entirely within Nepal, Dhaulagiri rises west of the Kali Gandaki Gorge. Annapurna I stands 34 kilometres to its east.",
+      "source": "https://en.wikipedia.org/wiki/Dhaulagiri"
+    }
+  },
+  {
+    "title": "Manaslu",
+    "file": "Sunrise,_Manaslu.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Sunrise%2C_Manaslu.jpg/1280px-Sunrise%2C_Manaslu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sunrise%2C_Manaslu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:Sunrise,_Manaslu.jpg",
+    "artist": "Ben Tubby",
+    "license": "CC BY 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+    "description": "Sunrise, Manaslu, Nepal, Himalaya",
+    "slug": "manaslu",
+    "local": "/assets/mountains/manaslu.webp",
+    "width": 800,
+    "height": 532,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Manaslu",
+      "kicker": "Mansiri Himal",
+      "description": "Known as the “mountain of the spirit”, Manaslu rises in west-central Nepal. Its name comes from Sanskrit.",
+      "source": "https://en.wikipedia.org/wiki/Manaslu"
+    }
+  },
+  {
+    "title": "Annapurna",
+    "file": "South_Face_of_Annapurna_I_(Main).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/South_Face_of_Annapurna_I_%28Main%29.jpg/1280px-South_Face_of_Annapurna_I_%28Main%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/South_Face_of_Annapurna_I_%28Main%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "descriptionURL": "https://commons.wikimedia.org/wiki/File:South_Face_of_Annapurna_I_(Main).jpg",
+    "artist": "PrajwalMohan",
+    "license": "CC BY-SA 4.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "South Face of Annapurna I (Main)",
+    "slug": "annapurna",
+    "local": "/assets/mountains/annapurna.webp",
+    "width": 800,
+    "height": 600,
+    "modifications": "Resized, WebP compression; cropped for display. License retained.",
+    "profile": {
+      "name": "Annapurna I",
+      "kicker": "Gandaki, Nepal",
+      "description": "The world’s tenth-highest mountain, in the Annapurna range of north-central Nepal.",
+      "source": "https://en.wikipedia.org/wiki/Annapurna"
+    }
+  }
+]
