@@ -2,9 +2,14 @@
   // Deploy to the existing siliconpeaks.com Worker. Do not rename.
   "name": "lively-moon-c53b",
   "compatibility_date": "2026-08-27",
+  // Heedeo: the Worker handles /hd/* only; everything else stays a static asset response.
+  "main": "src/worker.js",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": ".",
-    "html_handling": "auto-trailing-slash"
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": ["/hd/*"]
   },
   // Zone routes (not custom_domain) so the live apex custom domain and DNS stay put.
   // *host/* matches apex + www + all paths, same convention as siliconpeaks.ai.
