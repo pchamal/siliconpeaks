@@ -29,4 +29,15 @@ test('preview serves video, range requests, and HEAD without exposing source fil
   assert.ok((await page.text()).includes('https://siliconpeaks.com/'+route+'/'));
  }
  const nonexistent=await fetch(base+'/companies/missing');assert.equal(nonexistent.status,404);await nonexistent.text();
+ for(const junk of ['/?q={search_term_string}','/?q=%7Bsearch_term_string%7D','/companies/?q={search_term_string}']){
+  const leaked=await fetch(base+junk,{redirect:'manual'});
+  assert.equal(leaked.status,301,junk);
+  const location=leaked.headers.get('location');
+  assert.equal(location,junk.startsWith('/companies')?'/companies/':'/');
+  assert.ok(!location.includes('search_term_string'));
+  await leaked.text();
+ }
+ const ordinary=await fetch(base+'/?q=software');
+ assert.equal(ordinary.status,200);
+ assert.match(await ordinary.text(),/<link href="https:\/\/siliconpeaks.com\/" rel="canonical"\/>/);
 });
