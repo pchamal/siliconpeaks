@@ -2,13 +2,23 @@ import http from 'node:http';
 import fs from 'node:fs/promises';
 import {createReadStream} from 'node:fs';
 import path from 'node:path';
+import {searchTemplateTarget} from '../src/search-template.mjs';
 const types={'.html':'text/html; charset=utf-8','.css':'text/css; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.ico':'image/x-icon','.avif':'image/avif','.webp':'image/webp','.woff2':'font/woff2','.mp4':'video/mp4'};
 types['.mjs']='text/javascript; charset=utf-8';
 const publicFile=p=>p==='/index.html'||/^\/(?:companies|startups|investors)\/index\.html$/.test(p)||/^\/(?:robots\.txt|sitemap\.xml|llms\.txt|llms-full\.txt|lms\.txt|humans\.txt)$/.test(p)||/^\/(?:assets|logos)\//.test(p);
 export function createPreviewServer(root){
  return http.createServer(async(req,res)=>{
   try{
-   const route=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+   const incoming=new URL(req.url,'http://localhost');
+   const stripped=searchTemplateTarget(incoming);
+   if(stripped){
+    let location=new URL(stripped).pathname;
+    if(/^\/(?:companies|startups|investors)$/.test(location))location+='/';
+    res.writeHead(301,{Location:location,'Cache-Control':'no-store'});
+    res.end();
+    return;
+   }
+   const route=decodeURIComponent(incoming.pathname);
    if(/^\/(?:companies|startups|investors)$/.test(route)){res.writeHead(308,{'Location':route+'/'});res.end();return;}
    const url=route==='/'?'/index.html':/^\/(?:companies|startups|investors)\/$/.test(route)?route+'index.html':route;
    const file=path.resolve(root,'.'+url);

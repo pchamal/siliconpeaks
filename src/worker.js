@@ -1,8 +1,11 @@
 import {Heedeo} from '@heedeo/sdk';
+import {searchTemplateTarget} from './search-template.mjs';
 
-// Only /hd/* reaches this Worker (assets.run_worker_first); every page and asset is served
-// straight from static assets. Heedeo fails open: without a secret or upstream, /hd answers 503
-// and pages carry on without signals.
+// /hd/* is the Heedeo beacon. The HTML routes also run here first so a leaked
+// SearchAction template (?q={search_term_string}) 301s to that path with no query,
+// instead of being served as a second copy of the page. Assets and every other
+// path stay on static assets. Heedeo fails open: without a secret or upstream,
+// /hd answers 503 and pages carry on without signals.
 const VISIT='/hd/visit';
 
 // Cloudflare sets cf-connecting-ip at its edge and overwrites any client-sent value. A Worker
@@ -24,6 +27,12 @@ async function recordVisit(heedeo,request){
 
 export default {
  async fetch(request,env){
+  try{
+   const target=searchTemplateTarget(request.url);
+   if(target)return Response.redirect(target,301);
+  }catch(err){
+   console.warn('search template',err?.message);
+  }
   const {pathname}=new URL(request.url);
   if(!pathname.startsWith('/hd/'))return env.ASSETS.fetch(request);
   let heedeo;
