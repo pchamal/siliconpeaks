@@ -120,6 +120,7 @@ The project dedicates the name Silicon Peaks to the public domain under CC0. Rep
 - [GrowByData](https://www.growbydata.com)
 - [Gurzu](https://www.gurzu.com)
 - [Hamro Patro](https://www.hamropatro.com)
+- [Heedeo](https://heedeo.com)
 - [ICTC](https://www.ictc.com.np)
 - [IME Group](https://www.imegroup.com.np)
 - [Incessant Rain](https://www.incessantrain.com)
